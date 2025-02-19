@@ -12,4 +12,4 @@ properties:
       settings:
         id: AutomatedLab.AutomatedLab
         source: winget
-        version: '5.50.0'
+        # NOTE: version is broken for this package
