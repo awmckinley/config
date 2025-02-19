@@ -57,6 +57,7 @@
 [user]
 	email = {{ .email }}
 	name = Adam McKinley
+	useConfigOnly = true
 
 {{ includeTemplate "delta/ansi.gitconfig" }}
 {{ includeTemplate "delta/ansi256.gitconfig" }}
