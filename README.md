@@ -6,14 +6,14 @@ My personal configuration.
 
 ```sh
 # Set up a new machine
-chezmoi init awmckinley/config-public --apply --source "${HOME}/Code/github.com/awmckinley/config-public" --verbose
+chezmoi init awmckinley/config --apply --source "${HOME}/Code/github.com/awmckinley/config" --verbose
 ```
 
 ## Windows
 
 ```powershell
 # Set up a new machine
-chezmoi init awmckinley/config-public --apply --source "C:/Code/github.com/awmckinley/config-public" --verbose
+chezmoi init awmckinley/config --apply --source "C:/Code/github.com/awmckinley/config" --verbose
 ```
 
 ### NixOS on WSL
