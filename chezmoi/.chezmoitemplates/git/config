@@ -59,6 +59,9 @@
 	name = Adam McKinley
 	useConfigOnly = true
 
+[includeIf "gitdir:awmckinley/"]
+	path = config.personal
+
 {{ includeTemplate "delta/ansi.gitconfig" }}
 {{ includeTemplate "delta/ansi256.gitconfig" }}
 {{ includeTemplate "delta/catppuccin.gitconfig" }}
