@@ -65,3 +65,7 @@ _machine operation:
 [macos]
 _machine operation:
     @nix run nix-darwin -- '{{ operation }}' --flake $"($env.PWD)"
+
+[windows]
+_machine operation:
+    @print 'Windows does not support Nix.'
