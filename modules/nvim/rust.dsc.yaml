@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Graphviz.Graphviz
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Graphviz
+      settings:
+        id: Graphviz.Graphviz
+        source: winget
+        version: '12.2.1'
+
+    - id: Rustlang.Rustup
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Rustup
+      settings:
+        id: Rustlang.Rustup
+        source: winget
+        version: '1.27.1'

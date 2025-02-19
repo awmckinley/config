@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Dylibso.Extism.CLI
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Extism CLI
+      settings:
+        id: Dylibso.Extism.CLI
+        source: winget
+        version: '1.6.2'

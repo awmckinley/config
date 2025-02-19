@@ -1,0 +1,8 @@
+- value: |
+    # init lesspipe.sh
+    eval "$(lesspipe.sh)"
+  if: and (hasCommand "lesspipe.sh") (match .Shell "bash")
+- value: |
+    # init lesspipe.sh
+    lesspipe.sh | source /dev/stdin
+  if: and (hasCommand "lesspipe.sh") (match .Shell "zsh")

@@ -1,0 +1,11 @@
+root = true
+
+[*]
+insert_final_newline = true
+
+[.vscode/*.json]
+indent_size = 4
+indent_style = space
+
+[.vsconfig]
+insert_final_newline = false

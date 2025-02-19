@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Cryptomator.Cryptomator
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Cryptomator
+      settings:
+        id: Cryptomator.Cryptomator
+        source: winget
+        version: '1.15.1'
+
+    - id: WinFsp.WinFsp
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Windows File System Proxy
+      settings:
+        id: WinFsp.WinFsp
+        source: winget
+        version: '2.0.23075'

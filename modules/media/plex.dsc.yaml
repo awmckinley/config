@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Plex.Plex
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Plex
+      settings:
+        id: Plex.Plex
+        source: winget
+        version: '1.92.1'
+
+    - id: Plex.Plexamp
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Plexamp
+      settings:
+        id: Plex.Plexamp
+        source: winget
+        version: '4.10.1'

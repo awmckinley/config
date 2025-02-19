@@ -1,0 +1,42 @@
+- name: g
+  value: git
+  if: hasCommand "git"
+- name: ga
+  value: git add
+  if: hasCommand "git"
+- name: gaa
+  value: git add --all
+  if: hasCommand "git"
+- name: gcmsg
+  value: git commit --message
+  if: hasCommand "git"
+- name: gd
+  value: git diff
+  if: hasCommand "git"
+- name: gdca
+  value: git diff --cached
+  if: hasCommand "git"
+- name: gp
+  value: git push
+  if: hasCommand "git"
+- name: gpr
+  value: git pull --rebase
+  if: hasCommand "git"
+- name: gr
+  value: git remote
+  if: hasCommand "git"
+- name: gra
+  value: git remote add
+  if: hasCommand "git"
+- name: grm
+  value: git rm
+  if: hasCommand "git"
+- name: grmc
+  value: git rm --cached
+  if: hasCommand "git"
+- name: grset
+  value: git remote set-url
+  if: hasCommand "git"
+- name: gst
+  value: git status
+  if: hasCommand "git"

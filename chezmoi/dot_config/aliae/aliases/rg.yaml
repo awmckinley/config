@@ -1,0 +1,9 @@
+- name: ack
+  value: gum log --level warn 'use rg instead'
+  if: hasCommand "rg"
+- name: ag
+  value: gum log --level warn 'use rg instead'
+  if: hasCommand "rg"
+- name: pt
+  value: gum log --level warn 'use rg instead'
+  if: hasCommand "rg"

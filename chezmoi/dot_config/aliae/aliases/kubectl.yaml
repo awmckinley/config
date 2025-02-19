@@ -1,0 +1,39 @@
+- name: k
+  value: kubectl
+  if: hasCommand "kubectl"
+- name: kg
+  value: kubectl get
+  if: hasCommand "kubectl"
+- name: kgpo
+  value: kubectl get pod
+  if: hasCommand "kubectl"
+- name: kgsvcoyaml
+  value: kubectl get service -o=yaml
+  if: hasCommand "kubectl"
+- name: kgsvcslwn
+  value: kubectl get service --show-labels --watch --namespace
+  if: hasCommand "kubectl"
+- name: kgsvcwn
+  value: kubectl get service --watch --namespace
+  if: hasCommand "kubectl"
+- name: kgwf
+  value: kubectl get --watch -f
+  if: hasCommand "kubectl"
+- name: krm
+  value: kubectl delete
+  if: hasCommand "kubectl"
+- name: krmf
+  value: kubectl delete -f
+  if: hasCommand "kubectl"
+- name: krming
+  value: kubectl delete ingress
+  if: hasCommand "kubectl"
+- name: krmingall
+  value: kubectl delete ingress --all-namespaces
+  if: hasCommand "kubectl"
+- name: krmingl
+  value: kubectl delete ingress -l
+  if: hasCommand "kubectl"
+- name: ksysgpo
+  value: kubectl --namespace=kube-system get pod
+  if: hasCommand "kubectl"

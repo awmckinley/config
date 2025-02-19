@@ -1,0 +1,3 @@
+- name: winutil
+  value: irm "https://christitus.com/win" | iex
+  if: and (match .OS "windows") (match .Shell "pwsh")

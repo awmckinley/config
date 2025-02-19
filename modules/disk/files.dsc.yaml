@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Altap.Salamander
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Altap Salamander
+      settings:
+        id: Altap.Salamander
+        source: winget
+        version: '4.0'
+
+    # replaces: FileVoyager, OneCommander, Total Commander
+    - id: MathiasSvensson.MultiCommander
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install MultiCommander
+      settings:
+        id: MathiasSvensson.MultiCommander
+        source: winget
+        version: '15.0.0.3072'

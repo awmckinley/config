@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    # replaces: Meld
+    - id: ScooterSoftware.BeyondCompare.4
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Beyond Compare 4
+      settings:
+        id: ScooterSoftware.BeyondCompare.4
+        source: winget
+        version: '4.4.7.28397'

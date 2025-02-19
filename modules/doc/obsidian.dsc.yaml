@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    # replaces: Diarium
+    - id: Obsidian.Obsidian
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Obsidian
+      settings:
+        id: Obsidian.Obsidian
+        source: winget
+        version: '1.8.4'

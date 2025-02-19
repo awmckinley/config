@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: EnCroissant.EnCroissant
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install En Croissant
+      settings:
+        id: EnCroissant.EnCroissant
+        source: winget
+        version: '0.11.1'

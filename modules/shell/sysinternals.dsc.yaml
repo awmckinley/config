@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Microsoft.Sysinternals
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Sysinternals
+      settings:
+        id: Microsoft.Sysinternals
+        source: winget
+        version: '2024-12-16'

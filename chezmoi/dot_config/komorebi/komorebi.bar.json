@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.bar.json",
+  "font_family": "JetBrains Mono",
+  "left_widgets": [
+    {
+      "Komorebi": {
+        "focused_window": {
+          "enable": true,
+          "show_icon": true
+        },
+        "layout": {
+          "enable": true
+        },
+        "workspaces": {
+          "enable": true,
+          "hide_empty_workspaces": false
+        }
+      }
+    }
+  ],
+  "monitor": {
+    "index": 0,
+    "work_area_offset": {
+      "bottom": 50,
+      "left": 0,
+      "right": 0,
+      "top": 50
+    }
+  },
+  "right_widgets": [
+    {
+      "Update": {
+        "enable": true
+      }
+    },
+    {
+      "Media": {
+        "enable": true
+      }
+    },
+    {
+      "Storage": {
+        "enable": true
+      }
+    },
+    {
+      "Memory": {
+        "enable": true
+      }
+    },
+    {
+      "Network": {
+        "enable": true,
+        "show_network_activity": true,
+        "show_total_data_transmitted": true
+      }
+    },
+    {
+      "Date": {
+        "enable": true,
+        "format": "DayDateMonthYear"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwentyFourHour"
+      }
+    },
+    {
+      "Battery": {
+        "enable": true
+      }
+    }
+  ],
+  "theme": {
+    "accent": "Base0D",
+    "name": "Ashes",
+    "palette": "Base16"
+  }
+}

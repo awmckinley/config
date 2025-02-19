@@ -1,0 +1,9 @@
+- name: LESSCOLORIZER
+  value: bat
+  if: hasCommand "bat"
+- name: MANPAGER
+  value: bat --plain --language=man
+  if: hasCommand "bat"
+- name: MANROFFOPT
+  value: -c
+  if: hasCommand "bat"

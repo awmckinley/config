@@ -1,0 +1,8 @@
+- value: |
+    # init vivid
+    if test-truecolor; then
+      export LS_COLORS="$(vivid --color-mode 24-bit generate catppuccin-mocha)"
+    elif test-ansi256; then
+      export LS_COLORS="$(vivid --color-mode 8-bit generate catppuccin-mocha)"
+    fi
+  if: and (hasCommand "vivid") (match .Shell "bash" "zsh")

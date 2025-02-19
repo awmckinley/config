@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    # replaces: CubePDF
+    - id: Bullzip.PDFPrinter
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Bullzip PDF Printer
+      settings:
+        id: Bullzip.PDFPrinter
+        source: winget
+        version: '14.5.0.2974'

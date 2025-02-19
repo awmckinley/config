@@ -1,0 +1,248 @@
+#!{{ lookPath "nu" }}
+#
+# Initialize machine.
+
+def success [command?: closure]: [nothing -> bool, closure -> bool] {
+	let command = default $command
+	do $command | complete | $in.exit_code == 0
+}
+
+def prereq-go [] {
+	if (which go) != [] {
+		go env -w GOBIN=$"($nu.home-path)/.local/bin"
+	}
+}
+
+def init-aerc [] {
+{{ if eq .chezmoi.os "darwin" }}
+	use $"($nu.home-path)/.config/nushell/scripts/aerc.nu" *
+	let grouped = open $"($nu.home-path)/.config/maildir.json" | group-by Profile
+	aerc-aliases ($grouped | columns) | save --force $"($nu.home-path)/.profile.d/aerc.zsh"
+	for key in ($grouped | columns) {
+		let accounts = $grouped | get $key
+		aerc-config $accounts | save --force $"($nu.home-path)/.config/aerc/accounts.($key).conf"
+	}
+{{ end }}
+}
+
+def init-aliae [] {
+	if (which aliae) == [] {
+		return
+	}
+
+{{ if eq .chezmoi.os "windows" }}
+	aliae init pwsh --print | save --force $"($nu.home-path)/Documents/PowerShell/profile.ps1"
+{{ else }}
+	aliae init bash --print | save --force $"($nu.home-path)/.bashrc"
+	aliae init zsh --print | save --force $"($nu.home-path)/.zshrc"
+{{ end }}
+}
+
+def init-az [] {
+	if (which az) == [] {
+		return
+	}
+
+	print "Install Azure extensions"
+	az extension add --name azure-devops
+	az extension add --name bastion
+	print ""
+}
+
+def init-bat [] {
+	if (which bat) != [] {
+		bat cache --build
+	}
+}
+
+def init-bootdev [] {
+{{ if ne .chezmoi.os "windows" }}
+	if (which bootdev) != [] {
+		return
+	}
+
+	prereq-go
+	print "Install bootdev"
+	go install github.com/bootdotdev/bootdev@latest
+	print ""
+{{ end }}
+}
+
+def init-burntcookie [] {
+{{ if eq .chezmoi.os "darwin" }}
+	if (which burntcookie) != [] {
+		return
+	}
+
+	print "Install burntcookie"
+	cargo install --git https://github.com/horrorho/burnt-cookie.git
+	print ""
+{{ end }}
+}
+
+def init-cargo [] {
+	if (which cargo) == [] {
+		return
+	}
+
+	if not (success { cargo update --help }) {
+		print "Install cargo-update"
+		cargo install cargo-update
+		print ""
+	}
+}
+
+def init-committed [] {
+	if (which committed) != [] {
+		return
+	}
+
+	print "Install committed"
+	cargo install committed
+	print ""
+}
+
+def init-darkman [] {
+	if (which dconf) != [] {
+		dconf write /org/gnome/desktop/interface/color-scheme "'prefer-dark'"
+	}
+}
+
+def init-git [] {
+	# configure chezmoi git repo
+	cd "{{ .chezmoi.sourceDir }}"
+	git config set user.name "Adam McKinley"
+	git config set user.email "adam@awmckinley.net"
+}
+
+def init-goimapnotify [] {
+{{ if eq .chezmoi.os "darwin" }}
+	use $"($nu.home-path)/.config/nushell/scripts/goimapnotify.nu" *
+	let accounts = open $"($nu.home-path)/.config/maildir.json"
+	goimapnotify-config $accounts | save --force $"($nu.home-path)/.config/goimapnotify/goimapnotify.yaml"
+{{ end }}
+}
+
+def init-komorebi [] {
+	if (which komorebic) != [] {
+		komorebic enable-autostart --config $"($nu.home-path)/.config/komorebi/komorebi.json" --bar --whkd
+	}
+}
+
+def init-mani [] {
+	if (which mani) != [] {
+		return
+	}
+
+	prereq-go
+	print "Install mani"
+	go install github.com/alajmo/mani@latest
+	print ""
+}
+
+def init-mbsync [] {
+{{ if eq .chezmoi.os "darwin" }}
+	use $"($nu.home-path)/.config/nushell/scripts/mbsync.nu" *
+	let accounts = open $"($nu.home-path)/.config/maildir.json"
+	mbsync-rc $accounts | save --force $"($nu.home-path)/.mbsyncrc"
+{{ end }}
+}
+
+def init-opam [] {
+	if (which opam) == [] {
+		return
+	}
+
+	if not ($"($nu.home-path)/.opam" | path exists) {
+		opam init --disable-sandboxing --no-setup
+	}
+
+	opam option --global depext=false
+
+	if (which ocamlformat) == [] {
+		opam install --yes ocamlformat
+	}
+
+	if (which ocamllsp) == [] {
+		opam install --yes ocaml-lsp-server
+	}
+}
+
+def init-pdm [] {
+	if (which pdm) != [] {
+		pdm config venv.backend venv
+	}
+}
+
+def init-tailscale [] {
+	if (which tailscale) == [] {
+		return
+	}
+
+	if not (success { tailscale status --peers=false }) {
+{{ if eq .chezmoi.os "windows" }}
+		tailscale up
+{{ else }}
+		sudo tailscale up
+{{ end }}
+	}
+}
+
+def init-tldr [] {
+	if (which tldr) != [] {
+		tldr --update
+	}
+}
+
+def init-whisper-cpp [model: string] {
+	if (which whisper-cpp-download-ggml-model) == [] {
+		return
+	}
+
+	let modelhome = $"($nu.home-path)/.local/share/whisper-cpp"
+	if not ($"($modelhome)/ggml-($model).bin" | path exists) {
+		whisper-cpp-download-ggml-model $model
+		mkdir $modelhome
+		mv $"ggml-($model).bin" $modelhome
+	}
+}
+
+def init-winget [] {
+	if (which winget) != [] {
+		winget update --all --include-unknown
+	}
+}
+
+def init-zsh [] {
+{{ if ne .chezmoi.os "windows" }}
+	let zgenom = $"($nu.home-path)/.zgenom"
+	if not ($zgenom | path exists) {
+		print "Setup zgenom"
+		git clone --single-branch https://github.com/jandamm/zgenom.git --depth 1 $zgenom
+		print ""
+	}
+{{ end }}
+}
+
+def main [] {
+	init-aerc
+	init-aliae
+	init-az
+	init-bat
+	init-bootdev
+	init-burntcookie
+	init-cargo
+	init-committed
+	init-darkman
+	init-git
+	init-goimapnotify
+	init-komorebi
+	init-mani
+	init-mbsync
+	init-opam
+	init-pdm
+	init-tailscale
+	init-tldr
+	init-whisper-cpp "small.en"
+	init-zsh
+}

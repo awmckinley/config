@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: LinearOrbit.Linear
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Linear
+      settings:
+        id: LinearOrbit.Linear
+        source: winget
+        version: '1.28.0'

@@ -1,0 +1,3 @@
+- name: task-delete-completed
+  value: 'task +COMPLETED modify status:deleted'
+  if: hasCommand "task"

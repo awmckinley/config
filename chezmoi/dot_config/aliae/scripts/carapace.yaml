@@ -1,0 +1,15 @@
+- value: |
+    # init Carapace
+    source <(carapace _carapace)
+  if: and (hasCommand "carapace") (match .Shell "bash")
+- value: |
+    # init Carapace
+    Set-PSReadLineOption -Colors @{ "Selection" = "`e[7m" }
+    Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+    carapace _carapace | Out-String | Invoke-Expression
+  if: and (hasCommand "carapace") (match .Shell "pwsh")
+- value: |
+    # init Carapace
+    zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
+    source <(carapace _carapace)
+  if: and (hasCommand "carapace") (match .Shell "zsh")

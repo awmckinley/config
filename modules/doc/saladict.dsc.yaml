@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: allentown521.Saladict
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Saladict
+      settings:
+        id: allentown521.Saladict
+        source: winget
+        version: '3.0.8'

@@ -1,0 +1,14 @@
+- value: |
+    # init bat
+    if test-truecolor; then
+      if is-dark; then
+        export BAT_THEME='Catppuccin Mocha'
+      else
+        export BAT_THEME='Catppuccin Latte'
+      fi
+    elif test-ansi256; then
+      export BAT_THEME=base16-256
+    elif test-ansi; then
+      export BAT_THEME=ansi
+    fi
+  if: and (hasCommand "bat") (match .Shell "bash" "zsh")

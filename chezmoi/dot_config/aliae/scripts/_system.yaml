@@ -1,0 +1,28 @@
+- value: |
+    # add Cargo bin to PATH
+    export PATH="{{ .Home }}/.cargo/bin:${PATH}"
+
+    # add local bin to PATH
+    export PATH="{{ .Home }}/.local/bin:${PATH}"
+  if: match .Shell "bash" "zsh"
+- value: |
+    # add Apple extras to PATH
+    export PATH="/Library/Apple/usr/bin:${PATH}"
+
+    # add Homebrew to PATH
+    export PATH="/opt/homebrew/bin:${PATH}"
+
+    # set `USER` for login shells on Darwin
+    USER="$(id -un)"
+    export USER
+  if: and (match .Shell "bash" "zsh") (match .OS "darwin")
+- value: |
+    # set HOME
+    $env:HOME = $HOME
+
+    # add Cargo bin to PATH
+    $env:Path = "{{ .Home }}/.cargo/bin;$env:Path"
+
+    # add local bin to PATH
+    $env:Path = "{{ .Home }}/.local/bin;$env:Path"
+  if: match .Shell "pwsh"

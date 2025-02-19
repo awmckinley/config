@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Microsoft.Azd
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Azure Developer CLI
+      settings:
+        id: Microsoft.Azd
+        source: winget
+        version: '1.12.100'
+
+    - id: Microsoft.Azure.AztfExport
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Azure Export for Terraform
+      settings:
+        id: Microsoft.Azure.AztfExport
+        source: winget
+        version: '0.16.0'
+
+    - id: Microsoft.Azure.FunctionsCoreTools
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Azure Functions Core Tools
+      settings:
+        id: Microsoft.Azure.FunctionsCoreTools
+        source: winget
+        version: '4.0.6821'
+
+    - id: Microsoft.Azure.StorageEmulator
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Azure Storage Emulator
+      settings:
+        id: Microsoft.Azure.StorageEmulator
+        source: winget
+        version: '5.10.19227.2113'
+
+    - id: Microsoft.Azure.StorageExplorer
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Azure Storage Explorer
+      settings:
+        id: Microsoft.Azure.StorageExplorer
+        source: winget
+        version: '1.37.0'
+
+    - id: Microsoft.AzureCLI
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Azure CLI
+      settings:
+        id: Microsoft.AzureCLI
+        source: winget
+        version: '2.69.0'

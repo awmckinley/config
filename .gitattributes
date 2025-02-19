@@ -1,0 +1,8 @@
+* text=auto
+*.bash text eol=lf
+*.sh text eol=lf
+*.zsh text eol=lf
+*rc text eol=lf
+bin/* text eol=lf
+executable_* text eol=lf
+zsh/functions/* text eol=lf

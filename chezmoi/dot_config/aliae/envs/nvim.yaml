@@ -1,0 +1,6 @@
+- name: EDITOR
+  value: nvim
+  if: hasCommand "nvim"
+- name: VISUAL
+  value: nvim
+  if: hasCommand "nvim"

@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: LuaLS.lua-language-server
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Lua Language Server
+      settings:
+        id: LuaLS.lua-language-server
+        source: winget
+        version: '3.6.25'

@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Replit.Replit
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Replit
+      settings:
+        id: Replit.Replit
+        source: winget
+        version: '1.0.14'

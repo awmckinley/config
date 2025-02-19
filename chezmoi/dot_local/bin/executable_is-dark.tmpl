@@ -1,0 +1,7 @@
+{{- if eq .chezmoi.os "android" -}}
+{{-   template "bin/is-dark_android" . -}}
+{{- else if eq .chezmoi.os "darwin" -}}
+{{-   template "bin/is-dark_darwin" . -}}
+{{- else if eq .chezmoi.os "linux" -}}
+{{-   template "bin/is-dark_linux" . -}}
+{{- end -}}

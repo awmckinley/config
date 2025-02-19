@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Ferdium.Ferdium
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Ferdium
+      settings:
+        id: Ferdium.Ferdium
+        source: winget
+        version: '7.0.0'

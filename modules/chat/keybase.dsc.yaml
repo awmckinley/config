@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Keybase.Keybase
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Keybase
+      settings:
+        id: Keybase.Keybase
+        source: winget
+        version: '6.4.0.1'

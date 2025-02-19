@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: direnv.direnv
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install direnv
+      settings:
+        id: direnv.direnv
+        source: winget
+        version: '2.35.0'

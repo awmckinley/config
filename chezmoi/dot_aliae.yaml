@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=https://aliae.dev/schema.json
+alias: !include_dir "{{ .Home }}/.config/aliae/aliases"
+env: !include_dir "{{ .Home }}/.config/aliae/envs"
+script: !include_dir "{{ .Home }}/.config/aliae/scripts"

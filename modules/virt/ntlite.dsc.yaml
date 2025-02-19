@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Nlitesoft.NTLite
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install NTLite
+      settings:
+        id: Nlitesoft.NTLite
+        source: winget
+        version: '2025.2.10293.0'

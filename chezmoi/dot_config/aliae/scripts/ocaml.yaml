@@ -1,0 +1,4 @@
+- value: |
+    # init opam
+    source "{{ .Home }}/.opam/opam-init/init.{{ .Shell }}" >/dev/null 2>&1
+  if: and (hasCommand "opam") (match .Shell "bash" "zsh")

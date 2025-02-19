@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Microsoft.NetMon
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Net Monitor
+      settings:
+        id: Microsoft.NetMon
+        source: winget
+        version: '3.4.2350.0'

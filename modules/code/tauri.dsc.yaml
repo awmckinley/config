@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Tauri.create-tauri-app
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install create-tauri-app
+      settings:
+        id: Tauri.create-tauri-app
+        source: winget
+        version: '4.5.9'

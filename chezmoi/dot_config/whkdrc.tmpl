@@ -1,0 +1,70 @@
+.shell pwsh
+
+# restart desktop
+ctrl + alt + r : Restart-Desktop
+
+# restart desktop
+ctrl + alt + q : Stop-Desktop
+
+# program launcher
+ctrl + alt + d : Start-Process '$env:LOCALAPPDATA\FlowLauncher\Flow.Launcher.exe'
+
+# terminal emulator
+ctrl + alt + return : Start-Process wt
+
+# focus windows
+ctrl + alt + h : komorebic focus left
+ctrl + alt + j : komorebic focus down
+ctrl + alt + k : komorebic focus up
+ctrl + alt + l : komorebic focus right
+
+# move windows
+ctrl + alt + shift + h : komorebic move left
+ctrl + alt + shift + j : komorebic move down
+ctrl + alt + shift + k : komorebic move up
+ctrl + alt + shift + l : komorebic move right
+
+# focus workspace
+ctrl + alt + shift + oem_plus : komorebic focus-workspace 0
+ctrl + alt + oem_4            : komorebic focus-workspace 1
+ctrl + alt + shift + oem_4    : komorebic focus-workspace 2
+ctrl + alt + shift + 9        : komorebic focus-workspace 3
+ctrl + alt + shift + 7        : komorebic focus-workspace 4
+ctrl + alt + oem_plus         : komorebic focus-workspace 5
+ctrl + alt + shift + 0        : komorebic focus-workspace 6
+ctrl + alt + shift + oem_6    : komorebic focus-workspace 7
+ctrl + alt + oem_6            : komorebic focus-workspace 8
+ctrl + alt + shift + 8        : komorebic focus-workspace 9
+
+# move to workspace
+ctrl + alt + 1 : komorebic move-to-workspace 0
+ctrl + alt + 2 : komorebic move-to-workspace 1
+ctrl + alt + 3 : komorebic move-to-workspace 2
+ctrl + alt + 4 : komorebic move-to-workspace 3
+ctrl + alt + 5 : komorebic move-to-workspace 4
+ctrl + alt + 6 : komorebic move-to-workspace 5
+ctrl + alt + 7 : komorebic move-to-workspace 6
+ctrl + alt + 8 : komorebic move-to-workspace 7
+ctrl + alt + 9 : komorebic move-to-workspace 8
+ctrl + alt + 0 : komorebic move-to-workspace 9
+
+# toggle fullscreen
+ctrl + alt + f : komorebic toggle-maximize
+
+# swap current node with biggest window
+ctrl + alt + g : komorebic promote
+
+# toggle monocle layout
+ctrl + alt + m : komorebic toggle-monocle
+
+# focus next window
+ctrl + alt + n : komorebic cycle-focus next
+
+# focus previous window
+ctrl + alt + p : komorebic cycle-focus previous
+
+# toggle float
+ctrl + alt + t : komorebic toggle-float
+
+# close window
+ctrl + alt + w : komorebic close

@@ -1,0 +1,48 @@
+{{ $decrypt := promptBoolOnce . "decrypt" "Decrypt private key" false -}}
+{{ $email := promptStringOnce . "email" "Email address" "adam@awmckinley.net" -}}
+{{ $install1Password := promptBoolOnce . "install1Password" "Install 1Password (Windows)" false -}}
+{{ $installKeeper := promptBoolOnce . "installKeeper" "Install Keeper (Windows)" false -}}
+{{ $installPicard := promptBoolOnce . "installPicard" "Install Picard (Windows)" false -}}
+{{ $recurrence := promptBoolOnce . "recurrence" "Calculate Taskwarrior recurrence" false -}}
+{{ $sshKeys := promptBoolOnce . "sshKeys" "Install SSH keys" false -}}
+
+encryption = "age"
+{{- if eq .chezmoi.os "windows" }}
+scriptTempDir = "~/AppData/Local/Temp"
+{{- else }}
+scriptTempDir = "~/.local/tmp"
+{{- end }}
+sourceDir = "{{ .chezmoi.sourceDir }}"
+umask = 0o022
+
+[age]
+    command = "rage"
+    identity = "~/.config/chezmoi/key.txt"
+    recipient = "age1txxssnd059spn8yrjpyv394gn37e0l065yjutkxhrpe45rnk254qcz998r"
+
+[data]
+    decrypt = {{ $decrypt }}
+    email = {{ $email | quote }}
+{{- if eq .chezmoi.os "windows" }}
+    gitDir = "~/AppData/Remote/Git"
+{{- else }}
+    gitDir = "~/.config/git"
+{{- end }}
+    install1Password = {{ $install1Password }}
+    installKeeper = {{ $installKeeper }}
+    installPicard = {{ $installPicard }}
+    recurrence = {{ $recurrence }}
+{{- if eq .chezmoi.os "windows" }}
+    srcDir = "D:"
+{{- else }}
+    srcDir = "~/Code"
+{{- end }}
+    sshKeys = {{ $sshKeys }}
+
+[diff]
+    command = "delta"
+    pager = "delta"
+
+[merge]
+    command = "nvim"
+    args = ["-d", "{{ "{{ .Destination }}" }}", "{{ "{{ .Source }}" }}", "{{ "{{ .Target }}" }}"]

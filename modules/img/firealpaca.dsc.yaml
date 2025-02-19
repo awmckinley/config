@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: FireAlpaca.FireAlpaca
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Fire Alpaca
+      settings:
+        id: FireAlpaca.FireAlpaca
+        source: winget
+        version: '2.13.9.0'

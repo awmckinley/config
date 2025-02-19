@@ -1,0 +1,130 @@
+{{- if eq .chezmoi.os "android" -}}
+#!{{ lookPath "bash" }}
+#
+# Install packages in Termux.
+
+yes | pkg install \
+	tur-repo
+
+yes | pkg install \
+	aerc \
+	bash \
+	bat \
+	chafa \
+	chezmoi \
+	choose \
+	clang \
+	command-not-found \
+	coreutils \
+	curl \
+	delve \
+	direnv \
+	dos2unix \
+	dotnet-sdk-8.0 \
+	dust \
+	elixir \
+	exercism \
+	expect \
+	eza \
+	fastfetch \
+	fd \
+	fzf \
+	git \
+	git-delta \
+	glow \
+	golang \
+	gopls \
+	graphviz \
+	gum \
+	hexyl \
+	htop \
+	imagemagick \
+	isync \
+	jq \
+	just \
+	keybase \
+	lazygit \
+	less \
+	lesspipe \
+	lldb \
+	lua-language-server \
+	lua51 \
+	luarocks \
+	make \
+	man \
+	mcfly \
+	micro \
+	navi \
+	neovim \
+	nmap \
+	nodejs-lts \
+	notmuch \
+	nushell \
+	openssh \
+	parallel \
+	php \
+	procs \
+	pv \
+	pwgen \
+	python \
+	rage \
+	rclone \
+	ripgrep \
+	rsync \
+	ruby \
+	ruff \
+	rust \
+	rust-analyzer \
+	sd \
+	senpai \
+	shellcheck \
+	shellharden \
+	shfmt \
+	silicon \
+	starship \
+	stylua \
+	taplo \
+	tasksh \
+	taskwarrior \
+	tealdeer \
+	tinymist \
+	tmux \
+	tree \
+	tree-sitter \
+	tsu \
+	typst \
+	unzip \
+	vim \
+	vivid \
+	watchexec \
+	wget \
+	wol \
+	wtfutil \
+	yazi \
+	zig \
+	zoxide \
+	zsh
+
+if ! command -v aliae >/dev/null 2>&1; then
+	echo 'Install aliae'
+	dir="${HOME}/Code/github.com/JanDeDobbeleer"
+	mkdir -p "${dir}"
+	git clone 'https://github.com/JanDeDobbeleer/aliae.git' "${dir}/aliae"
+	pushd "${dir}/aliae/src"
+	go build
+	cp src "${HOME}/.local/bin/aliae"
+	popd
+	echo ''
+fi
+
+if ! command -v doppler >/dev/null 2>&1; then
+	echo 'Install Doppler'
+	dir="${HOME}/Code/github.com/DopplerHQ"
+	mkdir -p "${dir}"
+	git clone 'https://github.com/DopplerHQ/cli.git' "${dir}/cli"
+	make -C "${dir}/cli" build
+	mkdir -p "${HOME}/.local/bin"
+	cp "${dir}/cli/doppler" "${HOME}/.local/bin"
+	echo ''
+fi
+{{- end -}}

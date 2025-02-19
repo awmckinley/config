@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Erlang.ErlangOTP
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Erlang OTP
+      settings:
+        id: Erlang.ErlangOTP
+        source: winget
+        version: '27.2.2'

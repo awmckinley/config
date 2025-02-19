@@ -1,0 +1,17 @@
+#!{{ lookPath "nu" }}
+
+let configDir = $"($nu.home-path)/.config/chezmoi"
+let keyFile = $"($configDir)/key.txt"
+
+def main [] {
+{{ if .decrypt }}
+	if not ($keyFile | path exists) {
+		mkdir $"($configDir)"
+		print "Decrypting private key..."
+		rage --decrypt --output $"($keyFile)" "{{ .chezmoi.sourceDir }}/key.txt.age"
+		chmod 600 $"($keyFile)"
+	}
+{{ else }}
+	print "Skipping private key."
+{{ end }}
+}

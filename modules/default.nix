@@ -1,0 +1,32 @@
+_: {
+  imports = [
+    ./audio
+    ./chat
+    ./code
+    ./color
+    ./dash
+    ./db
+    ./disk
+    ./doc
+    ./game
+    ./gen
+    ./glyph
+    ./img
+    ./input
+    ./mail
+    ./media
+    ./net
+    ./nvim
+    ./pkg
+    ./secret
+    ./shell
+    ./svc
+    ./term
+    ./todo
+    ./vc
+    ./vdir
+    ./virt
+    ./web
+    ./wm
+  ];
+}

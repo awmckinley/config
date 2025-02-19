@@ -1,0 +1,12 @@
+- value: |
+    # init McFly
+    eval "$(mcfly init {{ .Shell }})"
+  if: and (hasCommand "mcfly") (match .Shell "bash" "zsh")
+- value: |
+    # init McFly fzf
+    eval "$(mcfly-fzf init {{ .Shell }})"
+  if: and (hasCommand "mcfly-fzf") (match .Shell "bash" "zsh")
+- value: |
+    # init McFly
+    mcfly init powershell | Out-String | Invoke-Expression
+  if: and (hasCommand "mcfly") (match .Shell "pwsh")

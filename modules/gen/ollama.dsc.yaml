@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Ollama.Ollama
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Ollama
+      settings:
+        id: Ollama.Ollama
+        source: winget
+        version: '0.5.11'

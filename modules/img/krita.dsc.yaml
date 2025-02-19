@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: KDE.Krita
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Krita
+      settings:
+        id: KDE.Krita
+        source: winget
+        version: '5.2.9.100'

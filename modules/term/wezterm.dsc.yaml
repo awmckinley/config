@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: wez.wezterm
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install WezTerm
+      settings:
+        id: wez.wezterm
+        source: winget
+        version: '20240203-110809-5046fc22'

@@ -1,0 +1,20 @@
+[auto-upgrade]
+enable = no
+prompt = yes
+
+[bicep]
+use_binary_from_path = false
+
+[cloud]
+name = AzureCloud
+
+[core]
+collect_telemetry = no
+enable_broker_on_windows = true
+first_run = yes
+login_experience_v2 = off
+output = jsonc
+
+[extension]
+dynamic_install_allow_preview = false
+use_dynamic_install = yes_without_prompt

@@ -1,0 +1,261 @@
+{{- if eq .chezmoi.os "windows" -}}
+# where to store the output file
+$outputFile = "{{ .chezmoi.sourceDir }}/../systems/windows/all-modules.dsc.yaml"
+
+# reset the output file if it exists
+if (Test-Path $outputFile) {
+    Remove-Item $outputFile
+}
+
+# add header to the output file
+"# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:" | Add-Content -Path $outputFile
+
+function Add-Resources {
+    param (
+        [Parameter(Mandatory=$true)]
+        [string] $File
+    )
+
+    Get-Content {{ .chezmoi.sourceDir }}/../$File `
+        | Select-Object -Skip 5 `
+        | Add-Content -Path $outputFile
+}
+
+# add all resources from DSC files
+Add-Resources -File modules\audio\buzz.dsc.yaml
+Add-Resources -File modules\audio\eartrumpet.dsc.yaml
+Add-Resources -File modules\chat\discord.dsc.yaml
+Add-Resources -File modules\chat\keybase.dsc.yaml
+Add-Resources -File modules\chat\slack.dsc.yaml
+Add-Resources -File modules\chat\teams.dsc.yaml
+Add-Resources -File modules\chat\zoom.dsc.yaml
+Add-Resources -File modules\code\010-editor.dsc.yaml
+Add-Resources -File modules\code\bazel.dsc.yaml
+Add-Resources -File modules\code\bcomp.dsc.yaml
+Add-Resources -File modules\code\cloc.dsc.yaml
+Add-Resources -File modules\code\code.dsc.yaml
+Add-Resources -File modules\code\cursor.dsc.yaml
+Add-Resources -File modules\code\devenv.dsc.yaml
+Add-Resources -File modules\code\devtoys.dsc.yaml
+Add-Resources -File modules\code\exercism.dsc.yaml
+Add-Resources -File modules\code\extism.dsc.yaml
+Add-Resources -File modules\code\hxd.dsc.yaml
+Add-Resources -File modules\code\ilspy.dsc.yaml
+Add-Resources -File modules\code\jetbrains.dsc.yaml
+Add-Resources -File modules\code\linqpad.dsc.yaml
+Add-Resources -File modules\code\livebook.dsc.yaml
+Add-Resources -File modules\code\perfetto.dsc.yaml
+Add-Resources -File modules\code\replit.dsc.yaml
+Add-Resources -File modules\code\resource-hacker.dsc.yaml
+Add-Resources -File modules\code\structuredlogviewer.dsc.yaml
+Add-Resources -File modules\code\tauri.dsc.yaml
+Add-Resources -File modules\code\tldr.dsc.yaml
+Add-Resources -File modules\code\vim.dsc.yaml
+Add-Resources -File modules\code\zeal.dsc.yaml
+Add-Resources -File modules\dash\btm.dsc.yaml
+Add-Resources -File modules\dash\fastfetch.dsc.yaml
+Add-Resources -File modules\dash\hwinfo.dsc.yaml
+Add-Resources -File modules\dash\perfview.dsc.yaml
+Add-Resources -File modules\dash\procs.dsc.yaml
+Add-Resources -File modules\db\heidisql.dsc.yaml
+Add-Resources -File modules\db\ssms.dsc.yaml
+Add-Resources -File modules\db\tableplus.dsc.yaml
+Add-Resources -File modules\disk\balenaetcher.dsc.yaml
+Add-Resources -File modules\disk\cryptomator.dsc.yaml
+Add-Resources -File modules\disk\dua.dsc.yaml
+Add-Resources -File modules\disk\dupeguru.dsc.yaml
+Add-Resources -File modules\disk\everything.dsc.yaml
+Add-Resources -File modules\disk\files.dsc.yaml
+Add-Resources -File modules\disk\link-shell-extension.dsc.yaml
+Add-Resources -File modules\disk\lockhunter.dsc.yaml
+Add-Resources -File modules\disk\nanazip.dsc.yaml
+Add-Resources -File modules\disk\nilesoft-shell.dsc.yaml
+Add-Resources -File modules\disk\quicklook.dsc.yaml
+Add-Resources -File modules\disk\spacedrive.dsc.yaml
+Add-Resources -File modules\disk\wiztree.dsc.yaml
+Add-Resources -File modules\disk\yazi.dsc.yaml
+Add-Resources -File modules\doc\anki.dsc.yaml
+Add-Resources -File modules\doc\bullzip.dsc.yaml
+Add-Resources -File modules\doc\calibre.dsc.yaml
+Add-Resources -File modules\doc\dngrep.dsc.yaml
+Add-Resources -File modules\doc\drawio.dsc.yaml
+Add-Resources -File modules\doc\glow.dsc.yaml
+Add-Resources -File modules\doc\markscribe.dsc.yaml
+Add-Resources -File modules\doc\obsidian.dsc.yaml
+Add-Resources -File modules\doc\office.dsc.yaml
+Add-Resources -File modules\doc\paprika.dsc.yaml
+Add-Resources -File modules\doc\pdfsam.dsc.yaml
+Add-Resources -File modules\doc\readest.dsc.yaml
+Add-Resources -File modules\doc\saladict.dsc.yaml
+Add-Resources -File modules\doc\sumatrapdf.dsc.yaml
+Add-Resources -File modules\game\en-croissant.dsc.yaml
+Add-Resources -File modules\game\steam.dsc.yaml
+Add-Resources -File modules\gen\comfyui.dsc.yaml
+Add-Resources -File modules\gen\ollama.dsc.yaml
+Add-Resources -File modules\glyph\fonts.dsc.yaml
+Add-Resources -File modules\glyph\sequin.dsc.yaml
+Add-Resources -File modules\img\chafa.dsc.yaml
+Add-Resources -File modules\img\dust3d.dsc.yaml
+Add-Resources -File modules\img\exiftool.dsc.yaml
+Add-Resources -File modules\img\firealpaca.dsc.yaml
+Add-Resources -File modules\img\honeyview.dsc.yaml
+Add-Resources -File modules\img\imageglass.dsc.yaml
+Add-Resources -File modules\img\imagemagick.dsc.yaml
+Add-Resources -File modules\img\krita.dsc.yaml
+Add-Resources -File modules\img\paintdotnet.dsc.yaml
+Add-Resources -File modules\img\screentogif.dsc.yaml
+Add-Resources -File modules\img\shapr3d.dsc.yaml
+Add-Resources -File modules\img\sharex.dsc.yaml
+Add-Resources -File modules\input\masir.dsc.yaml
+Add-Resources -File modules\input\pastebar.dsc.yaml
+Add-Resources -File modules\input\whkd.dsc.yaml
+Add-Resources -File modules\input\yank.dsc.yaml
+Add-Resources -File modules\mail\papercut.dsc.yaml
+Add-Resources -File modules\media\ffmpeg.dsc.yaml
+Add-Resources -File modules\media\file-converter.dsc.yaml
+Add-Resources -File modules\media\fileoptimizer.dsc.yaml
+Add-Resources -File modules\media\handbrake.dsc.yaml
+Add-Resources -File modules\media\mkvtoolnix.dsc.yaml
+Add-Resources -File modules\media\mpv.dsc.yaml
+Add-Resources -File modules\media\musicbee.dsc.yaml
+{{ if .installPicard }}
+Add-Resources -File modules\media\picard.dsc.yaml
+{{ end }}
+Add-Resources -File modules\media\plex.dsc.yaml
+Add-Resources -File modules\media\potplayer.dsc.yaml
+Add-Resources -File modules\net\advanced-ip-scanner.dsc.yaml
+Add-Resources -File modules\net\azure.dsc.yaml
+Add-Resources -File modules\net\easyconnect.dsc.yaml
+Add-Resources -File modules\net\gitea.dsc.yaml
+Add-Resources -File modules\net\github.dsc.yaml
+Add-Resources -File modules\net\intel-unison.dsc.yaml
+Add-Resources -File modules\net\io-ninja.dsc.yaml
+Add-Resources -File modules\net\ipscan.dsc.yaml
+Add-Resources -File modules\net\kdeconnect.dsc.yaml
+Add-Resources -File modules\net\miniserve.dsc.yaml
+Add-Resources -File modules\net\netmon.dsc.yaml
+Add-Resources -File modules\net\networkmanager.dsc.yaml
+Add-Resources -File modules\net\nirsoft.dsc.yaml
+Add-Resources -File modules\net\nmap.dsc.yaml
+Add-Resources -File modules\net\rclone.dsc.yaml
+Add-Resources -File modules\net\tailscale.dsc.yaml
+Add-Resources -File modules\net\temporal.dsc.yaml
+Add-Resources -File modules\net\wol.dsc.yaml
+Add-Resources -File modules\nvim\bicep.dsc.yaml
+Add-Resources -File modules\nvim\cpp.dsc.yaml
+Add-Resources -File modules\nvim\cs.dsc.yaml
+Add-Resources -File modules\nvim\d2.dsc.yaml
+Add-Resources -File modules\nvim\erlang.dsc.yaml
+Add-Resources -File modules\nvim\gleam.dsc.yaml
+Add-Resources -File modules\nvim\go.dsc.yaml
+Add-Resources -File modules\nvim\html.dsc.yaml
+Add-Resources -File modules\nvim\javascript.dsc.yaml
+Add-Resources -File modules\nvim\latex.dsc.yaml
+Add-Resources -File modules\nvim\lua.dsc.yaml
+Add-Resources -File modules\nvim\markdown.dsc.yaml
+Add-Resources -File modules\nvim\nvim.dsc.yaml
+Add-Resources -File modules\nvim\php.dsc.yaml
+Add-Resources -File modules\nvim\python.dsc.yaml
+Add-Resources -File modules\nvim\ruby.dsc.yaml
+Add-Resources -File modules\nvim\rust.dsc.yaml
+Add-Resources -File modules\nvim\sh.dsc.yaml
+Add-Resources -File modules\nvim\toml.dsc.yaml
+Add-Resources -File modules\nvim\typst.dsc.yaml
+Add-Resources -File modules\nvim\zig.dsc.yaml
+Add-Resources -File modules\pkg\chezmoi.dsc.yaml
+Add-Resources -File modules\pkg\mise.dsc.yaml
+Add-Resources -File modules\pkg\nuget.dsc.yaml
+Add-Resources -File modules\pkg\unigetui.dsc.yaml
+Add-Resources -File modules\pkg\winget.dsc.yaml
+Add-Resources -File modules\secret\dagger.dsc.yaml
+Add-Resources -File modules\secret\doppler.dsc.yaml
+{{ if .installKeeper }}
+Add-Resources -File modules\secret\keeper.dsc.yaml
+{{ end }}
+Add-Resources -File modules\secret\mkcert.dsc.yaml
+{{ if .install1Password }}
+Add-Resources -File modules\secret\op.dsc.yaml
+{{ end }}
+Add-Resources -File modules\secret\rage.dsc.yaml
+Add-Resources -File modules\shell\aliae.dsc.yaml
+Add-Resources -File modules\shell\bat.dsc.yaml
+Add-Resources -File modules\shell\carapace.dsc.yaml
+Add-Resources -File modules\shell\clink.dsc.yaml
+Add-Resources -File modules\shell\coreutils.dsc.yaml
+Add-Resources -File modules\shell\direnv.dsc.yaml
+Add-Resources -File modules\shell\dos2unix.dsc.yaml
+Add-Resources -File modules\shell\eza.dsc.yaml
+Add-Resources -File modules\shell\fzf.dsc.yaml
+Add-Resources -File modules\shell\gsudo.dsc.yaml
+Add-Resources -File modules\shell\gum.dsc.yaml
+Add-Resources -File modules\shell\hexyl.dsc.yaml
+Add-Resources -File modules\shell\jq.dsc.yaml
+Add-Resources -File modules\shell\just.dsc.yaml
+Add-Resources -File modules\shell\less.dsc.yaml
+Add-Resources -File modules\shell\mcfly.dsc.yaml
+Add-Resources -File modules\shell\nu.dsc.yaml
+Add-Resources -File modules\shell\pwsh.dsc.yaml
+Add-Resources -File modules\shell\rg.dsc.yaml
+Add-Resources -File modules\shell\sd.dsc.yaml
+Add-Resources -File modules\shell\sg.dsc.yaml
+Add-Resources -File modules\shell\starship.dsc.yaml
+Add-Resources -File modules\shell\sysinternals.dsc.yaml
+Add-Resources -File modules\shell\tre.dsc.yaml
+Add-Resources -File modules\shell\vhs.dsc.yaml
+Add-Resources -File modules\shell\vivid.dsc.yaml
+Add-Resources -File modules\shell\watch.dsc.yaml
+Add-Resources -File modules\shell\watchman.dsc.yaml
+Add-Resources -File modules\shell\zoxide.dsc.yaml
+Add-Resources -File modules\term\wezterm.dsc.yaml
+Add-Resources -File modules\term\windowsterminal.dsc.yaml
+Add-Resources -File modules\todo\linear.dsc.yaml
+Add-Resources -File modules\todo\super-productivity.dsc.yaml
+Add-Resources -File modules\vc\delta.dsc.yaml
+Add-Resources -File modules\vc\git.dsc.yaml
+Add-Resources -File modules\vc\gitbutler.dsc.yaml
+Add-Resources -File modules\vc\gource.dsc.yaml
+Add-Resources -File modules\vc\lazygit.dsc.yaml
+Add-Resources -File modules\virt\automatedlab.dsc.yaml
+Add-Resources -File modules\virt\ddev.dsc.yaml
+Add-Resources -File modules\virt\docker.dsc.yaml
+Add-Resources -File modules\virt\helm.dsc.yaml
+Add-Resources -File modules\virt\kubectl.dsc.yaml
+Add-Resources -File modules\virt\lazydocker.dsc.yaml
+Add-Resources -File modules\virt\minikube.dsc.yaml
+Add-Resources -File modules\virt\ntlite.dsc.yaml
+Add-Resources -File modules\virt\wsl.dsc.yaml
+Add-Resources -File modules\web\arc.dsc.yaml
+Add-Resources -File modules\web\ferdium.dsc.yaml
+Add-Resources -File modules\web\hurl.dsc.yaml
+Add-Resources -File modules\web\mullvad.dsc.yaml
+Add-Resources -File modules\web\responsively.dsc.yaml
+Add-Resources -File modules\web\thorium.dsc.yaml
+Add-Resources -File modules\web\wget.dsc.yaml
+Add-Resources -File modules\wm\altsnap.dsc.yaml
+Add-Resources -File modules\wm\flow-launcher.dsc.yaml
+Add-Resources -File modules\wm\komorebi.dsc.yaml
+Add-Resources -File modules\wm\powertoys.dsc.yaml
+Add-Resources -File modules\wm\twinkle-tray.dsc.yaml
+Add-Resources -File systems\windows\default.dsc.yaml
+
+# configure with WinGet
+gsudo winget configure --file $outputFile --accept-configuration-agreements --suppress-initial-details --open-logs --ignore-warnings
+
+# modify Chromium shortcut
+$startMenuPath = [System.Environment]::GetFolderPath("StartMenu")
+$chromiumShortcut = "$startMenuPath\Programs\Thorium.lnk"
+if (Test-Path $chromiumShortcut) {
+    $shell = New-Object -ComObject WScript.Shell
+    $shortcut = $shell.CreateShortcut($chromiumShortcut)
+    if ($shortcut.Arguments -NotMatch "--remote-debugging-port=9222") {
+        Write-Output "Modifying Edge shortcut"
+        $shortcut.Arguments = "$($shortcut.Arguments) --remote-debugging-port=9222 -- `"%1`""
+        $shortcut.Save()
+        Write-Output ""
+    }
+}
+{{- end -}}

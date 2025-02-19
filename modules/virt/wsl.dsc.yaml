@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Microsoft.WSL
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Windows Subsystem for Linux
+      settings:
+        id: Microsoft.WSL
+        source: winget
+        version: '2.4.11'

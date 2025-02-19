@@ -1,0 +1,4 @@
+- value: |
+    # init Homebrew
+    eval "$(brew shellenv)"
+  if: and (hasCommand "brew") (match .Shell "bash" "zsh")

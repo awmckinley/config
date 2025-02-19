@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: stnkl.EverythingToolbar
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Everything Toolbar
+      settings:
+        id: stnkl.EverythingToolbar
+        source: winget
+        version: '1.5.1'
+
+    - id: voidtools.Everything
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Everything
+      settings:
+        id: voidtools.Everything
+        source: winget
+        version: '1.4.1.1026'

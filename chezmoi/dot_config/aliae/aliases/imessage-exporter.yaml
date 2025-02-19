@@ -1,0 +1,3 @@
+- name: imessage-exporter-default
+  value: imessage-exporter --format html --copy-method efficient --no-lazy
+  if: hasCommand "imessage-exporter"

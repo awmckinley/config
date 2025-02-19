@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: xanderfrangos.twinkletray
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Twinkle Tray
+      settings:
+        id: xanderfrangos.twinkletray
+        source: winget
+        version: '1.16.6'

@@ -1,0 +1,3 @@
+- name: KOMOREBI_CONFIG_HOME
+  value: '{{ .Home }}/.config/komorebi'
+  if: hasCommand "komorebi"

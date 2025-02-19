@@ -1,0 +1,9 @@
+- name: HOMEBREW_BUNDLE_NO_LOCK
+  value: '1'
+  if: hasCommand "brew"
+- name: HOMEBREW_NO_ANALYTICS
+  value: '1'
+  if: hasCommand "brew"
+- name: HOMEBREW_NO_AUTO_UPDATE
+  value: '1'
+  if: hasCommand "brew"

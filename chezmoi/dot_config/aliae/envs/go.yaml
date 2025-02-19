@@ -1,0 +1,3 @@
+- name: GOPATH
+  value: '{{ .Home }}/.go'
+  if: hasCommand "go"

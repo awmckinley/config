@@ -1,0 +1,13 @@
+- value: |
+    # init Starship
+    if test-ansi; then
+      export STARSHIP_CONFIG="${XDG_CONFIG_HOME}/starship/plain.toml"
+    else
+      export STARSHIP_CONFIG="${XDG_CONFIG_HOME}/starship/default.toml"
+    fi
+    eval "$(starship init {{ .Shell }})"
+  if: and (hasCommand "starship") (match .Shell "bash" "zsh")
+- value: |
+    # init Starship
+    starship init powershell --print-full-init | Out-String | Invoke-Expression
+  if: and (hasCommand "starship") (match .Shell "pwsh")

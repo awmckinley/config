@@ -1,0 +1,255 @@
+- name: l
+  value: eza
+  if: hasCommand "eza"
+- name: la
+  value: eza --all --binary
+  if: hasCommand "eza"
+- name: laa
+  value: eza --all --binary --all
+  if: hasCommand "eza"
+- name: laad
+  value: eza --all --binary --all --only-dirs
+  if: hasCommand "eza"
+- name: laai
+  value: eza --all --binary --all --icons
+  if: hasCommand "eza"
+- name: laaid
+  value: eza --all --binary --all --icons --only-dirs
+  if: hasCommand "eza"
+- name: lad
+  value: eza --all --binary --only-dirs
+  if: hasCommand "eza"
+- name: lai
+  value: eza --all --binary --icons
+  if: hasCommand "eza"
+- name: laid
+  value: eza --all --binary --icons --only-dirs
+  if: hasCommand "eza"
+- name: lc
+  value: eza --group --header --group-directories-first --across
+  if: hasCommand "eza"
+- name: lca
+  value: eza --group --header --group-directories-first --across --all --binary
+  if: hasCommand "eza"
+- name: lcaa
+  value: eza --group --header --group-directories-first --across --all --binary --all
+  if: hasCommand "eza"
+- name: lcaad
+  value: eza --group --header --group-directories-first --across --all --binary --all --only-dirs
+  if: hasCommand "eza"
+- name: lcaai
+  value: eza --group --header --group-directories-first --across --all --binary --all --icons
+  if: hasCommand "eza"
+- name: lcaaid
+  value: eza --group --header --group-directories-first --across --all --binary --all --icons --only-dirs
+  if: hasCommand "eza"
+- name: lcad
+  value: eza --group --header --group-directories-first --across --all --binary --only-dirs
+  if: hasCommand "eza"
+- name: lcai
+  value: eza --group --header --group-directories-first --across --all --binary --icons
+  if: hasCommand "eza"
+- name: lcaid
+  value: eza --group --header --group-directories-first --across --all --binary --icons --only-dirs
+  if: hasCommand "eza"
+- name: lcd
+  value: eza --group --header --group-directories-first --across --only-dirs
+  if: hasCommand "eza"
+- name: lci
+  value: eza --group --header --group-directories-first --across --icons
+  if: hasCommand "eza"
+- name: lcid
+  value: eza --group --header --group-directories-first --across --icons --only-dirs
+  if: hasCommand "eza"
+- name: ld
+  value: eza --only-dirs
+  if: hasCommand "eza"
+- name: le
+  value: eza --group --header --group-directories-first --long --extended
+  if: hasCommand "eza"
+- name: lea
+  value: eza --group --header --group-directories-first --long --extended --all --binary
+  if: hasCommand "eza"
+- name: leaa
+  value: eza --group --header --group-directories-first --long --extended --all --binary --all
+  if: hasCommand "eza"
+- name: leaad
+  value: eza --group --header --group-directories-first --long --extended --all --binary --all --only-dirs
+  if: hasCommand "eza"
+- name: leaai
+  value: eza --group --header --group-directories-first --long --extended --all --binary --all --icons
+  if: hasCommand "eza"
+- name: leaaid
+  value: eza --group --header --group-directories-first --long --extended --all --binary --all --icons --only-dirs
+  if: hasCommand "eza"
+- name: lead
+  value: eza --group --header --group-directories-first --long --extended --all --binary --only-dirs
+  if: hasCommand "eza"
+- name: leai
+  value: eza --group --header --group-directories-first --long --extended --all --binary --icons
+  if: hasCommand "eza"
+- name: leaid
+  value: eza --group --header --group-directories-first --long --extended --all --binary --icons --only-dirs
+  if: hasCommand "eza"
+- name: led
+  value: eza --group --header --group-directories-first --long --extended --only-dirs
+  if: hasCommand "eza"
+- name: lei
+  value: eza --group --header --group-directories-first --long --extended --icons
+  if: hasCommand "eza"
+- name: leid
+  value: eza --group --header --group-directories-first --long --extended --icons --only-dirs
+  if: hasCommand "eza"
+- name: lg
+  value: eza --group --header --group-directories-first --long --git --git-ignore
+  if: hasCommand "eza"
+- name: lga
+  value: eza --group --header --group-directories-first --long --git --git-ignore --all --binary
+  if: hasCommand "eza"
+- name: lgaa
+  value: eza --group --header --group-directories-first --long --git --git-ignore --all --binary --all
+  if: hasCommand "eza"
+- name: lgaad
+  value: eza --group --header --group-directories-first --long --git --git-ignore --all --binary --all --only-dirs
+  if: hasCommand "eza"
+- name: lgaai
+  value: eza --group --header --group-directories-first --long --git --git-ignore --all --binary --all --icons
+  if: hasCommand "eza"
+- name: lgaaid
+  value: eza --group --header --group-directories-first --long --git --git-ignore --all --binary --all --icons --only-dirs
+  if: hasCommand "eza"
+- name: lgad
+  value: eza --group --header --group-directories-first --long --git --git-ignore --all --binary --only-dirs
+  if: hasCommand "eza"
+- name: lgai
+  value: eza --group --header --group-directories-first --long --git --git-ignore --all --binary --icons
+  if: hasCommand "eza"
+- name: lgaid
+  value: eza --group --header --group-directories-first --long --git --git-ignore --all --binary --icons --only-dirs
+  if: hasCommand "eza"
+- name: lgd
+  value: eza --group --header --group-directories-first --long --git --git-ignore --only-dirs
+  if: hasCommand "eza"
+- name: lgi
+  value: eza --group --header --group-directories-first --long --git --git-ignore --icons
+  if: hasCommand "eza"
+- name: lgid
+  value: eza --group --header --group-directories-first --long --git --git-ignore --icons --only-dirs
+  if: hasCommand "eza"
+- name: li
+  value: eza --icons
+  if: hasCommand "eza"
+- name: lid
+  value: eza --icons --only-dirs
+  if: hasCommand "eza"
+- name: ll
+  value: eza --group --header --group-directories-first --long
+  if: hasCommand "eza"
+- name: lla
+  value: eza --group --header --group-directories-first --long --all --binary
+  if: hasCommand "eza"
+- name: llaa
+  value: eza --group --header --group-directories-first --long --all --binary --all
+  if: hasCommand "eza"
+- name: llaad
+  value: eza --group --header --group-directories-first --long --all --binary --all --only-dirs
+  if: hasCommand "eza"
+- name: llaai
+  value: eza --group --header --group-directories-first --long --all --binary --all --icons
+  if: hasCommand "eza"
+- name: llaaid
+  value: eza --group --header --group-directories-first --long --all --binary --all --icons --only-dirs
+  if: hasCommand "eza"
+- name: llad
+  value: eza --group --header --group-directories-first --long --all --binary --only-dirs
+  if: hasCommand "eza"
+- name: llai
+  value: eza --group --header --group-directories-first --long --all --binary --icons
+  if: hasCommand "eza"
+- name: llaid
+  value: eza --group --header --group-directories-first --long --all --binary --icons --only-dirs
+  if: hasCommand "eza"
+- name: lld
+  value: eza --group --header --group-directories-first --long --only-dirs
+  if: hasCommand "eza"
+- name: lli
+  value: eza --group --header --group-directories-first --long --icons
+  if: hasCommand "eza"
+- name: llid
+  value: eza --group --header --group-directories-first --long --icons --only-dirs
+  if: hasCommand "eza"
+- name: lo
+  value: eza --group --header --group-directories-first --oneline
+  if: hasCommand "eza"
+- name: loa
+  value: eza --group --header --group-directories-first --oneline --all --binary
+  if: hasCommand "eza"
+- name: loaa
+  value: eza --group --header --group-directories-first --oneline --all --binary --all
+  if: hasCommand "eza"
+- name: loaad
+  value: eza --group --header --group-directories-first --oneline --all --binary --all --only-dirs
+  if: hasCommand "eza"
+- name: loaai
+  value: eza --group --header --group-directories-first --oneline --all --binary --all --icons
+  if: hasCommand "eza"
+- name: loaaid
+  value: eza --group --header --group-directories-first --oneline --all --binary --all --icons --only-dirs
+  if: hasCommand "eza"
+- name: load
+  value: eza --group --header --group-directories-first --oneline --all --binary --only-dirs
+  if: hasCommand "eza"
+- name: loai
+  value: eza --group --header --group-directories-first --oneline --all --binary --icons
+  if: hasCommand "eza"
+- name: loaid
+  value: eza --group --header --group-directories-first --oneline --all --binary --icons --only-dirs
+  if: hasCommand "eza"
+- name: lod
+  value: eza --group --header --group-directories-first --oneline --only-dirs
+  if: hasCommand "eza"
+- name: loi
+  value: eza --group --header --group-directories-first --oneline --icons
+  if: hasCommand "eza"
+- name: loid
+  value: eza --group --header --group-directories-first --oneline --icons --only-dirs
+  if: hasCommand "eza"
+- name: ls
+  value: gum log --level warn 'use eza instead'
+  if: hasCommand "eza"
+- name: lt
+  value: eza --group --header --group-directories-first --tree --level 4
+  if: hasCommand "eza"
+- name: lta
+  value: eza --group --header --group-directories-first --tree --level 4 --all --binary
+  if: hasCommand "eza"
+- name: ltaa
+  value: eza --group --header --group-directories-first --tree --level 4 --all --binary --all
+  if: hasCommand "eza"
+- name: ltaad
+  value: eza --group --header --group-directories-first --tree --level 4 --all --binary --all --only-dirs
+  if: hasCommand "eza"
+- name: ltaai
+  value: eza --group --header --group-directories-first --tree --level 4 --all --binary --all --icons
+  if: hasCommand "eza"
+- name: ltaaid
+  value: eza --group --header --group-directories-first --tree --level 4 --all --binary --all --icons --only-dirs
+  if: hasCommand "eza"
+- name: ltad
+  value: eza --group --header --group-directories-first --tree --level 4 --all --binary --only-dirs
+  if: hasCommand "eza"
+- name: ltai
+  value: eza --group --header --group-directories-first --tree --level 4 --all --binary --icons
+  if: hasCommand "eza"
+- name: ltaid
+  value: eza --group --header --group-directories-first --tree --level 4 --all --binary --icons --only-dirs
+  if: hasCommand "eza"
+- name: ltd
+  value: eza --group --header --group-directories-first --tree --level 4 --only-dirs
+  if: hasCommand "eza"
+- name: lti
+  value: eza --group --header --group-directories-first --tree --level 4 --icons
+  if: hasCommand "eza"
+- name: ltid
+  value: eza --group --header --group-directories-first --tree --level 4 --icons --only-di
+  if: hasCommand "eza"

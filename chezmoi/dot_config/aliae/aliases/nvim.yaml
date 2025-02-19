@@ -1,0 +1,12 @@
+- name: nvim-codeium
+  value: NVIM_CODEIUM=true nvim
+  if: hasCommand "nvim"
+- name: nvim-debug
+  value: NVIM_DEBUG=true nvim
+  if: hasCommand "nvim"
+- name: nvim-supermaven
+  value: NVIM_SUPERMAVEN=true nvim
+  if: hasCommand "nvim"
+- name: nvim-verbose
+  value: nvim -V3
+  if: hasCommand "nvim"

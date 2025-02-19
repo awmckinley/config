@@ -1,0 +1,14 @@
+- name: DO_NOT_TRACK
+  value: '1'
+- name: XDG_CACHE_HOME
+  value: '{{ .Home }}/.cache'
+  if: match .OS "android" "darwin" "linux"
+- name: XDG_CONFIG_HOME
+  value: '{{ .Home }}/.config'
+  if: match .OS "android" "darwin" "linux"
+- name: XDG_DATA_HOME
+  value: '{{ .Home }}/.local/share'
+  if: match .OS "android" "darwin" "linux"
+- name: XDG_STATE_HOME
+  value: '{{ .Home }}/.local/state'
+  if: match .OS "android" "darwin" "linux"

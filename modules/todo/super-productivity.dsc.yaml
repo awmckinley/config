@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: JohannesMillan.superProductivity
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Super Productivity
+      settings:
+        id: JohannesMillan.superProductivity
+        source: winget
+        version: '11.1.3'

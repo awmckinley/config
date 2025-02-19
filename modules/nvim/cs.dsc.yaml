@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Microsoft.DotNet.SDK.6
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install .NET SDK 6
+      settings:
+        id: Microsoft.DotNet.SDK.6
+        source: winget
+        version: '6.0.428'
+
+    - id: Microsoft.DotNet.SDK.8
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install .NET SDK 8
+      settings:
+        id: Microsoft.DotNet.SDK.8
+        source: winget
+        version: '8.0.406'
+
+    - id: Microsoft.DotNet.SDK.9
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install .NET SDK 9
+      settings:
+        id: Microsoft.DotNet.SDK.9
+        source: winget
+        # NOTE: version is broken for this package

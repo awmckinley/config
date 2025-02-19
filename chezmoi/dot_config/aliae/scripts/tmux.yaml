@@ -1,0 +1,13 @@
+- value: |
+    # add tmux-menu bindings
+    bindkey -s '^[i' "tmux-menu
+    "
+    bindkey -s '^[u' "tmux-menu \$(tmux-mark u)
+    "
+    bindkey -s '^[e' "tmux-menu \$(tmux-mark e)
+    "
+    bindkey -s '^[o' "tmux-menu \$(tmux-mark o)
+    "
+    bindkey -s '^[a' "tmux-menu \$(tmux-mark a)
+    "
+  if: and (hasCommand "tmux-menu") (match .Shell "zsh")

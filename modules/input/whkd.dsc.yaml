@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: LGUG2Z.whkd
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install whkd
+      settings:
+        id: LGUG2Z.whkd
+        source: winget
+        version: '0.2.7'

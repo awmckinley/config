@@ -1,0 +1,3 @@
+- name: UV_LINK_MODE
+  value: copy
+  if: and (hasCommand "uv") (match .OS "windows")

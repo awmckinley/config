@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Google.Perfetto
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Perfetto
+      settings:
+        id: Google.Perfetto
+        source: winget
+        version: '34.0'

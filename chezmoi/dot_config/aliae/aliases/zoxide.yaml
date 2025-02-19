@@ -1,0 +1,12 @@
+- name: ..
+  value: z ..
+  if: hasCommand "zoxide"
+- name: ...
+  value: z ../..
+  if: hasCommand "zoxide"
+- name: ....
+  value: z ../../..
+  if: hasCommand "zoxide"
+- name: cd
+  value: gum log --level warn 'use z instead'
+  if: hasCommand "zoxide"

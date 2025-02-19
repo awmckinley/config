@@ -1,0 +1,13 @@
+awmckinley
+chezmoi
+fancyzones
+fetchurl
+nixfmt
+ntfs
+nushell
+nyxt
+pkgs
+shfmt
+ungoogled
+userprofile
+vhdx

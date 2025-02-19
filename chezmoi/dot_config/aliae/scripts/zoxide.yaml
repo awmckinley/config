@@ -1,0 +1,8 @@
+- value: |
+    # init zoxide
+    eval "$(zoxide init {{ .Shell }})"
+  if: and (hasCommand "zoxide") (match .Shell "bash" "zsh")
+- value: |
+    # init zoxide
+    zoxide init powershell | Out-String | Invoke-Expression
+  if: and (hasCommand "zoxide") (match .Shell "pwsh")

@@ -1,0 +1,3 @@
+- name: tail-cron
+  value: 'tail -f -n 35 {{ .Home }}/.local/share/cron.log'
+  if: hasCommand "tail"

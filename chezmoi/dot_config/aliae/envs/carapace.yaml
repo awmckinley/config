@@ -1,0 +1,6 @@
+- name: CARAPACE_BRIDGES
+  value: 'zsh,fish,bash,inshellisense'
+  if: and (hasCommand "carapace") (match .Shell "bash" "zsh")
+- name: CARAPACE_BRIDGES
+  value: 'zsh,fish,bash,inshellisense'
+  if: and (hasCommand "carapace") (match .Shell "pwsh")
