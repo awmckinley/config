@@ -2,7 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     # toolchain of the web
-    # replaces: dprint, Prettier
+    # replaces: dprint, Prettier, Putout
     biome
 
     # incredibly fast JavaScript runtime, bundler, transpiler and package manager
