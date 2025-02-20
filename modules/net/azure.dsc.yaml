@@ -31,14 +31,15 @@ properties:
         source: winget
         version: '4.0.6821'
 
+    # NOTE: use Azurite instead
     - id: Microsoft.Azure.StorageEmulator
       resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
         description: Install Azure Storage Emulator
       settings:
         id: Microsoft.Azure.StorageEmulator
+        ensure: absent
         source: winget
-        version: '5.10.19227.2113'
 
     - id: Microsoft.Azure.StorageExplorer
       resource: Microsoft.WinGet.DSC/WinGetPackage

@@ -10,5 +10,5 @@ properties:
         description: Install Visual Studio Code
       settings:
         id: Microsoft.VisualStudioCode
-        ensure: absent
         source: winget
+        version: '1.97.2'
