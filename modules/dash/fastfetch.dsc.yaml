@@ -11,4 +11,4 @@ properties:
       settings:
         id: Fastfetch-cli.Fastfetch
         source: winget
-        version: '2.36.1'
+        version: '2.37.0'

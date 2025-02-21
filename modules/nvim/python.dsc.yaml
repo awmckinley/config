@@ -11,7 +11,7 @@ properties:
       settings:
         id: astral-sh.ruff
         source: winget
-        version: '0.9.6'
+        version: '0.9.7'
 
     - id: astral-sh.uv
       resource: Microsoft.WinGet.DSC/WinGetPackage
@@ -20,7 +20,7 @@ properties:
       settings:
         id: astral-sh.uv
         source: winget
-        version: '0.6.0'
+        version: '0.6.2'
 
     - id: Python.Python.3.12
       resource: Microsoft.WinGet.DSC/WinGetPackage

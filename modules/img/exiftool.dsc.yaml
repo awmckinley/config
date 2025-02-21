@@ -20,4 +20,4 @@ properties:
       settings:
         id: OliverBetz.ExifTool
         source: winget
-        version: '13.10'
+        version: '13.19'

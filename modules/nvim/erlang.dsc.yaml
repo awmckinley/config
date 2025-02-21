@@ -11,4 +11,4 @@ properties:
       settings:
         id: Erlang.ErlangOTP
         source: winget
-        version: '27.2.2'
+        version: '27.2.4'

@@ -11,7 +11,7 @@ properties:
       settings:
         id: DenoLand.Deno
         source: winget
-        version: '2.1.10'
+        version: '2.2.0'
 
     - id: Oven-sh.Bun
       resource: Microsoft.WinGet.DSC/WinGetPackage

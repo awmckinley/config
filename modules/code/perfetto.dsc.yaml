@@ -11,4 +11,4 @@ properties:
       settings:
         id: Google.Perfetto
         source: winget
-        version: '34.0'
+        version: '49.0'

@@ -11,4 +11,4 @@ properties:
       settings:
         id: TailwindLabs.TailwindCSS
         source: winget
-        version: '4.0.6'
+        version: '4.0.7'

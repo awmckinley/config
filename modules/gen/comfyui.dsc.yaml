@@ -11,4 +11,4 @@ properties:
       settings:
         id: Comfy.ComfyUI-Desktop
         source: winget
-        version: '0.4.18'
+        version: '0.4.20'

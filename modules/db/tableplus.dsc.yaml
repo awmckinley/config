@@ -11,4 +11,4 @@ properties:
       settings:
         id: TablePlus.TablePlus
         source: winget
-        version: '6.2.4'
+        version: '6.3.2'

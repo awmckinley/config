@@ -12,4 +12,4 @@ properties:
       settings:
         id: Obsidian.Obsidian
         source: winget
-        version: '1.8.4'
+        version: '1.8.7'

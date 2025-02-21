@@ -29,4 +29,4 @@ properties:
       settings:
         id: Microsoft.DotNet.SDK.9
         source: winget
-        # NOTE: version is broken for this package
+        version: '9.0.200'

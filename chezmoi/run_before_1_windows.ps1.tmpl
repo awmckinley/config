@@ -253,7 +253,7 @@ if (Test-Path $chromiumShortcut) {
     $shell = New-Object -ComObject WScript.Shell
     $shortcut = $shell.CreateShortcut($chromiumShortcut)
     if ($shortcut.Arguments -NotMatch "--remote-debugging-port=9222") {
-        Write-Output "Modifying Edge shortcut"
+        Write-Output "Modifying Chromium shortcut"
         $shortcut.Arguments = "$($shortcut.Arguments) --remote-debugging-port=9222 -- `"%1`""
         $shortcut.Save()
         Write-Output ""

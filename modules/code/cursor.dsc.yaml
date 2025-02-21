@@ -11,4 +11,4 @@ properties:
       settings:
         id: Anysphere.Cursor
         source: winget
-        version: '0.45.11'
+        version: '0.45.14'

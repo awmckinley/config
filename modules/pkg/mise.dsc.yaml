@@ -11,4 +11,4 @@ properties:
       settings:
         id: jdx.mise
         source: winget
-        version: '2025.2.6'
+        version: '2025.2.7'

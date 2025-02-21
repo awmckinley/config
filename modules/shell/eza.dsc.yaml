@@ -11,4 +11,4 @@ properties:
       settings:
         id: eza-community.eza
         source: winget
-        version: '0.20.21'
+        version: '0.20.22'

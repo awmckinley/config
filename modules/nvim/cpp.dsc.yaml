@@ -20,7 +20,7 @@ properties:
       settings:
         id: Microsoft.VCRedist.2015+.x64
         source: winget
-        version: '14.42.34433.0'
+        version: '14.42.34438.0'
 
     - id: Microsoft.VCRedist.2015+.x86
       resource: Microsoft.WinGet.DSC/WinGetPackage
@@ -29,4 +29,4 @@ properties:
       settings:
         id: Microsoft.VCRedist.2015+.x86
         source: winget
-        version: '14.42.34433.0'
+        version: '14.42.34438.0'

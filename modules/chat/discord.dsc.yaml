@@ -11,7 +11,7 @@ properties:
       settings:
         id: Discord.Discord
         source: winget
-        version: '1.0.9182'
+        version: '1.0.9183'
 
     - id: OverlayedDev.Overlayed
       resource: Microsoft.WinGet.DSC/WinGetPackage

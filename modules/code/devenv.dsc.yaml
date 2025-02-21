@@ -11,7 +11,7 @@ properties:
       settings:
         id: Microsoft.VisualStudio.2022.Professional
         source: winget
-        version: '17.13.0'
+        # NOTE: allow Visual Studio Installer to manage versions
 
     - id: VSComponents
       resource: Microsoft.VisualStudio.DSC/VSComponents
