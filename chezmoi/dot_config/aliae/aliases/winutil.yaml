@@ -1,3 +1,4 @@
 - name: winutil
-  value: irm "https://christitus.com/win" | iex
+  type: function
+  value: Invoke-RestMethod "https://christitus.com/win" | Out-String | Invoke-Expression
   if: and (match .OS "windows") (match .Shell "pwsh")
