@@ -1,6 +1,7 @@
 {
   isDarwin,
   isLinux,
+  isWSL,
   lib,
   pkgs,
   ...
@@ -12,7 +13,7 @@
     "spacedrive"
   ];
 }
-// lib.optionalAttrs isLinux {
+// lib.optionalAttrs (isLinux && !isWSL) {
   environment.systemPackages = with pkgs; [
     # file manager powered by a virtual distributed filesystem
     spacedrive

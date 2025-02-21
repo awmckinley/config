@@ -1,6 +1,7 @@
 {
   isDarwin,
   isLinux,
+  isWSL,
   lib,
   ...
 }:
@@ -11,7 +12,7 @@
     "steam"
   ];
 }
-// lib.optionalAttrs isLinux {
+// lib.optionalAttrs (isLinux && !isWSL) {
   programs.steam = {
     # digital distribution platform
     enable = true;

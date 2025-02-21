@@ -1,6 +1,7 @@
 {
   isDarwin,
   isLinux,
+  isWSL,
   lib,
   pkgs,
   ...
@@ -12,7 +13,7 @@
     "pdfsam-basic"
   ];
 }
-// lib.optionalAttrs isLinux {
+// lib.optionalAttrs (isLinux && !isWSL) {
   environment.systemPackages = with pkgs; [
     # extracts pages, splits, merges, mixes and rotates PDF files
     pdfsam-basic

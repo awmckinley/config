@@ -1,6 +1,7 @@
 {
   isDarwin,
   isLinux,
+  isWSL,
   lib,
   pkgs,
   ...
@@ -12,7 +13,7 @@
       # AcoustID audio fingerprinting library
       chromaprint
     ]
-    ++ lib.optionals isLinux [
+    ++ lib.optionals (isLinux && !isWSL) [
       # official MusicBrainz tagger
       picard
     ];

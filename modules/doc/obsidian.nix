@@ -1,6 +1,7 @@
 {
   isDarwin,
   isLinux,
+  isWSL,
   lib,
   pkgs,
   ...
@@ -18,7 +19,7 @@
     "Actions For Obsidian" = 1659667937;
   };
 }
-// lib.optionalAttrs isLinux {
+// lib.optionalAttrs (isLinux && !isWSL) {
   environment.systemPackages = with pkgs; [
     # knowledge base that works on top of a local folder of plain text files
     # replaces: Diarium

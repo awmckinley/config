@@ -2,6 +2,7 @@
   inputs,
   isDarwin,
   isLinux,
+  isWSL,
   lib,
   pkgs,
   pkgsUnstable,
@@ -14,7 +15,7 @@
     "structuredlogviewer"
   ];
 }
-// lib.optionalAttrs isLinux {
+// lib.optionalAttrs (isLinux && !isWSL) {
   environment.systemPackages = [
     # rich interactive log viewer for MSBuild logs
     pkgsUnstable.msbuild-structured-log-viewer

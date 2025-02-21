@@ -1,6 +1,7 @@
 {
   isDarwin,
   isLinux,
+  isWSL,
   lib,
   pkgs,
   ...
@@ -12,7 +13,7 @@
       # Keybase official command-line utility and service
       keybase
     ]
-    ++ lib.optionals isLinux [
+    ++ lib.optionals (isLinux && !isWSL) [
       # Keybase official GUI
       keybase-gui
     ];

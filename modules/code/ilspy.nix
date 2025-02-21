@@ -1,6 +1,7 @@
 {
   isDarwin,
   isLinux,
+  isWSL,
   lib,
   pkgs,
   ...
@@ -12,7 +13,7 @@
       # tool for decompiling .NET assemblies and generating portable PDBs
       ilspycmd
     ]
-    ++ lib.optionals isLinux [
+    ++ lib.optionals (isLinux && !isWSL) [
       # .NET assembly browser and decompiler
       avalonia-ilspy
     ];

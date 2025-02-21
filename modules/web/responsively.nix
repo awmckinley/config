@@ -1,6 +1,7 @@
 {
   isDarwin,
   isLinux,
+  isWSL,
   lib,
   pkgsUnstable,
   ...
@@ -13,7 +14,7 @@
     "responsively"
   ];
 }
-// lib.optionalAttrs isLinux {
+// lib.optionalAttrs (isLinux && !isWSL) {
   environment.systemPackages = [
     # browser that helps in responsive web development
     # replaces: Blisk, Polypane, Sizzy
