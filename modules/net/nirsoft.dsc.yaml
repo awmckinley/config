@@ -46,8 +46,8 @@ properties:
         description: Install BlueScreenView
       settings:
         id: NirSoft.BlueScreenView
+        ensure: absent
         source: winget
-        version: '1.55'
 
     - id: NirSoft.CSVFileView
       resource: Microsoft.WinGet.DSC/WinGetPackage
@@ -82,8 +82,8 @@ properties:
         description: Install DownTester
       settings:
         id: NirSoft.DownTester
+        ensure: absent
         source: winget
-        version: '1.30'
 
     - id: NirSoft.FullEventLogView
       resource: Microsoft.WinGet.DSC/WinGetPackage
@@ -109,8 +109,8 @@ properties:
         description: Install IPNetInfo
       settings:
         id: NirSoft.IPNetInfo
+        ensure: absent
         source: winget
-        version: '1.95'
 
     - id: NirSoft.InsideClipboard
       resource: Microsoft.WinGet.DSC/WinGetPackage
@@ -145,8 +145,8 @@ properties:
         description: Install NK2Edit
       settings:
         id: NirSoft.NK2Edit
+        ensure: absent
         source: winget
-        version: '3.46'
 
     - id: NirSoft.NetBScanner
       resource: Microsoft.WinGet.DSC/WinGetPackage
@@ -226,8 +226,8 @@ properties:
         description: Install ShellExView
       settings:
         id: NirSoft.ShellExView
+        ensure: absent
         source: winget
-        version: '2.01'
 
     - id: NirSoft.SimpleProgramDebugger
       resource: Microsoft.WinGet.DSC/WinGetPackage
@@ -289,8 +289,8 @@ properties:
         description: Install WhoisThisDomain
       settings:
         id: NirSoft.WhoisThisDomain
+        ensure: absent
         source: winget
-        version: '2.46'
 
     - id: NirSoft.WifiInfoView
       resource: Microsoft.WinGet.DSC/WinGetPackage
