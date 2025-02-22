@@ -10,7 +10,6 @@ _: {
     ./hurl.nix
     ./hxn.nix
     ./mullvad.nix
-    ./phantomjs.nix
     ./responsively.nix
     ./safari.nix
     ./thorium.nix
