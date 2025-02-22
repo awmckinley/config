@@ -225,7 +225,7 @@ in
         # exposes an API that allows other extensions to download files
         mindaro-dev.file-downloader
 
-        # create, duplicate, move, rename and delete files and directories
+        # create, duplicate, move, rename, and delete files and directories
         sleistner.vscode-fileutils
 
         # linting support for Python files using Flake8
@@ -365,6 +365,9 @@ in
         # extract a filepath from the current cursor position
         fr43nk.seito-openfile
 
+        # manage Parallels Desktop virtual machines, snapshots, and containers
+        parallelsdesktop.parallels-desktop
+
         # paste image from clipboard
         mushan.vscode-paste-image
 
@@ -380,7 +383,7 @@ in
         # run Playwright Test tests
         ms-playwright.playwright
 
-        # develop PowerShell modules, commands and scripts
+        # develop PowerShell modules, commands, and scripts
         ms-vscode.powershell
 
         # make TypeScript errors prettier and more human-readable
