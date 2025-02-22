@@ -539,6 +539,8 @@ in
             "scope" = "user";
           };
         };
+        "dotnetAcquisitionExtension.enableTelemetry" = true;
+        "dotnetAcquisitionExtension.sharedExistingDotnetPath" = "/opt/homebrew/bin/dotnet";
         "editor.formatOnSave" = false;
         "extensions.experimental.affinity" = {
           "asvetliakov.vscode-neovim" = 1;

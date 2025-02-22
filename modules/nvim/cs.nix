@@ -11,6 +11,9 @@
   homebrew.casks = [
     # .NET SDK
     "dotnet"
+    "isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400"
+    "isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-400"
+    "isen-ng/dotnet-sdk-versions/dotnet-sdk8-0-400"
     "isen-ng/dotnet-sdk-versions/dotnet-sdk9-0-200"
   ];
 }
