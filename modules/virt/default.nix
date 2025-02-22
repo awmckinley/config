@@ -6,5 +6,6 @@ _: {
     ./helm.nix
     ./kubectl.nix
     ./lazydocker.nix
+    ./parallels.nix
   ];
 }
