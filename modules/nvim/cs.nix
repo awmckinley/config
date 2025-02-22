@@ -11,7 +11,7 @@
   homebrew.casks = [
     # .NET SDK
     "dotnet"
-    "isen-ng/dotnet-sdk-versions/dotnet-sdk9-0-100"
+    "isen-ng/dotnet-sdk-versions/dotnet-sdk9-0-200"
   ];
 }
 // lib.optionalAttrs isLinux {
