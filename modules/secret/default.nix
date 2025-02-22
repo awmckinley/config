@@ -1,7 +1,6 @@
 { ... }:
 {
   imports = [
-    ./authy.nix
     ./doppler.nix
     ./mkcert.nix
     ./op.nix
