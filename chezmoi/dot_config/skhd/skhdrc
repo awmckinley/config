@@ -9,14 +9,14 @@
 f20 : sketchybar --trigger skhd_mode MODE=NORMAL
 
 #
-# wm mode "mehlock"
+# wm mode
 #
 
 # on_enter wm mode
 :: wm @ : skhd -k "f20"
 
 # enter wm mode
-meh-space ; wm
+alt + ctrl - b ; wm
 
 # leave wm mode
 wm < escape ; default
@@ -29,11 +29,11 @@ wm < f20 : sketchybar --trigger skhd_mode MODE=WINDOW
 #
 
 # reload configs
-meh - r : desktop-reload
+alt + ctrl - r : desktop-reload
 wm < r : desktop-reload
 
 # lock screen
-meh - z : skhd -k "cmd + ctrl - q"
+alt + ctrl - z : skhd -k "cmd + ctrl - q"
 wm < z : skhd -k "escape"; skhd -k "cmd + ctrl - q"
 
 #
@@ -44,7 +44,7 @@ wm < z : skhd -k "escape"; skhd -k "cmd + ctrl - q"
 .load "skhdrc.disable"
 
 # browser hotkeys
-.load "skhdrc.browser.firefox"
+.load "skhdrc.browser.safari"
 
 # launcher hotkeys
 .load "skhdrc.launcher.raycast"

@@ -3,5 +3,5 @@
 #
 
 # open WezTerm
-meh - return : open -na /Applications/WezTerm.app
+alt + ctrl - return : open -na /Applications/WezTerm.app
 wm < return : skhd -k "escape"; open -na /Applications/WezTerm.app

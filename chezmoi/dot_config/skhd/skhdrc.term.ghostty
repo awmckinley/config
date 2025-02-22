@@ -3,5 +3,5 @@
 #
 
 # open Ghostty
-meh - return : open -na /Applications/Ghostty.app
+alt + ctrl - return : open -na /Applications/Ghostty.app
 wm < return : skhd -k "escape"; open -na /Applications/Ghostty.app
