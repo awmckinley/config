@@ -1,5 +1,6 @@
 {
   inputs,
+  isDarwin,
   isLinux,
   isWSL,
   lib,
@@ -7,6 +8,7 @@
   ...
 }:
 let
+  homeDir = if isDarwin then "/Users/adam" else "/home/adam";
   vscode-extensions = inputs.vscode-extensions.extensions.${pkgs.system};
 in
 {
@@ -542,6 +544,10 @@ in
           "asvetliakov.vscode-neovim" = 1;
         };
         "extensions.ignoreRecommendations" = true;
+        "parallels-desktop.brew.path" = "/opt/homebrew/bin/brew";
+        "parallels-desktop.extension.path" = (homeDir + "/.parallels-desktop-vscode");
+        "parallels-desktop.git.path" = "/run/current-system/sw/bin/git";
+        "parallels-desktop.prlctl.path" = "/usr/local/bin/prlctl";
         "telemetry.telemetryLevel" = "off";
         "update.showReleaseNotes" = false;
         "workbench.startupEditor" = "none";

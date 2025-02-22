@@ -7,8 +7,8 @@
   ...
 }:
 let
-  home = if isDarwin then "/Users/adam" else "/home/adam";
-  downloads = "${home}/Downloads";
+  homeDir = if isDarwin then "/Users/adam" else "/home/adam";
+  downloads = "${homeDir}/Downloads";
 in
 {
   home-manager.users.adam = import ./home.nix;
@@ -18,7 +18,7 @@ in
     {
       createHome = true;
       description = "Adam McKinley";
-      home = home;
+      home = homeDir;
     }
     // lib.optionalAttrs isDarwin {
       shell = pkgs.zsh;
