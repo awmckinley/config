@@ -50,7 +50,7 @@ wm < z : skhd -k "escape"; skhd -k "cmd + ctrl - q"
 .load "skhdrc.launcher.raycast"
 
 # terminal hotkeys
-.load "skhdrc.term.wezterm"
+.load "skhdrc.term.ghostty"
 
 # wm hotkeys
 .load "skhdrc.wm.aerospace"
