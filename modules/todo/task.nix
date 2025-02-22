@@ -5,9 +5,6 @@
     # replaces: todoman, ultralist
     taskwarrior3
 
-    # sync Github, Bitbucket, Bugzilla, and Trac issues with Taskwarrior
-    python311Packages.bugwarrior
-
     # REPL for Taskwarrior
     tasksh
 
