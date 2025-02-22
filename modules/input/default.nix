@@ -4,7 +4,6 @@ _: {
     ./key-codes.nix
     ./keyboardcleantool.nix
     ./keycastr.nix
-    ./qmk.nix
     ./shortcat.nix
     ./skhd.nix
     ./snippety.nix
