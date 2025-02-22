@@ -18,7 +18,7 @@ return {
 			vendors = {
 				---@type AvanteProvider
 				ollama = {
-					["local"] = true,
+					api_key_name = "ollama",
 					endpoint = "127.0.0.1:11434/v1",
 					model = "codegemma",
 					parse_curl_args = function(opts, code_opts)
