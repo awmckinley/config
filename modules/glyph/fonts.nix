@@ -70,7 +70,7 @@
           # release: 2015-01-10
           gohufont
 
-          # coding font with alternates, ligatures and contextual positioning
+          # coding font with alternates, ligatures, and contextual positioning
           # release: 2015-04-02
           monoid
 
@@ -125,6 +125,10 @@
           # set of fixed-width screen fonts that are designed for code listings
           # release: 2018-12-10
           proggyfonts
+
+          # typeface designed to offer greater legibility and readability
+          # release: 2019
+          atkinson-hyperlegible
 
           # typeface made for developers
           # release: 2019-03-01
