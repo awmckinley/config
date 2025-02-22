@@ -19,12 +19,15 @@ in
       createHome = true;
       description = "Adam McKinley";
       home = home;
-      shell = pkgs.bashInteractive;
+    }
+    // lib.optionalAttrs isDarwin {
+      shell = pkgs.zsh;
     }
     // lib.optionalAttrs isLinux {
       group = "users";
       isNormalUser = true;
       isSystemUser = false;
+      shell = pkgs.bashInteractive;
 
       # if false, sets shell to nologin
       useDefaultShell = true;
