@@ -32,13 +32,15 @@ fi
 
 # Xcode: accept and update
 if command -v xcodebuild >/dev/null 2>&1; then
-	echo 'Accept Xcode license'
-	sudo xcodebuild -license
-	echo ''
+	if ! xcodebuild -checkFirstLaunchStatus; then
+		echo 'Accept Xcode license'
+		sudo xcodebuild -license
+		echo ''
 
-	echo 'Update system content'
-	xcodebuild -runFirstLaunch
-	echo ''
+		echo 'Update system content'
+		xcodebuild -runFirstLaunch
+		echo ''
+	fi
 fi
 
 # Rosetta: install
