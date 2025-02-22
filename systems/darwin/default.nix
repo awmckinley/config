@@ -7,7 +7,6 @@
 {
   imports = [
     inputs.base16.nixosModule
-    inputs.determinate.darwinModules.default
     inputs.home-manager.darwinModules.home-manager
     ../../modules
   ];
@@ -36,9 +35,6 @@
 
   # use touch ID for sudo
   security.pam.enableSudoTouchIdAuth = true;
-
-  # enable nix-daemon
-  services.nix-daemon.enable = true;
 
   system = {
     activationScripts.postUserActivation.text = ''

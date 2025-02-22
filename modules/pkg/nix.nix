@@ -14,9 +14,12 @@
   ];
 
   nix = {
+    # nix-darwin needs this to be false
+    enable = isLinux;
+
     # use garbage collection
     gc = {
-      automatic = true;
+      automatic = isLinux;
       options = "--delete-older-than 7d";
     };
 

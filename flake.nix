@@ -8,8 +8,8 @@
     };
 
     darwin = {
-      url = "github:LnL7/nix-darwin?rev=57733bd1dc81900e13438e5b4439239f1b29db0e";
-      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:LnL7/nix-darwin?rev=6ab392f626a19f1122d1955c401286e1b7cf6b53";
+      inputs.nixpkgs.follows = "nixpkgs-unstable";
     };
 
     determinate = {
@@ -38,8 +38,8 @@
     };
 
     home-manager = {
-      url = "https://flakehub.com/f/nix-community/home-manager/0.2411.3879";
-      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:nix-community/home-manager?rev=148a6b55651ac794f5c20bbd76780b4d8fed4334";
+      inputs.nixpkgs.follows = "nixpkgs-unstable";
     };
 
     nixos-wsl = {
@@ -50,8 +50,8 @@
       };
     };
 
-    nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.2411.714287";
-    nixpkgs-unstable.url = "https://flakehub.com/f/DeterminateSystems/nixpkgs-weekly/0.1.750627";
+    nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.2411.714685";
+    nixpkgs-unstable.url = "https://flakehub.com/f/DeterminateSystems/nixpkgs-weekly/0.1.754508";
     nur.url = "github:nix-community/NUR?rev=6d40a1f2e2fe9e912497232558012e72ff862897";
     systems.url = "github:nix-systems/default?rev=da67096a3b9bf56a91d16901293e51ba5b49a27e";
 
@@ -122,24 +122,25 @@
             remoteDesktop = false;
           };
         };
-      };
 
-      nixosConfigurations = {
-        molybdenum = nixpkgs.lib.nixosSystem rec {
-          system = "x86_64-linux";
+        molybdenum = darwin.lib.darwinSystem rec {
+          system = "aarch64-darwin";
           modules = [
             ./hosts/molybdenum
           ];
           specialArgs = {
             inherit inputs;
-            isDarwin = false;
-            isLinux = true;
+            desktop = "aerospace";
+            isDarwin = true;
+            isLinux = false;
             isWSL = false;
             pkgsUnstable = nixpkgs-unstable.legacyPackages.${system};
-            remoteDesktop = true;
+            remoteDesktop = false;
           };
         };
+      };
 
+      nixosConfigurations = {
         niobium = nixpkgs.lib.nixosSystem rec {
           system = "x86_64-linux";
           modules = [
