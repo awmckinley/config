@@ -5,7 +5,7 @@ export GIT_TREE_DIR="$(git rev-parse --show-toplevel 2>/dev/null)"
 export TASK_CONTEXT="$(basename "${PWD}" | tr '[:upper:]' '[:lower:]')"
 
 # Tasks
-if test -n "${TASK_CONTEXT}"; then
+if test -n "${DIRENV_TASK}" && test -n "${TASK_CONTEXT}"; then
 	if test "${TASK_CONTEXT}" = 'bucket'; then
 		task waiting
 	else
