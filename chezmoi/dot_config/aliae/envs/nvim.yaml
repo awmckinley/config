@@ -1,6 +1,12 @@
 - name: EDITOR
   value: nvim
   if: hasCommand "nvim"
+- name: OBSIDIAN_VAULT_NAME
+  value: commonplace
+  if: hasCommand "nvim"
+- name: OBSIDIAN_VAULT_PATH
+  value: '{{ .Home }}/Crypt/notes/commonplace'
+  if: hasCommand "nvim"
 - name: VISUAL
   value: nvim
   if: hasCommand "nvim"
