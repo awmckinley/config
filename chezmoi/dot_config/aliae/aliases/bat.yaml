@@ -1,3 +1,4 @@
 - name: cat
+  type: function
   value: gum log --level warn 'use bat instead'
   if: hasCommand "bat"

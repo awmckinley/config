@@ -1,3 +1,4 @@
 - name: rm
+  type: function
   value: gum log --level warn 'use trash instead'
   if: hasCommand "trash"

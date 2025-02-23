@@ -1,12 +1,16 @@
 - name: ..
+  type: function
   value: z ..
   if: hasCommand "zoxide"
 - name: ...
+  type: function
   value: z ../..
   if: hasCommand "zoxide"
 - name: ....
+  type: function
   value: z ../../..
   if: hasCommand "zoxide"
 - name: cd
+  type: function
   value: gum log --level warn 'use z instead'
   if: hasCommand "zoxide"

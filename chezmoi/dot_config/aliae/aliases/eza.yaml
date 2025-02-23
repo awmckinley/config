@@ -215,6 +215,7 @@
   value: eza --group --header --group-directories-first --oneline --icons --only-dirs
   if: hasCommand "eza"
 - name: ls
+  type: function
   value: gum log --level warn 'use eza instead'
   if: hasCommand "eza"
 - name: lt
