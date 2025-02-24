@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#
+# Runs when Taskwarrior exits.
+#
+# https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/scripts/hooks/on-exit
+#
+# NOTE: purged tasks are not included
+
+# count modified tasks
+n=0
+while read -r _modified_task; do
+	n=$((n + 1))
+done
+
+# export and push
+if test "$n" -gt 0; then
+	echo "$n modified tasks"
+	pushd "${HOME}/Crypt/home/task" >/dev/null || exit
+	just export
+	popd >/dev/null || exit
+fi

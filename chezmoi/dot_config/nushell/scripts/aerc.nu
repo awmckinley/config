@@ -30,7 +30,7 @@ folder-map         = ~/.config/aerc/gmail.map
 from               = \"(name $account)\" <(address $account)>
 outgoing           = /usr/bin/sendmail
 postpone           = \"[Gmail].Drafts\"
-source             = maildir://($nu.home-path)/Maildir/(domain $account)/(local $account)/"
+source             = maildir://($nu.home-path)/Crypt/home/mail/(domain $account)/(local $account)/"
 }
 
 def spectrum-item [account] {
@@ -45,7 +45,7 @@ folder-map         = ~/.config/aerc/spectrum.map
 from               = \"(name $account)\" <(address $account)>
 outgoing           = /usr/bin/sendmail
 postpone           = \"Drafts\"
-source             = maildir://($nu.home-path)/Maildir/(domain $account)/(local $account)/"
+source             = maildir://($nu.home-path)/Crypt/home/mail/(domain $account)/(local $account)/"
 }
 
 def yahoo-item [account] {
@@ -58,7 +58,7 @@ folder-map         = ~/.config/aerc/yahoo.map
 from               = \"(name $account)\" <(address $account)>
 outgoing           = /usr/bin/sendmail
 postpone           = \"Draft\"
-source             = maildir://($nu.home-path)/Maildir/(domain $account)/(local $account)/"
+source             = maildir://($nu.home-path)/Crypt/home/mail/(domain $account)/(local $account)/"
 }
 
 def zohomail-item [account] {
@@ -70,7 +70,7 @@ folders-sort       = INBOX,Sent,Drafts,Archive,Spam,Trash
 folder-map         = ~/.config/aerc/zohomail.map
 from               = \"(name $account)\" <(address $account)>
 outgoing           = /usr/bin/sendmail
-source             = maildir://($nu.home-path)/Maildir/(domain $account)/(local $account)/"
+source             = maildir://($nu.home-path)/Crypt/home/mail/(domain $account)/(local $account)/"
 }
 
 export def aerc-aliases [profiles] {
@@ -84,11 +84,11 @@ export def aerc-config [accounts] {
 check-mail-cmd     = NOTMUCH_PROFILE=(profile $account0) notmuch new
 check-mail-timeout = 90s
 from               = \"(name $account0)\" <(address $account0)>
-source             = notmuch://($nu.home-path)/Maildir/notmuch/(profile $account0)/
+source             = notmuch://($nu.home-path)/Crypt/home/mail/notmuch/(profile $account0)/
 
 ($accounts | each { |account| aerc-item $account } | str join "\n")
 
 [offline]
 from   = \"(name $account0)\" <(address $account0)>
-source = maildir://($nu.home-path)/Maildir/localhost/(profile $account0)/"
+source = maildir://($nu.home-path)/Crypt/home/mail/localhost/(profile $account0)/"
 }

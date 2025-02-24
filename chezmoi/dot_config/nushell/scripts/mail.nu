@@ -21,7 +21,7 @@ export def local [account] {
 }
 
 export def maildir [account] {
-	$"($nu.home-path)/Maildir/(domain $account)/(local $account)"
+	$"($nu.home-path)/Crypt/home/mail/(domain $account)/(local $account)"
 }
 
 export def name [account] {

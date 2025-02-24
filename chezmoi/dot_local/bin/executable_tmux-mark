@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#
+# Print marked project.
+
+set -o errexit  # exit if any command fails
+set -o nounset  # prevent using an undefined variable
+set -o pipefail # pipelines fail early
+IFS=$'\n\t'
+
+# name arguments
+mark="${1:-}"
+
+# validate arguments
+if test "$mark" = ''; then
+	printf 'Usage: %s <mark>\n' "$(basename "$0")" >&2
+	exit 1
+fi
+
+case "$mark" in
+4)
+	echo 'Crypt/home/mail'
+	;;
+
+*)
+	# fallback
+	echo 'Code'
+	;;
+esac
