@@ -4,6 +4,7 @@ properties:
   configurationVersion: 0.2.0
   resources:
 
+    # replaces: Beets
     - id: MusicBrainz.Picard
       resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:

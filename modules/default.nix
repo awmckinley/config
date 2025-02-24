@@ -1,11 +1,13 @@
 _: {
   imports = [
+    ./apple
     ./audio
     ./chat
     ./code
     ./color
     ./dash
     ./db
+    ./diff
     ./disk
     ./doc
     ./ftcs
@@ -17,6 +19,7 @@ _: {
     ./itauto
     ./mail
     ./media
+    ./musiclib
     ./net
     ./nvim
     ./pkg

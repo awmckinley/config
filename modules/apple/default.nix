@@ -8,4 +8,8 @@
     # everything developers need to create great applications
     "Xcode" = 497799835;
   };
+
+  setapp.apps = {
+    "AppWage" = 711;
+  };
 }
