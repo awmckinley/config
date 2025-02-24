@@ -135,7 +135,7 @@
             isLinux = false;
             isWSL = false;
             pkgsUnstable = nixpkgs-unstable.legacyPackages.${system};
-            remoteDesktop = false;
+            remoteDesktop = true;
           };
         };
       };
