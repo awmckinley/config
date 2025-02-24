@@ -3,7 +3,6 @@
   imports = [
     ./balenaetcher.nix
     ./cleanmymac.nix
-    ./cryptomator.nix
     ./daisydisk.nix
     ./dua.nix
     ./dupeguru.nix
