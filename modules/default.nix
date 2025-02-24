@@ -36,6 +36,7 @@ _: {
     ./videoconf
     ./virt
     ./web
+    ./webmon
     ./wm
   ];
 }
