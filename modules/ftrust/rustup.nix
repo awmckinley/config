@@ -4,17 +4,11 @@
     # downloads your Rust project's dependencies and builds your project
     cargo
 
-    # check and apply updates to installed executables
-    cargo-update
-
-    # graph visualization tools
+    # cargo dependencies
     graphviz
 
-    # next-generation high-performance debugger
-    lldb
-
-    # modular compiler frontend for the Rust language
-    rust-analyzer
+    # check and apply updates to installed executables
+    cargo-update
 
     # safe, concurrent, practical language
     rustc
