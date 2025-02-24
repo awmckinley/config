@@ -14,6 +14,7 @@ _: {
     ./glyph
     ./img
     ./input
+    ./it
     ./mail
     ./media
     ./net

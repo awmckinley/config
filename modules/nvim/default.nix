@@ -3,7 +3,6 @@ _: {
     ./amber.nix
     ./bicep.nix
     ./clojure.nix
-    ./cs.nix
     ./d2.nix
     ./elixir.nix
     ./english.nix
