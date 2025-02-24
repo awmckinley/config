@@ -1,0 +1,34 @@
+{
+    "[csharp]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    },
+    "cSpell.customDictionaries": {
+        "custom": {
+            "addWords": true,
+            "name": "custom",
+            "path": "~/.config/words.txt",
+            "scope": "user"
+        }
+    },
+    "deno.enable": false,
+    "dotnetAcquisitionExtension.enableTelemetry": true,
+    "dotnetAcquisitionExtension.sharedExistingDotnetPath": "/opt/homebrew/bin/dotnet",
+    "editor.formatOnSave": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "extensions.ignoreRecommendations": true,
+    "parallels-desktop.brew.path": "/opt/homebrew/bin/brew",
+    "parallels-desktop.extension.path": "/Users/adam/.parallels-desktop-vscode",
+    "parallels-desktop.git.path": "/run/current-system/sw/bin/git",
+    "parallels-desktop.prlctl.path": "/usr/local/bin/prlctl",
+    "powershell.powerShellAdditionalExePaths": {
+        "Nix": "/run/current-system/sw/bin/pwsh"
+    },
+    "python.defaultInterpreterPath": "/run/current-system/sw/bin/python3.12",
+    "redhat.telemetry.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "update.showReleaseNotes": false,
+    "workbench.startupEditor": "none"
+}

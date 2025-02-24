@@ -9,3 +9,7 @@ indent_style = space
 
 [.vsconfig]
 insert_final_newline = false
+
+[chezmoi/.chezmoitemplates/code/*.json]
+indent_size = 4
+indent_style = space

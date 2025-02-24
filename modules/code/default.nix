@@ -3,6 +3,7 @@ _: {
     ./010-editor.nix
     ./bazel.nix
     ./cloc.nix
+    ./code.nix
     ./cursor.nix
     ./exercism.nix
     ./extism.nix
