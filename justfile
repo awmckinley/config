@@ -19,6 +19,11 @@ boot: (_machine "boot")
 [group("nix")]
 build: (_machine "build")
 
+[doc("delete old generations")]
+[group("nix")]
+clean:
+    @nix-collect-garbage -d; sudo nix-collect-garbage -d
+
 [doc("diff target and destination states")]
 [group("chezmoi")]
 diff:
