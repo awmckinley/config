@@ -116,6 +116,17 @@ def init-goimapnotify [] {
 {{ end }}
 }
 
+def init-gozip [] {
+	if (which gozip) != [] {
+		return
+	}
+
+	prereq-go
+	print "Install gozip"
+	go install github.com/sanderhahn/gozip/cmd/gozip@latest
+	print ""
+}
+
 def init-komorebi [] {
 	if (which komorebic) != [] {
 		komorebic enable-autostart --config $"($nu.home-path)/.config/komorebi/komorebi.json" --bar --whkd
@@ -229,6 +240,7 @@ def main [] {
 	init-dotnet
 	init-git
 	init-goimapnotify
+	init-gozip
 	init-komorebi
 	init-mani
 	init-mbsync
