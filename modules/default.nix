@@ -8,6 +8,7 @@ _: {
     ./db
     ./disk
     ./doc
+    ./ftcs
     ./game
     ./gen
     ./glyph
