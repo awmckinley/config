@@ -23,6 +23,7 @@ _: {
     ./secret
     ./shell
     ./svc
+    ./sysopt
     ./term
     ./todo
     ./vc
