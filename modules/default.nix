@@ -14,7 +14,7 @@ _: {
     ./glyph
     ./img
     ./input
-    ./it
+    ./itauto
     ./mail
     ./media
     ./net
@@ -26,6 +26,7 @@ _: {
     ./sysopt
     ./term
     ./todo
+    ./uiauto
     ./vc
     ./vdir
     ./virt
