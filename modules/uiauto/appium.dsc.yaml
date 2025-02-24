@@ -4,11 +4,11 @@ properties:
   configurationVersion: 0.2.0
   resources:
 
-    - id: JSFoundation.Appium
+    - id: AppiumDevelopers.AppiumInspector
       resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
-        description: Install Appium
+        description: Install Appium Inspector
       settings:
-        id: JSFoundation.Appium
+        id: AppiumDevelopers.AppiumInspector
         source: winget
-        version: '1.22.3'
+        version: '2023.12.2.20231220.2'
