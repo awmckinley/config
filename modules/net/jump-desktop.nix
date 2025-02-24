@@ -6,10 +6,8 @@
 }:
 { }
 // lib.optionalAttrs isDarwin {
-  setapp.apps = {
-    # remote desktop application
-    # replaces: RustDesk
-    "Jump Desktop" = 75;
+  homebrew.masApps = {
+    "Jump Desktop" = 524141863;
   };
 }
 // lib.optionalAttrs (isDarwin && remoteDesktop) {
