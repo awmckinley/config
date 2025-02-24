@@ -4,6 +4,7 @@ properties:
   configurationVersion: 0.2.0
   resources:
 
+    # replaces: 7-Zip
     - id: M2Team.NanaZip
       resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:

@@ -26,6 +26,7 @@ function Add-Resources {
 }
 
 # add all resources from DSC files
+Add-Resources -File modules\archive\default.dsc.yaml
 Add-Resources -File modules\audio\buzz.dsc.yaml
 Add-Resources -File modules\audio\eartrumpet.dsc.yaml
 Add-Resources -File modules\chat\discord.dsc.yaml
@@ -71,7 +72,6 @@ Add-Resources -File modules\disk\everything.dsc.yaml
 Add-Resources -File modules\disk\files.dsc.yaml
 Add-Resources -File modules\disk\link-shell-extension.dsc.yaml
 Add-Resources -File modules\disk\lockhunter.dsc.yaml
-Add-Resources -File modules\disk\nanazip.dsc.yaml
 Add-Resources -File modules\disk\nilesoft-shell.dsc.yaml
 Add-Resources -File modules\disk\quicklook.dsc.yaml
 Add-Resources -File modules\disk\spacedrive.dsc.yaml
