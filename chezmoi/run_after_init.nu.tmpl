@@ -96,6 +96,11 @@ def init-darkman [] {
 	}
 }
 
+def init-dotnet [] {
+	# TODO: dotnet dev-certs https --trust
+	sudo dotnet workload update
+}
+
 def init-git [] {
 	# configure chezmoi git repo
 	cd "{{ .chezmoi.sourceDir }}"
@@ -221,6 +226,7 @@ def main [] {
 	init-cargo
 	init-committed
 	init-darkman
+	init-dotnet
 	init-git
 	init-goimapnotify
 	init-komorebi
