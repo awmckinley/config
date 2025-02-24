@@ -68,18 +68,6 @@ def init-bootdev [] {
 {{ end }}
 }
 
-def init-burntcookie [] {
-{{ if eq .chezmoi.os "darwin" }}
-	if (which burntcookie) != [] {
-		return
-	}
-
-	print "Install burntcookie"
-	cargo install --git https://github.com/horrorho/burnt-cookie.git
-	print ""
-{{ end }}
-}
-
 def init-cargo [] {
 	if (which cargo) == [] {
 		return
@@ -230,7 +218,6 @@ def main [] {
 	init-az
 	init-bat
 	init-bootdev
-	init-burntcookie
 	init-cargo
 	init-committed
 	init-darkman
