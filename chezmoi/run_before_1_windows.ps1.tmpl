@@ -26,17 +26,15 @@ function Add-Resources {
 }
 
 # add all resources from DSC files
-Add-Resources -File modules\archive\default.dsc.yaml
+Add-Resources -File modules\archive\nanazip.dsc.yaml
 Add-Resources -File modules\audio\buzz.dsc.yaml
 Add-Resources -File modules\audio\eartrumpet.dsc.yaml
 Add-Resources -File modules\chat\discord.dsc.yaml
 Add-Resources -File modules\chat\keybase.dsc.yaml
 Add-Resources -File modules\chat\slack.dsc.yaml
 Add-Resources -File modules\chat\teams.dsc.yaml
-Add-Resources -File modules\chat\zoom.dsc.yaml
 Add-Resources -File modules\code\010-editor.dsc.yaml
 Add-Resources -File modules\code\bazel.dsc.yaml
-Add-Resources -File modules\code\bcomp.dsc.yaml
 Add-Resources -File modules\code\cloc.dsc.yaml
 Add-Resources -File modules\code\code.dsc.yaml
 Add-Resources -File modules\code\cursor.dsc.yaml
@@ -57,7 +55,6 @@ Add-Resources -File modules\code\tauri.dsc.yaml
 Add-Resources -File modules\code\tldr.dsc.yaml
 Add-Resources -File modules\code\vim.dsc.yaml
 Add-Resources -File modules\code\zeal.dsc.yaml
-Add-Resources -File modules\dash\btm.dsc.yaml
 Add-Resources -File modules\dash\fastfetch.dsc.yaml
 Add-Resources -File modules\dash\hwinfo.dsc.yaml
 Add-Resources -File modules\dash\perfview.dsc.yaml
@@ -65,6 +62,7 @@ Add-Resources -File modules\dash\procs.dsc.yaml
 Add-Resources -File modules\db\heidisql.dsc.yaml
 Add-Resources -File modules\db\ssms.dsc.yaml
 Add-Resources -File modules\db\tableplus.dsc.yaml
+Add-Resources -File modules\diff\bcomp.dsc.yaml
 Add-Resources -File modules\disk\balenaetcher.dsc.yaml
 Add-Resources -File modules\disk\dua.dsc.yaml
 Add-Resources -File modules\disk\dupeguru.dsc.yaml
@@ -91,7 +89,7 @@ Add-Resources -File modules\doc\pdfsam.dsc.yaml
 Add-Resources -File modules\doc\readest.dsc.yaml
 Add-Resources -File modules\doc\saladict.dsc.yaml
 Add-Resources -File modules\doc\sumatrapdf.dsc.yaml
-Add-Resources -File modules\ftcs\default.dsc.yaml
+Add-Resources -File modules\ftcs\dotnet.dsc.yaml
 Add-Resources -File modules\game\en-croissant.dsc.yaml
 Add-Resources -File modules\game\steam.dsc.yaml
 Add-Resources -File modules\gen\comfyui.dsc.yaml
@@ -122,11 +120,9 @@ Add-Resources -File modules\media\handbrake.dsc.yaml
 Add-Resources -File modules\media\mkvtoolnix.dsc.yaml
 Add-Resources -File modules\media\mpv.dsc.yaml
 Add-Resources -File modules\media\musicbee.dsc.yaml
-{{ if .installPicard }}
-Add-Resources -File modules\media\picard.dsc.yaml
-{{ end }}
 Add-Resources -File modules\media\plex.dsc.yaml
 Add-Resources -File modules\media\potplayer.dsc.yaml
+Add-Resources -File modules\musiclib\picard.dsc.yaml
 Add-Resources -File modules\net\advanced-ip-scanner.dsc.yaml
 Add-Resources -File modules\net\azure.dsc.yaml
 Add-Resources -File modules\net\easyconnect.dsc.yaml
@@ -210,16 +206,19 @@ Add-Resources -File modules\shell\vivid.dsc.yaml
 Add-Resources -File modules\shell\watch.dsc.yaml
 Add-Resources -File modules\shell\watchman.dsc.yaml
 Add-Resources -File modules\shell\zoxide.dsc.yaml
+Add-Resources -File modules\sysmon\btm.dsc.yaml
 Add-Resources -File modules\term\wezterm.dsc.yaml
 Add-Resources -File modules\term\wt.dsc.yaml
 Add-Resources -File modules\todo\linear.dsc.yaml
 Add-Resources -File modules\todo\super-productivity.dsc.yaml
+Add-Resources -File modules\uiauto\appium.dsc.yaml
 Add-Resources -File modules\vc\delta.dsc.yaml
 Add-Resources -File modules\vc\git.dsc.yaml
 Add-Resources -File modules\vc\gitbutler.dsc.yaml
 Add-Resources -File modules\vc\gource.dsc.yaml
 Add-Resources -File modules\vc\lazygit.dsc.yaml
 Add-Resources -File modules\vc\lefthook.dsc.yaml
+Add-Resources -File modules\videoconf\zoom.dsc.yaml
 Add-Resources -File modules\virt\automatedlab.dsc.yaml
 Add-Resources -File modules\virt\ddev.dsc.yaml
 Add-Resources -File modules\virt\docker.dsc.yaml

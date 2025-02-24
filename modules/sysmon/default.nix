@@ -1,5 +1,5 @@
 _: {
   imports = [
-    ./bcomp.nix
+    ./btm.nix
   ];
 }

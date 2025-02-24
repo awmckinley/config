@@ -1,45 +1,8 @@
-{
-  isDarwin,
-  isLinux,
-  lib,
-  pkgs,
-  ...
-}:
-{ }
-// lib.optionalAttrs isDarwin {
-  homebrew.taps = [ "isen-ng/dotnet-sdk-versions" ];
-  homebrew.casks = [
-    # .NET SDK
-    "dotnet"
-    "isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400"
-    "isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-400"
-    "isen-ng/dotnet-sdk-versions/dotnet-sdk8-0-400"
-    "isen-ng/dotnet-sdk-versions/dotnet-sdk9-0-200"
-  ];
-}
-// lib.optionalAttrs isLinux {
-  environment.systemPackages = with pkgs; [
-    # Roslyn-based LSP language server
-    # replaces: omnisharp-roslyn
-    csharp-ls
-
-    # opinionated code formatter for C#
-    csharpier
-
-    # .NET SDK
-    (dotnetCorePackages.combinePackages [
-      dotnetCorePackages.sdk_6_0
-      dotnetCorePackages.sdk_7_0
-      dotnetCorePackages.sdk_8_0
-      dotnetCorePackages.sdk_9_0
-    ])
-
-    # generates an API client to call any OpenAPI
-    kiota
-  ];
-
-  nixpkgs.config.permittedInsecurePackages = [
-    "dotnet-sdk-6.0.428"
-    "dotnet-sdk-7.0.410"
+_: {
+  imports = [
+    ./csharp-ls.nix
+    ./csharpier.nix
+    ./dotnet.nix
+    ./kiota.nix
   ];
 }

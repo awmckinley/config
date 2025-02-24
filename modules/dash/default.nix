@@ -1,6 +1,5 @@
 _: {
   imports = [
-    ./btm.nix
     ./fastfetch.nix
     ./htop.nix
     ./mercury.nix

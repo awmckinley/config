@@ -26,12 +26,14 @@ _: {
     ./secret
     ./shell
     ./svc
+    ./sysmon
     ./sysopt
     ./term
     ./todo
     ./uiauto
     ./vc
     ./vdir
+    ./videoconf
     ./virt
     ./web
     ./wm

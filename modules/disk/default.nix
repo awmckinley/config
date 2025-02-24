@@ -2,7 +2,6 @@
 {
   imports = [
     ./balenaetcher.nix
-    ./cleanmymac.nix
     ./daisydisk.nix
     ./dua.nix
     ./dupeguru.nix

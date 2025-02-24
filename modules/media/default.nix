@@ -7,7 +7,6 @@ _: {
     ./mkvtoolnix.nix
     ./mpv.nix
     ./permute.nix
-    ./picard.nix
     ./plex.nix
     ./sleeve.nix
   ];

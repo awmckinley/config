@@ -1,7 +1,5 @@
-{ pkgs, ... }:
-{
-  environment.systemPackages = with pkgs; [
-    # radically simple IT automation
-    ansible
+_: {
+  imports = [
+    ./ansible.nix
   ];
 }

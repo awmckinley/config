@@ -2,7 +2,6 @@ _: {
   imports = [
     ./010-editor.nix
     ./bazel.nix
-    ./bcomp.nix
     ./cloc.nix
     ./cursor.nix
     ./exercism.nix
@@ -18,7 +17,6 @@ _: {
     ./tauri.nix
     ./tldr.nix
     ./vim.nix
-    ./xcode.nix
     ./zeal.nix
   ];
 }

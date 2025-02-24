@@ -7,6 +7,5 @@ _: {
     ./slack.nix
     ./teams.nix
     ./twt.nix
-    ./zoom.nix
   ];
 }
