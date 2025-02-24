@@ -3,6 +3,7 @@
         "editor.formatOnSave": true,
         "editor.formatOnSaveMode": "file"
     },
+    "azureFunctions.showProjectWarning": false,
     "cSpell.customDictionaries": {
         "custom": {
             "addWords": true,
