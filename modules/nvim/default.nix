@@ -24,7 +24,6 @@ _: {
     ./plaintex.nix
     ./python.nix
     ./ruby.nix
-    ./rust.nix
     ./sh.nix
     ./sql.nix
     ./swift.nix

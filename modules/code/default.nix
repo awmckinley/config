@@ -4,6 +4,7 @@ _: {
     ./bazel.nix
     ./cloc.nix
     ./code.nix
+    ./codeql.nix
     ./cursor.nix
     ./exercism.nix
     ./extism.nix
