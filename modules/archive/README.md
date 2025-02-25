@@ -1,4 +1,3 @@
-# File Archiving
+# Archive & Compression Utilities
 
-> [!ABSTRACT] Summary
-> File archiving software is used to compress and decompress files.
+This category includes software tools for managing compressed files and archives.
