@@ -1,0 +1,4 @@
+---
+description: Describe a software category and assign a slug.
+globs: modules/**/README.md
+---
