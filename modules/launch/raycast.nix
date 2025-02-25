@@ -3,7 +3,7 @@
 // lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # control your tools with a few keystrokes
-    # replaces: Alfred, Launchbar, Loungy, Quicksilver
+    # replaces: Alfred, LaunchBar, Loungy, Quicksilver
     "raycast"
   ];
 

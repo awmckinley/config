@@ -1,6 +1,7 @@
 _: {
   imports = [
-    ./apple
+    ./appledev
+    ./archive
     ./audio
     ./chat
     ./code
@@ -10,17 +11,22 @@ _: {
     ./diff
     ./disk
     ./doc
+    ./ftc
     ./ftcs
+    ./ftrust
+    ./ftswift
     ./game
     ./gen
     ./glyph
     ./img
     ./input
     ./itauto
+    ./launch
     ./mail
     ./media
     ./musiclib
     ./net
+    ./nlp
     ./nvim
     ./pkg
     ./secret
@@ -29,6 +35,7 @@ _: {
     ./sysmon
     ./sysopt
     ./term
+    ./termplex
     ./todo
     ./uiauto
     ./vc
@@ -37,6 +44,7 @@ _: {
     ./virt
     ./web
     ./webmon
+    ./websafari
     ./wm
   ];
 }
