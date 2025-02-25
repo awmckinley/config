@@ -2,12 +2,10 @@ _: {
   imports = [
     ./appledev
     ./archive
-    ./audio
-    ./chat
-    ./code
     ./color
-    ./dash
-    ./db
+    ./dbdev
+    ./dbmon
+    ./devhelp
     ./diff
     ./disk
     ./doc
@@ -37,6 +35,7 @@ _: {
     ./term
     ./termplex
     ./todo
+    ./transcribe
     ./uiauto
     ./vc
     ./vdir
