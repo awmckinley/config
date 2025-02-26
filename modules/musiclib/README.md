@@ -1,4 +1,3 @@
 # Music Library Management
 
-> [!ABSTRACT] Summary
-> Manage, tag, and organize a digital music collection.
+Software to manage, tag, and organize a digital music collection.

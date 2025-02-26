@@ -1,4 +1,3 @@
-# Launcher Tools
+# Launchers
 
-> [!ABSTRACT] Summary
-> Tools for launching applications.
+Software for launching applications.
