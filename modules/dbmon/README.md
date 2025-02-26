@@ -1,3 +1,3 @@
-# Database Monitoring Tools
+# Database Monitoring
 
 Monitor database performance, health, and usage.

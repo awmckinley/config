@@ -1,5 +1,5 @@
 _: {
   imports = [
-    ./bcomp.nix
+    ./anki.nix
   ];
 }

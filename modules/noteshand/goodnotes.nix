@@ -2,7 +2,7 @@
 { }
 // lib.optionalAttrs isDarwin {
   homebrew.masApps = {
-    # clipboard manager
+    # notes reimagined
     # replaces: Xournal++
     "Goodnotes 6" = 1444383602;
   };

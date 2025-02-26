@@ -1,5 +1,4 @@
-{ ... }:
-{
+_: {
   imports = [
     ./doppler.nix
     ./mkcert.nix

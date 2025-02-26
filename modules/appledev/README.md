@@ -1,4 +1,4 @@
-# Apple Development Tools
+# Apple Development
 
 This category includes software and tools essential for Apple platform development.
 
