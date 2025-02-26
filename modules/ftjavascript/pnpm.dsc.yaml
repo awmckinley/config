@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: pnpm.pnpm
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install pnpm
+      settings:
+        id: pnpm.pnpm
+        source: winget
+        version: '10.4.1' 

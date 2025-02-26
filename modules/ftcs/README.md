@@ -1,4 +1,4 @@
-# .NET Programming
+# C# Language
 
 > [!ABSTRACT] Blurb
-> .NET is the free, open-source, cross-platform framework for building modern apps and powerful cloud services.
+> The most popular language for the .NET platform, a free, cross-platform, open source development environment.

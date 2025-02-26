@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Enter-tainer.typstyle
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install typstyle
+      settings:
+        id: Enter-tainer.typstyle
+        source: winget
+        version: '0.12.15' 

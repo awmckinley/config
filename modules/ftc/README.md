@@ -1,3 +1,3 @@
-# C Programming
+# C Language
 
 General-purpose programming language.

@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+---
+properties:
+  configurationVersion: 0.2.0
+  resources:
+
+    - id: Python.Python.3.12
+      resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Python
+      settings:
+        id: Python.Python.3.12
+        source: winget
+        version: '3.12.9' 
