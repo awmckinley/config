@@ -1,6 +1,6 @@
 # Apple Development
 
-This category includes software and tools essential for Apple platform development.
+Software for Apple platform development.
 
 ## iOS Apps
 

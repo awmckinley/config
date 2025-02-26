@@ -1,3 +1,3 @@
 # Developer Documentation
 
-This module manages developer documentation and quick reference tools; software designed to make technical documentation more accessible and efficient.
+Software that provides developer documentation and quick reference tools.

@@ -1,3 +1,3 @@
 # Database Management
 
-Tools for database management, visualization, and development.
+Software for database management, visualization, and development.

@@ -1,3 +1,3 @@
 # Database Monitoring
 
-Monitor database performance, health, and usage.
+Software to monitor database performance, health, and usage.

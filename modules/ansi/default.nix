@@ -4,7 +4,6 @@ _: {
     ./asset-catalog.nix
     ./buildwatch.nix
     ./developer.nix
-    ./sf-symbols.nix
     ./xcode.nix
     ./xcorganizer.nix
   ];

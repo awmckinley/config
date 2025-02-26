@@ -1,3 +1,3 @@
 # Flashcards
 
-Tools for managing and interacting with flashcards.
+Software for managing and interacting with flashcards.

@@ -1,4 +1,3 @@
 # C Programming
 
-> [!ABSTRACT] Summary
-> General-purpose programming language.
+General-purpose programming language.
