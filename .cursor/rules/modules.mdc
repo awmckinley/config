@@ -1,5 +1,0 @@
----
-description: Describe a software category and assign a slug.
-globs: modules/**/README.md
----
-Write a header and a one-sentence summary, then stop.

@@ -1,4 +1,3 @@
 # System Optimization
 
-> [!ABSTRACT] Summary
-> Keeps a system running efficiently and free of clutter.
+Software to keep a system running efficiently and free of clutter.

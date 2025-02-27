@@ -1,4 +1,4 @@
-# Jelly Language
+# Siri Shortcuts
 
 > [!ABSTRACT] Blurb
-> The Jelly programming language was created to code Siri Shortcuts in a text base language.
+> A quick way to get things done with your apps with just a tap or by asking Siri.

@@ -1,10 +1,3 @@
-# System Monitoring Utilities
+# System Monitoring
 
-These utilities help users live monitor:
-
-- CPU usage and load
-- Memory (RAM) usage
-- Running processes and their resource consumption
-- System uptime
-- Network usage (in some tools)
-- Disk I/O statistics
+Software to live monitor CPU, memory, processes, uptime, network, and disk I/O.
