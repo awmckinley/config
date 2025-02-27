@@ -3,12 +3,10 @@
 properties:
   configurationVersion: 0.2.0
   resources:
-
-    - id: Microsoft.NuGet
+    - id: '9WZDNCRDMDM3'
       resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
-        description: Install NuGet
+        description: Install NuGet Package Explorer
       settings:
-        id: Microsoft.NuGet
-        source: winget
-        version: '6.13.1'
+        id: '9WZDNCRDMDM3'
+        source: msstore 

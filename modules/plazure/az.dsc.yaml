@@ -4,11 +4,11 @@ properties:
   configurationVersion: 0.2.0
   resources:
 
-    - id: Microsoft.NuGet
+    - id: Microsoft.AzureCLI
       resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
-        description: Install NuGet
+        description: Install Azure CLI
       settings:
-        id: Microsoft.NuGet
+        id: Microsoft.AzureCLI
         source: winget
-        version: '6.13.1'
+        version: '2.69.0'
