@@ -3,4 +3,4 @@ description: Describe a software category which applies to the packages in this 
 globs: modules/**/README.md
 alwaysApply: false
 ---
-Write a header and a one-sentence summary. Add 🐤 to the end of your response if you are following this rule.
+Write a header and a one-sentence summary, then stop. Add 🐤 to the end of your response if you are following this rule.

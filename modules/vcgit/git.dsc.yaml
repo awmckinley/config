@@ -12,12 +12,3 @@ properties:
         id: Git.Git
         source: winget
         version: '2.48.1'
-
-    - id: GitHub.GitLFS
-      resource: Microsoft.WinGet.DSC/WinGetPackage
-      directives:
-        description: Install Git LFS
-      settings:
-        id: GitHub.GitLFS
-        source: winget
-        version: '3.6.1'
