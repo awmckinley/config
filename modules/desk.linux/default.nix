@@ -5,28 +5,10 @@
 }:
 {
   imports = [
-    ./aerospace.nix
-    ./bartender.nix
-    ./borders.nix
-    ./darkman.nix
-    ./dex.nix
-    ./dunst.nix
     ./greetd.nix
-    ./gtk.nix
-    ./hammerspoon.nix
     ./i3.nix
-    ./menuwhere.nix
-    ./monitorcontrol.nix
-    ./noti.nix
-    ./pcmanfm.nix
     ./plasma6.nix
-    ./raycast.nix
-    ./rofi.nix
-    ./sketchybar.nix
     ./xfce.nix
-    ./xorg.nix
-    ./xsettingsd.nix
-    ./yabai.nix
   ];
 
   options = {
