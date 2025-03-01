@@ -21,7 +21,7 @@
       betterlockscreen
 
       # flexible scheduler for your i3bar blocks
-      # replaces: bumblebee-status, i3pystatus, i3status, i3status-rust
+      # replaces: bumblebee-status, i3pystatus, i3status, i3status-rust, xmobar
       i3blocks
     ];
   };
