@@ -1,0 +1,1 @@
+# replaces: Dragon NaturallySpeaking, WhisperTranscribe

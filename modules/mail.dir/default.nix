@@ -8,5 +8,6 @@ _: {
     ./mdedup.nix
     ./notmuch.nix
     ./oama.nix
+    ./pop.nix
   ];
 }

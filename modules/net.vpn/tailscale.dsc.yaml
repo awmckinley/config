@@ -4,6 +4,7 @@ properties:
   configurationVersion: 0.2.0
   resources:
 
+    # replaces: Viscosity
     - id: tailscale.tailscale
       resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
