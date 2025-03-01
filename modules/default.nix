@@ -1,4 +1,4 @@
-_: {
+{isDarwin,lib,...}: {
   imports = [
 ./archive
 ./audio.board
@@ -198,4 +198,16 @@ _: {
 ./web.safari
 ./web.srv
   ];
+
+  options = {
+    desktop = lib.options.mkOption {
+      default = if isDarwin then "aerospace" else "i3";
+      description = "Desktop environment to use";
+      type = lib.types.enum [
+        "i3"
+        "plasma6"
+        "xfce"
+      ];
+    };
+  };
 }

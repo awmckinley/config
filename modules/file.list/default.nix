@@ -3,5 +3,6 @@ _: {
     ./eza.nix
     ./fd.nix
     ./tre.nix
+    ./vivid.nix
   ];
 }
