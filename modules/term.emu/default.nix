@@ -1,9 +1,6 @@
-{ isLinux, lib, ... }:
-{
+_: {
   imports = [
     ./ghostty.nix
-    ./shellfish.nix
-    ./tmux.nix
     ./wezterm.nix
   ];
 }

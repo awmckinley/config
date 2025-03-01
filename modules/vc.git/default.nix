@@ -1,8 +1,9 @@
 _: {
   imports = [
-    ./core.nix
-    ./changelog.nix
-    ./credentials.nix
-    ./lfs.nix
+    ./delta.nix
+    ./git.nix
+    ./git-chglog.nix
+    ./git-credential-manager.nix
+    ./git-lfs.nix
   ];
 }
