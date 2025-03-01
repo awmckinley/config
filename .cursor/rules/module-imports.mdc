@@ -5,5 +5,5 @@ alwaysApply: false
 ---
 1. Check directory contents
 2. Create/update default.nix with `_: {` format
-3. Include all .nix files (except default.nix) in alphabetical order
-4. Skip directories that only have .yaml files, and put `_: {}` in default.nix
+3. Import all .nix files (except default.nix) in alphabetical order
+4. When a directory has no .nix files to import, use `_: {}` rather than declaring empty imports
