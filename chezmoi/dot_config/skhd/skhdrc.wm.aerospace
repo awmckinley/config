@@ -27,47 +27,47 @@ wm < shift - k : aerospace move up
 wm < shift - l : aerospace move right
 
 # spaces focus
-alt + ctrl + shift - 0x18 : aerospace workspace 01
-alt + ctrl - 0x21         : aerospace workspace 02
-alt + ctrl + shift - 0x21 : aerospace workspace 03
-alt + ctrl + shift - 0x19 : aerospace workspace 04
-alt + ctrl + shift - 0x1A : aerospace workspace 05
-alt + ctrl - 0x18         : aerospace workspace 06
-alt + ctrl + shift - 0x1D : aerospace workspace 07
-alt + ctrl + shift - 0x1E : aerospace workspace 08
-alt + ctrl - 0x1E         : aerospace workspace 09
+alt + ctrl + shift - 0x18 : aerospace workspace 1
+alt + ctrl - 0x21         : aerospace workspace 2
+alt + ctrl + shift - 0x21 : aerospace workspace 3
+alt + ctrl + shift - 0x19 : aerospace workspace 4
+alt + ctrl + shift - 0x1A : aerospace workspace 5
+alt + ctrl - 0x18         : aerospace workspace 6
+alt + ctrl + shift - 0x1D : aerospace workspace 7
+alt + ctrl + shift - 0x1E : aerospace workspace 8
+alt + ctrl - 0x1E         : aerospace workspace 9
 alt + ctrl + shift - 0x1C : aerospace workspace 10
-wm < 0x12 : aerospace workspace 01
-wm < 0x13 : aerospace workspace 02
-wm < 0x14 : aerospace workspace 03
-wm < 0x15 : aerospace workspace 04
-wm < 0x17 : aerospace workspace 05
-wm < 0x16 : aerospace workspace 06
-wm < 0x1A : aerospace workspace 07
-wm < 0x1C : aerospace workspace 08
-wm < 0x19 : aerospace workspace 09
+wm < 0x12 : aerospace workspace 1
+wm < 0x13 : aerospace workspace 2
+wm < 0x14 : aerospace workspace 3
+wm < 0x15 : aerospace workspace 4
+wm < 0x17 : aerospace workspace 5
+wm < 0x16 : aerospace workspace 6
+wm < 0x1A : aerospace workspace 7
+wm < 0x1C : aerospace workspace 8
+wm < 0x19 : aerospace workspace 9
 wm < 0x1D : aerospace workspace 10
 
 # spaces send
-alt + ctrl - 1 : aerospace move-node-to-workspace 01 && aerospace workspace 01
-alt + ctrl - 2 : aerospace move-node-to-workspace 02 && aerospace workspace 02
-alt + ctrl - 3 : aerospace move-node-to-workspace 03 && aerospace workspace 03
-alt + ctrl - 4 : aerospace move-node-to-workspace 04 && aerospace workspace 04
-alt + ctrl - 5 : aerospace move-node-to-workspace 05 && aerospace workspace 05
-alt + ctrl - 6 : aerospace move-node-to-workspace 06 && aerospace workspace 06
-alt + ctrl - 7 : aerospace move-node-to-workspace 07 && aerospace workspace 07
-alt + ctrl - 8 : aerospace move-node-to-workspace 08 && aerospace workspace 08
-alt + ctrl - 9 : aerospace move-node-to-workspace 09 && aerospace workspace 09
+alt + ctrl - 1 : aerospace move-node-to-workspace 1 && aerospace workspace 1
+alt + ctrl - 2 : aerospace move-node-to-workspace 2 && aerospace workspace 2
+alt + ctrl - 3 : aerospace move-node-to-workspace 3 && aerospace workspace 3
+alt + ctrl - 4 : aerospace move-node-to-workspace 4 && aerospace workspace 4
+alt + ctrl - 5 : aerospace move-node-to-workspace 5 && aerospace workspace 5
+alt + ctrl - 6 : aerospace move-node-to-workspace 6 && aerospace workspace 6
+alt + ctrl - 7 : aerospace move-node-to-workspace 7 && aerospace workspace 7
+alt + ctrl - 8 : aerospace move-node-to-workspace 8 && aerospace workspace 8
+alt + ctrl - 9 : aerospace move-node-to-workspace 9 && aerospace workspace 9
 alt + ctrl - 0 : aerospace move-node-to-workspace 10 && aerospace workspace 10
-wm < shift - 0x12 : aerospace move-node-to-workspace 01 && aerospace workspace 01
-wm < shift - 0x13 : aerospace move-node-to-workspace 02 && aerospace workspace 02
-wm < shift - 0x14 : aerospace move-node-to-workspace 03 && aerospace workspace 03
-wm < shift - 0x15 : aerospace move-node-to-workspace 04 && aerospace workspace 04
-wm < shift - 0x17 : aerospace move-node-to-workspace 05 && aerospace workspace 05
-wm < shift - 0x16 : aerospace move-node-to-workspace 06 && aerospace workspace 06
-wm < shift - 0x1A : aerospace move-node-to-workspace 07 && aerospace workspace 07
-wm < shift - 0x1C : aerospace move-node-to-workspace 08 && aerospace workspace 08
-wm < shift - 0x19 : aerospace move-node-to-workspace 09 && aerospace workspace 09
+wm < shift - 0x12 : aerospace move-node-to-workspace 1 && aerospace workspace 1
+wm < shift - 0x13 : aerospace move-node-to-workspace 2 && aerospace workspace 2
+wm < shift - 0x14 : aerospace move-node-to-workspace 3 && aerospace workspace 3
+wm < shift - 0x15 : aerospace move-node-to-workspace 4 && aerospace workspace 4
+wm < shift - 0x17 : aerospace move-node-to-workspace 5 && aerospace workspace 5
+wm < shift - 0x16 : aerospace move-node-to-workspace 6 && aerospace workspace 6
+wm < shift - 0x1A : aerospace move-node-to-workspace 7 && aerospace workspace 7
+wm < shift - 0x1C : aerospace move-node-to-workspace 8 && aerospace workspace 8
+wm < shift - 0x19 : aerospace move-node-to-workspace 9 && aerospace workspace 9
 wm < shift - 0x1D : aerospace move-node-to-workspace 10 && aerospace workspace 10
 
 # toggle fullscreen

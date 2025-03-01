@@ -31,15 +31,15 @@ outer.top = 12
 [mode.main.binding]
 
 [workspace-to-monitor-force-assignment]
-01 = "main"
-02 = "main"
-03 = "main"
-04 = "main"
-05 = "main"
-06 = "secondary"
-07 = "secondary"
-08 = "secondary"
-09 = "secondary"
+1 = "main"
+2 = "main"
+3 = "main"
+4 = "main"
+5 = "main"
+6 = "secondary"
+7 = "secondary"
+8 = "secondary"
+9 = "secondary"
 10 = "secondary"
 
 # floaters
