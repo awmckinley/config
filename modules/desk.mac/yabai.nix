@@ -17,7 +17,7 @@
 
   homebrew.casks =
     [ ]
-    ++ lib.optionals config.desktop == "yabai" [
+    ++ lib.optionals (config.desktop == "yabai") [
       # menu bar indicator showing the currently selected space
       "spaceid"
     ];

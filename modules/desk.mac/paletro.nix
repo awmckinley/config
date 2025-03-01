@@ -1,7 +1,7 @@
 { isDarwin, lib, ... }:
 lib.optionalAttrs isDarwin {
-  setapp.casks = {
+  setapp.apps = {
     # access app menu commands
     "Paletro" = 465;
-  }
+  };
 }

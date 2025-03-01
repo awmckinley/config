@@ -69,6 +69,9 @@
     packages = [ pkgs.terminus_font ];
   };
 
+  # enable all terminfo
+  environment.enableAllTerminfo = true;
+
   # Bluetooth
   hardware.bluetooth = {
     enable = true;

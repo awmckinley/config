@@ -204,6 +204,7 @@
       default = if isDarwin then "aerospace" else "i3";
       description = "Desktop environment to use";
       type = lib.types.enum [
+        "aerospace"
         "i3"
         "plasma6"
         "xfce"

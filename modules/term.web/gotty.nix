@@ -1,7 +1,7 @@
-{ isDarwin, lib, ... }:
-lib.optionalAttrs isDarwin {
-  homebrew.casks = [
-    # terminal emulator for the web
-    "gotty"
+{ pkgs, ... }:
+{
+  environment.systemPackages = with pkgs; [
+    # share your terminal as a web application
+    gotty
   ];
 }
