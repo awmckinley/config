@@ -31,5 +31,6 @@
     "redhat.telemetry.enabled": false,
     "telemetry.telemetryLevel": "off",
     "update.showReleaseNotes": false,
+    "window.commandCenter": 1,
     "workbench.startupEditor": "none"
 }
