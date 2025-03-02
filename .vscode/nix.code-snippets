@@ -1,0 +1,16 @@
+{
+    "setapp": {
+        "prefix": "setapp",
+        "body": [
+            "{ isDarwin, lib, ... }:",
+            "lib.optionalAttrs isDarwin {",
+            "  setapp.apps = {",
+            "    # description",
+            "    # replaces:",
+            "    \"${1:Application}\" = ${2:1};",
+            "  };",
+            "}"
+        ],
+        "description": "Add a Setapp app to nix-darwin configuration",
+    },
+}
