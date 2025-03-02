@@ -29,6 +29,11 @@ clean:
 diff:
     @chezmoi diff
 
+[doc("update modules doc")]
+[group("docs")]
+docs:
+    @fd -d3 README.md -x sh -c 'echo -n "**$(basename {//})**: " && sed -n "3p" {}' \; | sort > docs/modules.md
+
 [doc("check for potential problems")]
 [group("chezmoi")]
 doctor:
