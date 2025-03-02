@@ -9,11 +9,13 @@
 **audio.trans**: AI-powered software for converting audio recordings into text transcripts with optional translation capabilities.
 **audio.tts**: Neural text-to-speech software that converts written text into natural-sounding spoken audio using AI voice synthesis.
 **audio.visualize**: Real-time audio visualization software that creates dynamic visual representations of audio signals and music.
+**backup**: Tools for creating, managing, and restoring data backups, including solutions for both local and cloud-based backup strategies.
 **calendar**: Feature-rich calendar applications for managing schedules, events, and appointments across multiple platforms and interfaces.
 **certificate**: Development tools for creating, managing, and deploying locally-trusted SSL/TLS certificates for secure application testing.
 **clipboard**: Advanced clipboard management tools for storing, organizing, and accessing multiple clipboard entries across different environments.
 **compare**: Professional file comparison tools for analyzing and visualizing differences between files, folders, and documents across various formats.
 **contacts**: Comprehensive contact management solutions for organizing, syncing, and maintaining personal and professional contact information.
+**crypto**: Tools for interacting with cryptocurrencies, blockchain networks, and distributed ledger technologies.
 **dashboard**: Terminal-based personal information dashboards for monitoring and displaying real-time system metrics, weather, calendars, and other data feeds.
 **db.dev**: Professional database management and development tools for querying, editing, and administering various database systems through graphical and terminal interfaces.
 **db.mon**: Real-time database monitoring and performance analysis tools for tracking database metrics, queries, and system resources.
@@ -103,6 +105,7 @@
 **img.lib**: Software for reading, writing, and managing metadata in image files.
 **img.paint**: Applications for creating digital artwork through painting and drawing tools.
 **img.view**: Fast, lightweight software for viewing and displaying images and graphics.
+**img.vision**: Tools for computer vision, image recognition, and visual AI processing.
 **input.hotkey**: System-wide hotkey and keyboard shortcut management daemons for custom key bindings and automation.
 **input.kbd**: Tools for keyboard diagnostics, maintenance, and input management.
 **input.mousekey**: Tools for controlling mouse cursor and UI interaction using keyboard commands.
@@ -159,7 +162,7 @@
 **sh.prompt**: Fast and customizable shell prompt enhancement tools with rich information display capabilities.
 **soc.hn**: Terminal-based tools for browsing and interacting with Hacker News content.
 **soc.twitch**: Terminal-based tools for interacting with Twitch streaming platform chat.
-**soc.x**: Happening now.
+**soc.x**: Social media and messaging clients for X (formerly Twitter), including official and third-party clients for accessing the X/Twitter platform.
 **spell**: Source code spell checking and typo detection utilities.
 **svc.mgmt**: Tools for creating, managing, and debugging system and user services.
 **sys.info**: Tools for displaying and analyzing system and hardware information.
