@@ -12,6 +12,7 @@
     ./audio.trans
     ./audio.tts
     ./audio.visualize
+    ./backup
     ./calendar
     ./certificate
     ./clipboard
@@ -106,6 +107,7 @@
     ./img.lib
     ./img.paint
     ./img.view
+    ./img.vision
     ./input.hotkey
     ./input.kbd
     ./input.mousekey

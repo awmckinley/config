@@ -5,6 +5,7 @@
 **audio.edit**: Professional audio editing software for precise manipulation, cutting, and processing of audio files.
 **audio.fx**: Real-time audio effects and signal processing software for enhancing and modifying audio streams and recordings.
 **audio.rec**: Specialized software for capturing and recording audio from various system sources, applications, and input devices.
+**audio.stream**: Network-enabled audio streaming software for broadcasting and transmitting audio to remote speakers and devices.
 **audio.trans**: AI-powered software for converting audio recordings into text transcripts with optional translation capabilities.
 **audio.tts**: Neural text-to-speech software that converts written text into natural-sounding spoken audio using AI voice synthesis.
 **audio.visualize**: Real-time audio visualization software that creates dynamic visual representations of audio signals and music.
@@ -70,7 +71,7 @@
 **ft.lisp**: This module provides Common Lisp compilation and development environment tools.
 **ft.lua**: This module provides language server, linting, and formatting tools for Lua development.
 **ft.make**: This module provides language server support for Makefiles and Autotools build systems.
-**ft.markdown**: This module provides language server and formatting tools for Markdown document editing with support for various flavors including CommonMark, GFM, and Obsidian.**audio.stream**: Network-enabled audio streaming software for broadcasting and transmitting audio to remote speakers and devices.
+**ft.markdown**: This module provides language server and formatting tools for Markdown document editing with support for various flavors including CommonMark, GFM, and Obsidian.
 **ft.nix**: This module provides language server and formatting tools for Nix package management and configuration development.
 **ft.nu**: This module provides a modern shell environment with structured data capabilities and enhanced scripting features.
 **ft.ocaml**: This module provides package management tools for OCaml development environments.
