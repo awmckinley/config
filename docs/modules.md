@@ -1,3 +1,4 @@
+**.**: My personal configuration.
 **archive**: Utilities for compressing and extracting file archives across platforms.
 **audio.board**: Soundboard software for managing audio clips during live events.
 **audio.ctrl**: Software for managing audio devices, routing, and volume control.
@@ -37,6 +38,7 @@
 **diagram**: Software for creating and sharing diagrams and flowcharts.
 **disk.image**: Software for managing disk images and partitions.
 **disk.usage**: Software for analyzing and managing disk space.
+**display**: Tools for controlling monitor brightness and resolution.
 **doc.convert**: Software for converting documents between formats.
 **doc.mgmt**: Software for managing and organizing documents.
 **doc.print**: Software for creating PDFs from any application.
@@ -148,7 +150,6 @@
 **rice.color**: Software for customizing system color schemes.
 **rice.fonts**: Collection of programming and system fonts.
 **rice.wall**: Tools for managing desktop wallpapers.
-**screen.bright**: Tools for controlling monitor brightness.
 **screen.rec**: Tools for recording screen activity.
 **screen.shot**: Tools for capturing and sharing screenshots.
 **sec.gen**: Tools for generating secure passwords.

@@ -1,5 +1,5 @@
 _: {
   imports = [
-    ./monitorcontrol.nix
+    ./betterdisplay.nix
   ];
 }

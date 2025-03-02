@@ -39,6 +39,7 @@
     ./diagram
     ./disk.image
     ./disk.usage
+    ./display
     ./doc.convert
     ./doc.mgmt
     ./doc.print
@@ -150,7 +151,6 @@
     ./rice.color
     ./rice.fonts
     ./rice.wall
-    ./screen.bright
     ./screen.rec
     ./screen.shot
     ./sec.gen
