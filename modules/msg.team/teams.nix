@@ -6,8 +6,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # meet, chat, call, and collaborate in just one place
     "microsoft-teams"

@@ -1,6 +1,5 @@
 { isDarwin, lib, ... }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # clipboard manager
     # replaces: Pasta

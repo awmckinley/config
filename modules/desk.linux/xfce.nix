@@ -4,8 +4,7 @@
   lib,
   ...
 }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   # Xfce desktop environment
   services.xserver.desktopManager.xfce.enable = config.desktop == "xfce";
 }

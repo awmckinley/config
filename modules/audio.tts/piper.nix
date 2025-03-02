@@ -4,8 +4,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   environment.systemPackages = with pkgs; [
     # fast, local neural text to speech system
     piper-phonemize

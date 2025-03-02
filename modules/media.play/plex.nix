@@ -6,8 +6,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # streaming media player for Plex
     "plex"

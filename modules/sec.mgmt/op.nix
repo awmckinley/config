@@ -6,8 +6,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # multi-platform password manager
     # replaces: Bitwarden, gopass, KeePass, LastPass, pass

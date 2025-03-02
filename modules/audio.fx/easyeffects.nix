@@ -4,8 +4,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   environment.systemPackages = with pkgs; [
     # audio effects for PipeWire applications
     easyeffects

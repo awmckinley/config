@@ -4,8 +4,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   environment.systemPackages = with pkgs; [
     # wrapper around podman or docker to create and start containers
     distrobox

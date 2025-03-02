@@ -6,8 +6,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # modern media player for macOS
     "iina"

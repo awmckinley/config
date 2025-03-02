@@ -1,6 +1,5 @@
 { isDarwin, lib, ... }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.masApps = {
     # recover disk space
     # replaces: Disk Inventory X, OmniDiskSweeper

@@ -1,6 +1,5 @@
 { isDarwin, lib, ... }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   setapp.apps = {
     # quickly quit one, some, or all apps
     "QuitAll" = 493;

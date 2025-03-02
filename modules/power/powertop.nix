@@ -4,8 +4,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   environment.systemPackages = with pkgs; [
     # analyze power consumption
     powertop

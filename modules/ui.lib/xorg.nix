@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   environment.systemPackages = with pkgs; [
     # test utilities for OpenGL
     glxinfo

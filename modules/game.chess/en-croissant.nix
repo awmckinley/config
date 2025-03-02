@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs (isLinux && !isWSL) {
+lib.optionalAttrs (isLinux && !isWSL) {
   environment.systemPackages = with pkgs; [
     # ultimate chess toolkit
     en-croissant

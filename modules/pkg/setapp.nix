@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   options.setapp = with lib; {
     apps = mkOption {
       type = types.attrsOf types.ints.positive;

@@ -4,8 +4,7 @@
   lib,
   ...
 }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   # KDE Plasma desktop
   services.desktopManager.plasma6.enable = config.desktop == "plasma6";
 

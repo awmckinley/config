@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   services.greetd = {
     # minimal and flexible login manager daemon
     enable = config.desktop != "plasma6";

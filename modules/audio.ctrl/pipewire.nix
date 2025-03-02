@@ -1,6 +1,5 @@
 { isLinux, lib, ... }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   # disable PulseAudio server
   hardware.pulseaudio.enable = false;
 

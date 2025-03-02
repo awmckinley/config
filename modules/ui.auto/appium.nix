@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # GUI inspector for the appium UI automation tool
     "appium-inspector"

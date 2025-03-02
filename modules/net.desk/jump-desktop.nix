@@ -4,8 +4,7 @@
   remoteDesktop,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.masApps = {
     "Jump Desktop" = 524141863;
   };

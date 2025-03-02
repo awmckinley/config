@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   environment.systemPackages = with pkgs; [
     # lightweight tool designed to add colored borders to user windows on macOS
     jankyborders

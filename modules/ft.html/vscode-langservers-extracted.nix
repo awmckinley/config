@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.brews = [
     # HTML/CSS/JSON/ESLint language servers
     "vscode-langservers-extracted"

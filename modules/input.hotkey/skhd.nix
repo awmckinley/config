@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   environment.systemPackages = with pkgs; [
     # simple hotkey daemon for macOS
     skhd

@@ -1,6 +1,5 @@
 { isLinux, lib, ... }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   services.openssh = {
     # implementation of the SSH protocol
     enable = true;

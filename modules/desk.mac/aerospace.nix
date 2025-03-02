@@ -4,8 +4,7 @@
   lib,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew =
     { }
     // lib.optionalAttrs (config.desktop == "aerospace") {

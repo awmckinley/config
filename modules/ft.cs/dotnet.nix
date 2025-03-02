@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.taps = [ "isen-ng/dotnet-sdk-versions" ];
   homebrew.casks = [
     # .NET SDK

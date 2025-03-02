@@ -4,8 +4,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   # highly customizable macOS status bar replacement
   # replaces: spacebar
   services.sketchybar.enable = true;

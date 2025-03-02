@@ -6,8 +6,7 @@
   pkgsUnstable,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # browser that helps in responsive web development
     # replaces: Blisk, Polypane, Sizzy

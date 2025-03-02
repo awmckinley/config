@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isLinux {
+lib.optionalAttrs isLinux {
   services.xserver.windowManager.i3 = {
     # tiling window manager
     enable = config.desktop == "i3";

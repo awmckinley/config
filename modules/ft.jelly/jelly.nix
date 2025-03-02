@@ -1,6 +1,5 @@
 { isDarwin, lib, ... }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.taps = [ "jellycuts/formulae" ];
   homebrew.brews = [
     # scripting language for Shortcuts

@@ -1,6 +1,5 @@
 { isDarwin, lib, ... }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # control your tools with a few keystrokes
     # replaces: Alfred, LaunchBar, Loungy, Quicksilver

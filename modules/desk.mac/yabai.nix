@@ -5,8 +5,7 @@
   pkgs,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   # tiling window manager for macOS based on binary space partitioning
   services.yabai.enable = config.desktop == "yabai";
 

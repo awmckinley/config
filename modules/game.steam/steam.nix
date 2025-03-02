@@ -5,8 +5,7 @@
   lib,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # digital distribution platform
     "steam"

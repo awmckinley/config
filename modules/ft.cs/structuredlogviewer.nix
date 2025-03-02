@@ -8,8 +8,7 @@
   pkgsUnstable,
   ...
 }:
-{ }
-// lib.optionalAttrs isDarwin {
+lib.optionalAttrs isDarwin {
   homebrew.casks = [
     # rich interactive log viewer for MSBuild logs
     "structuredlogviewer"
