@@ -1,3 +1,3 @@
 # Text-to-Speech
 
-Software for converting text to spoken audio.
+Neural text-to-speech software that converts written text into natural-sounding spoken audio using AI voice synthesis.

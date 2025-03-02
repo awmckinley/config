@@ -1,3 +1,3 @@
 # Shell History Management
 
-Software for managing and enhancing shell history.
+Tools for intelligent searching and management of shell command history with context-aware suggestions.

@@ -1,3 +1,3 @@
-# Swift Programming
+# Swift Development Tools
 
-A general-purpose programming language that’s approachable for newcomers and powerful for experts.
+Essential tools for Swift code formatting and iOS/macOS dependency management.

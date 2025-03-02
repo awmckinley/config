@@ -1,3 +1,3 @@
-# Cloud Development
+# Cloud Development Environments
 
-Software for cloud-based development environments and hosted IDEs.
+Browser-based and desktop integrated development environments that provide cloud-powered coding, collaboration, and deployment capabilities.

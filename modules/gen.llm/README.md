@@ -1,3 +1,3 @@
-# Large Language Models
+# Local Language Model Tools
 
-Software to run powerful AI language models for generating text, code, and creative content.
+Software for running and managing large language models locally on your own hardware.

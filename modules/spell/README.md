@@ -1,3 +1,3 @@
-# Spell Checking
+# Spell Checking Tools
 
-Software for checking spelling in documents and source code.
+Source code spell checking and typo detection utilities.

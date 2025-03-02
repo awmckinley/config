@@ -1,3 +1,3 @@
-# Web Monitoring
+# Website Monitoring
 
-Website change detection and content monitoring.
+Tools for tracking changes and updates to web pages and online content.

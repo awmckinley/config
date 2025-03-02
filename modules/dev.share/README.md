@@ -1,3 +1,3 @@
-# Development Sharing Tools
+# Network Tunneling and Sharing Tools
 
-Software for sharing local services and tunneling to the internet.
+Software for creating secure tunnels and sharing local services over the internet.

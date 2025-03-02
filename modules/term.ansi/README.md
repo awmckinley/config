@@ -1,3 +1,3 @@
-# ANSI Terminal Tools
+# Terminal ANSI Tools
 
-Software for working with ANSI escape sequences and terminal styling.
+Tools for working with and manipulating ANSI terminal sequences and formatting.

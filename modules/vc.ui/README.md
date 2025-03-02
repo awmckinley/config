@@ -1,3 +1,3 @@
-# Git User Interfaces
+# Version Control User Interfaces
 
-These applications provide graphical or terminal-based user interfaces for interacting with Git repositories, making version control operations more accessible and visual compared to command-line Git.
+This module provides graphical and terminal-based user interfaces for Git version control, including repository visualization tools and interactive Git clients.

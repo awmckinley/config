@@ -1,3 +1,3 @@
-# Chess
+# Chess Gaming Tools
 
-Software for playing and learning chess.
+Comprehensive chess toolkit for playing, analyzing, and learning chess.

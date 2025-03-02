@@ -1,3 +1,3 @@
 # Duplicate File Management
 
-Software to find and manage duplicate files on your system.
+Software for finding, comparing, and removing duplicate files to optimize storage space and organization.

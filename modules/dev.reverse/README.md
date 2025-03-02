@@ -1,3 +1,3 @@
-# Reverse Engineering
+# Software Reverse Engineering Tools
 
-Software for reverse engineering, decompiling, and analyzing compiled programs.
+Tools for examining, modifying, and analyzing compiled software and binary resources.

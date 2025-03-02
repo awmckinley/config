@@ -1,3 +1,3 @@
-# Log Analysis
+# Log Analysis Software
 
-Software for analyzing and navigating log files.
+Tools for navigating, filtering, and analyzing system and application log files.

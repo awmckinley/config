@@ -1,3 +1,3 @@
 # Audio Transcription
 
-Software for transcribing audio content.
+AI-powered software for converting audio recordings into text transcripts with optional translation capabilities.

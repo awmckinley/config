@@ -1,3 +1,3 @@
-# Apple Safari
+# Browser Extensions
 
-The best way to experience the internet on Apple devices.
+Tools and plugins that enhance and customize the web browser experience.

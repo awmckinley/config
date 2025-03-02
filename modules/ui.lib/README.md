@@ -1,3 +1,3 @@
-# X11 Libraries
+# Desktop Environment Infrastructure
 
-Software for managing graphical interfaces and window systems in Unix-like operating systems, particularly focused on the X Window System and its associated protocols and utilities.
+This module provides fundamental desktop environment components and system-level UI libraries that enable graphical interfaces, window management, and desktop integration on Linux systems.

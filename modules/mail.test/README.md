@@ -1,3 +1,3 @@
-# Mail Testing
+# Email Testing Software
 
-Software for testing mail services.
+Tools for testing and debugging email delivery systems and SMTP servers.

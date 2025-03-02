@@ -1,3 +1,3 @@
-# IT Automation
+# IT Automation Software
 
-Software used for network infrastructure management and system administration.
+Tools for automating system configuration, deployment, and infrastructure management tasks.

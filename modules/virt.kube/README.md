@@ -1,3 +1,3 @@
-# Kubernetes
+# Kubernetes Management Tools
 
-Software for working with Kubernetes clusters.
+This module provides tools for deploying, managing, and developing with Kubernetes clusters, including cluster management utilities and package deployment tools.

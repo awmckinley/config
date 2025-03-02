@@ -1,3 +1,3 @@
 # Document Scanning
 
-Software for scanning documents and photos.
+Professional document scanning and image acquisition software for digitizing physical documents.

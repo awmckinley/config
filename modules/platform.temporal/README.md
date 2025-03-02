@@ -1,3 +1,3 @@
-# Temporal
+# Workflow Orchestration Tools
 
-Manage failures, network outages, flaky endpoints, long-running processes and more, ensuring your workflows never fail.
+Software for building, running, and managing distributed workflows and durable business processes at scale.

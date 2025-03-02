@@ -1,3 +1,3 @@
-# Shell Prompt
+# Shell Prompt Customization
 
-Software for customizing the shell prompt.
+Fast and customizable shell prompt enhancement tools with rich information display capabilities.

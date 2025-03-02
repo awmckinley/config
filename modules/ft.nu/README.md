@@ -1,3 +1,3 @@
-# Nushell Scripting
+# Modern Shell Tools
 
-A new type of shell.
+This module provides a modern shell environment with structured data capabilities and enhanced scripting features.

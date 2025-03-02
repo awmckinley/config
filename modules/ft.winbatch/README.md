@@ -1,3 +1,3 @@
-# Command Prompt
+# Windows Command-Line Tools
 
-Software for customizing the Windows command prompt.
+Command prompt enhancement tools for improved Windows batch scripting experience.

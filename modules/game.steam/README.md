@@ -1,3 +1,3 @@
-# Steam
+# Gaming Platform Tools
 
-Steam is the ultimate destination for playing, discussing, and creating games.
+Digital distribution platform for gaming with remote play and network gaming capabilities.

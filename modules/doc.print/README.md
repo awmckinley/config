@@ -1,3 +1,3 @@
-# PDF Printers
+# Document Printing and PDF Creation
 
-Software for printing to PDF.
+Virtual printer software for creating PDF documents from any application.

@@ -1,3 +1,3 @@
-# Lua Language
+# Lua Development Tools
 
-Lua is a powerful, efficient, lightweight, embeddable scripting language.
+This module provides language server, linting, and formatting tools for Lua development.

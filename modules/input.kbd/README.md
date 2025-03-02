@@ -1,3 +1,3 @@
-# Keyboard Utilities
+# Keyboard Utility Software
 
-Software for keyboard testing and cleaning.
+Tools for keyboard diagnostics, maintenance, and input management.

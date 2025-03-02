@@ -1,3 +1,3 @@
-# Siri Shortcuts
+# iOS Automation Tools
 
-A quick way to get things done with your apps with just a tap or by asking Siri.
+This module provides tools for creating and managing iOS Shortcuts through scripting.

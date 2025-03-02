@@ -1,3 +1,3 @@
-# LaTeX Language
+# LaTeX Document Processing
 
-A high-quality typesetting system.
+Tools for typesetting and processing LaTeX documents with support for parsing and compilation.

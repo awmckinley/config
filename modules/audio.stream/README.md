@@ -1,3 +1,3 @@
 # Audio Streaming
 
-Software for streaming audio between devices and over networks.
+Network-enabled audio streaming software for broadcasting and transmitting audio to remote speakers and devices.

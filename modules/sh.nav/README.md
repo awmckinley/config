@@ -1,3 +1,3 @@
 # Directory Navigation
 
-Software for efficient directory navigation and jumping to frequently used locations.
+Tools for smart and efficient filesystem navigation with learning capabilities.

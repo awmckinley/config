@@ -1,3 +1,3 @@
 # Desktop Notifications
 
-Software that manages and displays system-level notifications on desktop environments, providing users with real-time alerts and messages.
+Tools for displaying and managing system and application notifications on the desktop.

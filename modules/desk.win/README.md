@@ -1,6 +1,6 @@
-# Windows Explorer
+# Windows Desktop Enhancement
 
-File Explorer in Windows makes it easier to find and access files.
+Advanced window management and shell customization tools for enhancing Windows functionality, including tiling window managers and context menu utilities.
 
 ## Alternatives
 

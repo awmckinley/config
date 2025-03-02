@@ -1,3 +1,3 @@
-# OCaml Language
+# OCaml Development Tools
 
-An industrial-strength functional programming language with an emphasis on expressiveness and safety.
+This module provides package management tools for OCaml development environments.

@@ -1,3 +1,3 @@
-# Rust Programming
+# Rust Development Environment
 
-A language empowering everyone to build reliable and efficient software.
+A full-featured Rust development environment with cargo package manager, rust-analyzer for IDE support, LLDB debugging, and code formatting tools.

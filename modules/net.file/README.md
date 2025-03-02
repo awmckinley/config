@@ -1,3 +1,3 @@
-# File Transfer & Sync
+# File Transfer
 
-Software for file transfer and synchronization.
+Applications for transferring and synchronizing files over networks and protocols.

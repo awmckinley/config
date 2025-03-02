@@ -1,3 +1,3 @@
-# Web Server Components
+# Web Server Tools
 
-Software for serving web content and processing incoming web requests.
+Software for serving files and handling HTTP requests on local networks.

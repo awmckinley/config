@@ -1,3 +1,3 @@
-# Cloud Storage
+# Cloud Synchronization Tools
 
-Software for managing and synchronizing files with cloud storage services.
+Tools for synchronizing files, calendars, and contacts with cloud storage services, featuring solutions like Maestral, rclone, and vdirsyncer for seamless data synchronization.

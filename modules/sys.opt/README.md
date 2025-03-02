@@ -1,3 +1,3 @@
-# System Optimization
+# System Optimization Tools
 
-Software to keep a system running efficiently and free of clutter.
+Tools for cleaning, optimizing, and managing system resources and applications.

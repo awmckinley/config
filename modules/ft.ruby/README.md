@@ -1,3 +1,3 @@
-# Ruby Language
+# Ruby Development Environment
 
-A dynamic, open source programming language with a focus on simplicity and productivity.
+A complete Ruby development setup featuring Ruby 3.2 with development kit, language server support, and code quality tools including RuboCop and ERB formatting.

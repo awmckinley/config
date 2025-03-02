@@ -1,3 +1,3 @@
-# Text Snippets
+# Text Snippet Tools
 
-Software for managing and expanding text snippets and automating repetitive typing tasks.
+Tools for managing and automating text snippets and templates.

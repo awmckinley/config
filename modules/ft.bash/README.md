@@ -1,3 +1,3 @@
-# Bash Scripting
+# Shell Development Tools
 
-sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh).
+Development tools for writing, formatting, and analyzing Bash shell scripts and programs.

@@ -1,3 +1,3 @@
-# Screen Recording & GIF Creation
+# Screen Recording and Capture
 
-Software for capturing screen recordings and creating GIFs.
+Tools for recording screen activity, creating GIFs, and visualizing keystrokes for demonstrations and tutorials.

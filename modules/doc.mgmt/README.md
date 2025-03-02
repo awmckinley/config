@@ -1,3 +1,3 @@
-# Document Management
+# Document Management and Organization
 
-Software to help users organize, store, and manage documents efficiently.
+Professional document management and organization software for collecting, organizing, editing, and annotating documents.

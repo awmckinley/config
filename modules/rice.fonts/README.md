@@ -1,3 +1,3 @@
-# Fonts
+# Typography and Font Management
 
-Various fonts.
+A comprehensive collection of programming and system fonts, including monospaced, bitmap, and ligature-enabled typefaces optimized for code readability and terminal use.

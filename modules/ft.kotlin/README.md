@@ -1,3 +1,3 @@
-# Kotlin Language
+# Kotlin Development Tools
 
-Kotlin is a concise and multiplatform language by JetBrains.
+This module provides language server and code formatting tools for Kotlin development.

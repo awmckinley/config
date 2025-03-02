@@ -1,3 +1,3 @@
-# JavaScript Language
+# JavaScript Development Environment
 
-A high-level, often just-in-time compiled language that conforms to the ECMAScript standard.
+Full-featured JavaScript and TypeScript development environment with multiple runtimes, package managers, and development tools.

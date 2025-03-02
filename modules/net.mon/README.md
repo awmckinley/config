@@ -1,3 +1,3 @@
-# Network Monitoring & Analysis
+# Network Monitoring
 
-Software for monitoring and analyzing network traffic and performance.
+Tools for monitoring network traffic, connections, and performance in real-time.

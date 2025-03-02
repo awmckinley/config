@@ -1,3 +1,3 @@
 # Music Players
 
-Desktop music players and streaming clients for local and cloud music libraries.
+Desktop applications for playing and enjoying digital music collections.

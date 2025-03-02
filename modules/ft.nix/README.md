@@ -1,3 +1,3 @@
-# Nix Language
+# Nix Development Tools
 
-The Nix language is designed for conveniently creating and composing derivations.
+This module provides language server and formatting tools for Nix package management and configuration development.

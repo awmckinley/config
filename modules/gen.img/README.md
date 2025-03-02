@@ -1,3 +1,3 @@
-# Text-to-Images
+# AI Image Generation
 
-Software to create, edit and enhance images using powerful AI models and tools.
+A collection of tools for generating and creating images using artificial intelligence models.

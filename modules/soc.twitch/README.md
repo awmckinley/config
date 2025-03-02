@@ -1,3 +1,3 @@
-# Twitch
+# Twitch Chat Client
 
-Millions of people come together live every day to chat, interact, and make their own entertainment together.
+Terminal-based tools for interacting with Twitch streaming platform chat.

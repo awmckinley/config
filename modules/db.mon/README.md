@@ -1,3 +1,3 @@
 # Database Monitoring
 
-Software to monitor database performance, health, and usage.
+Real-time database monitoring and performance analysis tools for tracking database metrics, queries, and system resources.

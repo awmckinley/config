@@ -1,3 +1,3 @@
-# Git Commit Messages
+# Commit Message Management Tools
 
-Tools that help standardize, validate, and streamline the process of creating and managing Git commit messages in development workflows.
+This module provides tools for standardizing Git commit messages, enforcing commit conventions, and automating changelog generation from commit history.

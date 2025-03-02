@@ -1,3 +1,3 @@
-# PowerShell Scripting
+# PowerShell Environment
 
-Powerful cross-platform shell and scripting language based on .NET.
+A modern shell environment featuring PowerShell 7.5 with elevated privileges support through gsudo and unrestricted execution policy configuration.

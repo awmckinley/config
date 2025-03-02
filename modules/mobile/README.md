@@ -1,3 +1,3 @@
-# Device Connectivity
+# Mobile Device Management
 
-Software for connecting and managing mobile devices across platforms.
+Tools for managing, syncing, and interacting with mobile devices including smartphones and tablets across different platforms.

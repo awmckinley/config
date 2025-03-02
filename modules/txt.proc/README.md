@@ -1,3 +1,3 @@
-# Text Processing
+# Text Processing Tools
 
-Software for file and text processing.
+Tools for manipulating, converting, and transforming text content.

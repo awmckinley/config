@@ -1,3 +1,3 @@
-# Maildir
+# Email Management Software
 
-Software to sync and manage mail on-device in the maildir format.
+Tools for synchronizing, indexing, and managing email across local and remote mailboxes.

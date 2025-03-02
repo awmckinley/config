@@ -1,3 +1,3 @@
-# Secrets Management
+# Password and Secrets Management
 
-Software for securely storing, managing, and accessing passwords, credentials, and other sensitive information.
+Tools for securely storing, managing, and accessing passwords, credentials, and sensitive configuration data.

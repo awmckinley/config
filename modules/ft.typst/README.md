@@ -1,3 +1,3 @@
-# Typst Language
+# Typst Document Processing
 
-Focus on your text and let Typst take care of layout and formatting.
+Modern markup-based typesetting system with integrated formatting and language support tools.

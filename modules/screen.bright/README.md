@@ -1,3 +1,3 @@
-# Display Brightness Control Software
+# Display Management
 
-Software for adjusting and managing display brightness levels across multiple monitors through a convenient system tray or menu bar interface.
+Tools for controlling monitor brightness and display settings across different operating systems.

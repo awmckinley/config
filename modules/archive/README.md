@@ -1,3 +1,3 @@
-# Archive & Compression
+# Archive Management
 
-Software for managing compressed files and archives.
+Modern archive compression and extraction utilities for creating, managing, and accessing compressed file archives across multiple platforms.

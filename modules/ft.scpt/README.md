@@ -1,3 +1,3 @@
-# AppleScript Language
+# AppleScript Development Tools
 
-A scripting language created by Apple.
+A macOS-specific environment for AppleScript development featuring Script Debugger IDE and FastScripts for script management and execution.

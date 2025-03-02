@@ -1,3 +1,3 @@
-# Hex Editors
+# Hex and Binary Editors
 
-Software for viewing and editing binary files at the byte level.
+Tools for viewing and editing files at the binary and hexadecimal level.

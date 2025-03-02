@@ -1,3 +1,3 @@
-# C Language
+# C Development Tools
 
-General-purpose programming language.
+Package management and development tools for the C programming language.

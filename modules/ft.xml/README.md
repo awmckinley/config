@@ -1,3 +1,3 @@
-# XML
+# XML Development Tools
 
-A markup language and file format for storing, transmitting, and reconstructing data.
+Language server and parsing tools for XML document development and validation.

@@ -15,6 +15,11 @@ lib.optionalAttrs isDarwin {
     # 1Password command-line tool
     "1password-cli"
   ];
+
+  homebrew.masApps = {
+    # save & share passwords safely
+    "1Password for Safari" = 1569813296;
+  };
 }
 // lib.optionalAttrs (isLinux && !isWSL) {
   # 1Password command-line tool

@@ -1,3 +1,3 @@
 # Audio Recording
 
-Software for capturing and recording audio from various sources, including system audio and input devices.
+Specialized software for capturing and recording audio from various system sources, applications, and input devices.

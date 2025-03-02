@@ -1,3 +1,3 @@
-# Developer Training
+# Programming Practice Tools
 
-Software for practicing programming skills and participating in coding challenges.
+Software platforms and tools for practicing programming skills through coding exercises and challenges.

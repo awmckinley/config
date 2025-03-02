@@ -1,3 +1,3 @@
-# UI Automation
+# UI Automation Tools
 
-Used for UI testing of apps.
+Tools for automating user interface interactions and testing graphical applications.

@@ -1,3 +1,3 @@
-# Z Shell Scripting
+# Zsh Shell Enhancement Tools
 
-Shell designed for interactive use, although it is also a powerful scripting language.
+Advanced shell environment with fuzzy finding, history search, and plugin management capabilities.

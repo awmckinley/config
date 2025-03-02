@@ -1,3 +1,3 @@
-# Gleam Language
+# Gleam Development Environment
 
-Statically typed language for the Erlang VM.
+Modern, type-safe programming environment for the Erlang virtual machine.

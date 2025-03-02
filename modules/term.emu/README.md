@@ -1,6 +1,6 @@
 # Terminal Emulators
 
-Modern terminal emulators that provide enhanced features for command-line interaction.
+Modern terminal emulation software with advanced features and GPU acceleration.
 
 ## Alternatives
 

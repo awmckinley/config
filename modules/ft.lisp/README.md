@@ -1,3 +1,3 @@
-# Common Lisp
+# Lisp Development Tools
 
-A dialect of the Lisp programming language.
+This module provides Common Lisp compilation and development environment tools.

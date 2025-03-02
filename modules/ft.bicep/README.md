@@ -1,3 +1,3 @@
-# Bicep Language
+# Cloud Infrastructure Tools
 
-Domain-specific language that uses declarative syntax to deploy Azure resources.
+Domain-specific language and tooling for deploying and managing cloud infrastructure resources.

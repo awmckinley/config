@@ -1,3 +1,3 @@
-# Web Bookmark Managers
+# Bookmark Management
 
-Software for organizing, storing, and managing web bookmarks across browsers and devices.
+Tools for saving, organizing, and managing web bookmarks and links.

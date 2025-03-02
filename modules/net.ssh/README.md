@@ -1,3 +1,3 @@
-# SSH
+# Secure Shell
 
-Software for network connectivity and secure shell access.
+Tools for secure remote access and file transfer using the SSH protocol.

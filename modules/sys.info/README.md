@@ -1,3 +1,3 @@
-# System Information
+# System Information Tools
 
-Software for displaying system information, hardware details, and system specifications.
+Tools for displaying and analyzing system and hardware information.

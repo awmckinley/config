@@ -1,3 +1,3 @@
-# Python Language
+# Python Development Suite
 
-Python is a programming language that lets you work quickly and integrate systems more effectively.
+A comprehensive Python development environment with Python 3.12, data analysis libraries (pandas), modern tooling (PDM, Ruff), debugging support (debugpy), and type checking (basedpyright).

@@ -1,3 +1,3 @@
-# Utilities
+# System Utility Collections
 
-General purpose utility software including system tools, file management, and productivity enhancements.
+Comprehensive suites of system administration, productivity enhancement, and diagnostic tools for operating system management and optimization.

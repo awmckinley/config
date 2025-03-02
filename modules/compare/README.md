@@ -1,3 +1,3 @@
-# File Comparison & Diff
+# File Comparison
 
-Software that allow users to compare the contents of files and directories, highlighting the differences between them.
+Professional file comparison tools for analyzing and visualizing differences between files, folders, and documents across various formats.

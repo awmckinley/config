@@ -1,3 +1,3 @@
-# Flashcards
+# Spaced Repetition Software
 
-Software for managing and interacting with flashcards.
+Tools for creating and studying flashcards using spaced repetition learning techniques.

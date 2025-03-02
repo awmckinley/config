@@ -1,3 +1,3 @@
-# Shell Library
+# Shell Utilities
 
-Software used to build shell scripts.
+A collection of command-line tools for text processing, filtering, and shell workflow enhancement.

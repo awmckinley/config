@@ -1,3 +1,3 @@
 # Build Automation
 
-Software for automating the build process of software projects.
+High-performance build automation tools for managing complex software builds, dependencies, and compilation processes at scale.

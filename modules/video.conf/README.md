@@ -1,3 +1,3 @@
-# Video Conferencing
+# Video Conferencing Applications
 
-Remote communication and virtual meetings.
+This module provides software applications for video conferencing, online meetings, and remote communication.

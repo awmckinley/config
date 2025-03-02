@@ -1,3 +1,3 @@
-# Finder
+# macOS Desktop Enhancement
 
-Use the Finder to view, access, and organize almost everything on your Mac.
+Advanced window management and desktop customization tools for enhancing macOS functionality, including tiling window managers and menu bar utilities.

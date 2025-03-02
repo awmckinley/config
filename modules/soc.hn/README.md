@@ -1,3 +1,3 @@
-# Hacker News
+# Hacker News Client
 
-Software for browsing Hacker News.
+Terminal-based tools for browsing and interacting with Hacker News content.

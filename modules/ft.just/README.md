@@ -1,3 +1,3 @@
-# Just
+# Build Automation Tools
 
-Handy way to save and run project-specific commands.
+This module provides command runner tools for executing and organizing project-specific tasks.

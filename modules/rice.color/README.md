@@ -1,3 +1,3 @@
-# Color Schemes
+# Theme Management Tools
 
-Configuration of a system-wide color scheme.
+Software for managing and customizing system-wide color schemes, themes, and visual appearance.

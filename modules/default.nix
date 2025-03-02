@@ -104,10 +104,10 @@
     ./hex.view
     ./img.edit
     ./img.lib
+    ./img.paint
     ./img.view
     ./input.hotkey
     ./input.kbd
-    ./input.mouse
     ./input.mousekey
     ./it.auto
     ./launch
@@ -137,7 +137,6 @@
     ./notes.hand
     ./notes.md
     ./notify
-    ./paint
     ./pdf.edit
     ./pdf.view
     ./pkg

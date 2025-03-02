@@ -1,3 +1,3 @@
-# Screenshots
+# Screenshot and Image Capture
 
-Software for capturing screenshots.
+Tools for capturing, annotating, and sharing screenshots and creating beautiful code snippets.

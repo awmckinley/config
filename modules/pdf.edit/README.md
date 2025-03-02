@@ -1,3 +1,3 @@
-# PDF Editors
+# PDF Manipulation
 
-Software for editing PDF files.
+Tools for modifying, combining, and transforming PDF documents.

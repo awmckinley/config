@@ -1,3 +1,3 @@
-# VPN & Secure Tunneling
+# Virtual Private Network
 
-Software for virtual private networks and secure tunneling.
+Software for creating secure, encrypted connections between computers over the internet.

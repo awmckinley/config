@@ -1,3 +1,3 @@
-# Developer Framework Tools
+# Application Frameworks
 
-Software for building cross-platform applications and plugins.
+Modern application development frameworks and toolkits for building cross-platform desktop applications with web technologies.

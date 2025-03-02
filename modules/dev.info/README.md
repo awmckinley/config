@@ -1,3 +1,3 @@
-# Code Information
+# Code Analysis & Metrics
 
-Software for analyzing and gathering information about code, such as statistics, metrics, and documentation.
+Advanced code analysis tools for gathering metrics, performing semantic analysis, and understanding codebase characteristics.

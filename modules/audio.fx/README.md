@@ -1,3 +1,3 @@
-# Audio Effects
+# Audio Effects Processing
 
-Software for applying audio effects and filters to audio streams and applications.
+Real-time audio effects and signal processing software for enhancing and modifying audio streams and recordings.

@@ -1,4 +1,3 @@
-# Azure
+# Cloud Platform Tools
 
-
-> Cloud platform designed to simplify the process of building modern applications.
+Software for managing, developing, and interacting with Microsoft Azure cloud services and resources.

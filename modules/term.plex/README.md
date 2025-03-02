@@ -1,3 +1,3 @@
-# Terminal Multiplexer
+# Terminal Multiplexers
 
-Software to organize, manage, and navigate multiple terminal sessions.
+Tools for managing multiple terminal sessions and workspaces within a single window.

@@ -1,3 +1,3 @@
-# Ebooks
+# E-book Management and Reading
 
-Software for managing, reading, and converting electronic books (ebooks).
+Comprehensive software for managing, organizing, converting, and reading electronic books in various formats.

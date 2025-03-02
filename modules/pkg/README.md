@@ -1,3 +1,3 @@
-# Package Managers & Version Control
+# Package Managers
 
-Software for managing packages, dependencies, and version control.
+Software for installing, updating, and managing software packages and applications across different operating systems and platforms.

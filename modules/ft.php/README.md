@@ -1,3 +1,3 @@
-# PHP Language
+# PHP Development Environment
 
-A popular general-purpose scripting language that is especially suited to web development.
+A comprehensive PHP development environment including the PHP 8.2 runtime, language server (Intelephense), and code quality tools (PHP CS Fixer).

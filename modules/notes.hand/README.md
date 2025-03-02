@@ -1,3 +1,3 @@
-# Handwritten Note-Taking
+# Handwritten Notes
 
-Handwriting and note-taking apps for tablets and stylus input.
+Applications for taking and organizing handwritten digital notes and annotations.

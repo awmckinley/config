@@ -1,3 +1,3 @@
-# Remote Desktop & Control
+# Remote Desktop
 
-Software for remote desktop access and control.
+Applications for remotely accessing and controlling computers over a network.

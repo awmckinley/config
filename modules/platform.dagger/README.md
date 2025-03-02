@@ -1,3 +1,3 @@
-# Dagger
+# Continuous Integration Tools
 
-Write your pipelines in Go, Typescript or Python.
+Software for automating software development workflows, container-based builds, and CI/CD pipelines.

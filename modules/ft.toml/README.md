@@ -1,3 +1,3 @@
-# TOML
+# TOML Configuration Tools
 
-TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics.
+Tools for parsing, formatting, and validating TOML configuration files.

@@ -1,6 +1,6 @@
-# File Encryption
+# File Encryption Tools
 
-Software for encrypting and securing files and data.
+Tools for encrypting files and creating encrypted containers, featuring modern encryption utilities like rage and VeraCrypt for secure file and volume encryption.
 
 ## Alternatives
 

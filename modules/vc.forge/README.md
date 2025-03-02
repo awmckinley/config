@@ -1,3 +1,3 @@
-# Git Forges
+# Git Hosting Platform Tools
 
-Software that provides command-line interfaces and APIs for interacting with version control hosting platforms, enabling repository management, issue tracking, and CI/CD operations.
+This module provides command-line tools and utilities for interacting with Git repository hosting platforms, enabling management of repositories, issues, and pull requests through terminal interfaces.

@@ -1,3 +1,3 @@
-# Recipe Management
+# Recipe Management Tools
 
-Software to organize recipes, track ingredients, and plan meals.
+Software for organizing, storing, and managing cooking recipes and meal planning.

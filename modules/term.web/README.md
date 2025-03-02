@@ -1,3 +1,3 @@
-# Web Terminal
+# Web Terminal Tools
 
-Software for accessing the terminal through a web browser.
+Tools for sharing and accessing terminal sessions through web browsers.

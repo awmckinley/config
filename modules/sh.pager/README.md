@@ -1,3 +1,3 @@
-# Pagers and Text Viewers
+# Text File Viewers
 
-Software for displaying and paging through text content.
+Advanced text file viewing and processing tools with syntax highlighting and format conversion capabilities.

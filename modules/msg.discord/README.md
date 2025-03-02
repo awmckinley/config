@@ -1,3 +1,3 @@
-# Discord
+# Discord Clients
 
-Hang out with your friends.
+Cross-platform voice, video, and text chat applications focused on the Discord platform and its ecosystem.

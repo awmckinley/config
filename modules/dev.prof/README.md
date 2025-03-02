@@ -1,3 +1,3 @@
-# Performance Profiling
+# Performance Profiling Tools
 
-Software for performance profiling and analysis.
+Tools for analyzing and profiling software performance, including system-wide performance analysis and trace visualization.

@@ -1,3 +1,3 @@
-# Team Messaging
+# Team Collaboration Platforms
 
-Team messaging applications which combine instant messaging, file sharing, and voice/video calls.
+Enterprise messaging and collaboration platforms that combine chat, video conferencing, file sharing, and team workspace features.

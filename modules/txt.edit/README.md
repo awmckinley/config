@@ -1,3 +1,3 @@
-# Text Editors
+# Text Editors and IDEs
 
-Text editors are software applications designed for creating and editing plain text files.
+Modern text editors and integrated development environments for code and text editing.

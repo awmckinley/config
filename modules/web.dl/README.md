@@ -1,3 +1,3 @@
-# Web Content Downloading
+# Download Utilities
 
-Software for retrieving and saving content from the internet.
+Tools for retrieving and downloading files from the internet.

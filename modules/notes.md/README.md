@@ -1,3 +1,3 @@
 # Markdown Notes
 
-Note-taking and knowledge management tools.
+Applications for creating and managing knowledge bases using Markdown-formatted text files.

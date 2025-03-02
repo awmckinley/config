@@ -1,3 +1,3 @@
-# Dashboards
+# Information Dashboard
 
-WTF (wtfutil) is a personal information dashboard for the terminal that provides at-a-glance access to system information, services, and important data through a customizable terminal user interface.
+Terminal-based personal information dashboards for monitoring and displaying real-time system metrics, weather, calendars, and other data feeds.

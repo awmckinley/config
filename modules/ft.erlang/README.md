@@ -1,3 +1,3 @@
-# Erlang Language
+# Erlang Development Environment
 
-Programming language used for massively scalable soft real-time systems
+Core Erlang programming language support for building distributed, fault-tolerant applications.

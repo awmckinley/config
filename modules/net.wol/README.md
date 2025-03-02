@@ -1,3 +1,3 @@
-# Wake-On-LAN
+# Remote Wake-up
 
-Software for sending Wake-on-LAN magic packets to wake up remote computers.
+Tools for remotely powering on network-connected computers using Wake-on-LAN.

@@ -1,3 +1,3 @@
-# YAML
+# YAML Development Tools
 
-YAML is a human-friendly data serialization language for all programming languages.
+Language server and validation tools for YAML configuration file development.

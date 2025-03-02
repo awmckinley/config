@@ -1,3 +1,3 @@
-# Zig Language
+# Zig Development Tools
 
-General-purpose programming language and toolchain.
+Programming language toolchain and compiler for systems programming and cross-compilation.

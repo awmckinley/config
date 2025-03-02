@@ -1,3 +1,3 @@
-# Weather Apps
+# Weather Forecasting
 
-Software for weather monitoring, forecasting, and data visualization.
+Tools for monitoring and displaying weather conditions and forecasts.

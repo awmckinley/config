@@ -1,3 +1,3 @@
-# System Monitoring
+# System Monitoring Tools
 
-Software to live monitor CPU, memory, processes, uptime, network, and disk I/O.
+Tools for monitoring system resources, processes, and performance in real-time.

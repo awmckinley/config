@@ -1,3 +1,3 @@
-# SQL
+# SQL Development Tools
 
-A domain-specific language used to manage data.
+Tools for formatting and linting SQL code, providing code quality and consistency for SQL development.

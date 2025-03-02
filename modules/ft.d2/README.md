@@ -1,3 +1,3 @@
-# D2 Language
+# Diagram Creation Tools
 
-Modern diagram scripting language that turns text to diagrams.
+Text-based tools for creating and generating diagrams and visual representations.

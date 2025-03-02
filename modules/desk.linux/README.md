@@ -1,3 +1,3 @@
-# Desktop Environments
+# Linux Desktop Environments
 
-Software that provides a graphical user interface, common applications, and integrated utilities to interact with a computer system through windows, icons, menus, and pointing devices.
+Desktop environments and window managers for Linux systems, including both full-featured desktop environments and minimal tiling window managers.

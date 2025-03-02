@@ -1,3 +1,3 @@
-# Image Library
+# Image Metadata Tools
 
-Software for managing image libraries.
+Software for reading, writing, and managing metadata in image files.

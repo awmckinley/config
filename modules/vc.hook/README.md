@@ -1,3 +1,3 @@
-# Git Hooks Management Tools
+# Version Control Automation Tools
 
-Software that installs Git hooks.
+This module provides tools for managing and automating Git hooks and pre-commit actions in version control workflows.

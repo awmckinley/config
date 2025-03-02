@@ -1,3 +1,3 @@
 # Password Generation
 
-Software for generating secure passwords, certificates, and other security-related artifacts.
+Tools for generating secure, memorable passwords and cryptographic tokens.

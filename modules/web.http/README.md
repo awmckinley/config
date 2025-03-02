@@ -1,3 +1,3 @@
-# HTTP Testing
+# HTTP Client Tools
 
-Software for making, testing, and simulating HTTP requests with high fidelity to real browser behavior.
+Software for making and testing HTTP requests and interacting with web services.

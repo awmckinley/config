@@ -1,3 +1,3 @@
-# Audio Control
+# Audio Control & Routing
 
-Software for controlling audio routing, volume levels, and sound device management.
+Advanced system-level audio control software for managing audio devices, routing, mixing, and per-application volume control across different platforms.

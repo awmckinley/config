@@ -1,3 +1,3 @@
-# Mouse and Keyboard Integration
+# Keyboard-Based Mouse Control Software
 
-Software for integrating mouse and keyboard functionality.
+Tools for controlling mouse cursor and UI interaction using keyboard commands.

@@ -1,3 +1,3 @@
-# C# Language
+# .NET Development Tools
 
-The most popular language for the .NET platform, a free, cross-platform, open source development environment.
+Comprehensive development environment for C# and .NET, including SDK, debugging tools, and IDE support.

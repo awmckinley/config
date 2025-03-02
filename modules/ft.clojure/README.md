@@ -1,3 +1,3 @@
-# Clojure Language
+# Clojure Development Tools
 
-A robust, practical, and fast programming language with a set of useful features that together form a simple, coherent, and powerful tool.
+Development tools for writing, formatting, and analyzing Clojure programs with IDE support.

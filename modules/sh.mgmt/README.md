@@ -1,3 +1,3 @@
-# Shell Management
+# Shell Environment Management
 
-Software for effective shell management across different shell environments.
+Tools for managing shell environments, command completion, and shell configuration.

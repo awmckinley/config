@@ -1,3 +1,3 @@
-# Genealogy
+# Genealogy Software
 
-Software for researching, documenting, and visualizing your family history and ancestry.
+Tools for researching, documenting, and visualizing family history and genealogical records.

@@ -1,3 +1,3 @@
-# Hex Viewer
+# Hex File Viewers
 
-Software for examining binary files.
+Command-line tools for viewing and inspecting binary files in hexadecimal format.

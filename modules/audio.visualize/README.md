@@ -1,3 +1,3 @@
 # Audio Visualization
 
-Software for creating visual representations of audio signals, including spectrum analyzers, waveform displays, and music visualizers.
+Real-time audio visualization software that creates dynamic visual representations of audio signals and music.

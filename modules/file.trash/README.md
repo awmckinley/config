@@ -1,3 +1,3 @@
-# File Trash
+# Trash Management Tools
 
-Software for safely deleting files with the ability to recover them later.
+Command-line utilities for safely managing file deletion through the system trash, featuring trash-cli for FreeDesktop.org-compliant trash operations.

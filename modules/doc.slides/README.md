@@ -1,3 +1,3 @@
-# Presentations
+# Presentation Software
 
-Software for creating and delivering presentations.
+Terminal-based software for creating and delivering text-based presentations and slideshows.

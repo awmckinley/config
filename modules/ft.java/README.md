@@ -1,3 +1,3 @@
-# Java Language
+# Java Development Environment
 
-General-purpose, concurrent, strongly typed, class-based object-oriented language.
+Essential Java development tools including language server and code formatting capabilities.
