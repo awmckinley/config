@@ -1,6 +1,6 @@
 # Windows Desktop Enhancement
 
-Advanced window management and shell customization tools for enhancing Windows functionality, including tiling window managers and context menu utilities.
+Tools for enhancing Windows desktop functionality.
 
 ## Alternatives
 

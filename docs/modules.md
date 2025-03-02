@@ -1,199 +1,199 @@
-**archive**: Modern archive compression and extraction utilities for creating, managing, and accessing compressed file archives across multiple platforms.
-**audio.board**: Professional soundboard software for instant playback and management of audio clips during live performances or broadcasts.
-**audio.ctrl**: Advanced system-level audio control software for managing audio devices, routing, mixing, and per-application volume control across different platforms.
-**audio.dictation**: Advanced speech recognition and dictation software that converts spoken words into written text with AI-powered formatting capabilities.
-**audio.edit**: Professional audio editing software for precise manipulation, cutting, and processing of audio files.
-**audio.fx**: Real-time audio effects and signal processing software for enhancing and modifying audio streams and recordings.
-**audio.rec**: Specialized software for capturing and recording audio from various system sources, applications, and input devices.
-**audio.stream**: Network-enabled audio streaming software for broadcasting and transmitting audio to remote speakers and devices.
-**audio.trans**: AI-powered software for converting audio recordings into text transcripts with optional translation capabilities.
-**audio.tts**: Neural text-to-speech software that converts written text into natural-sounding spoken audio using AI voice synthesis.
-**audio.visualize**: Real-time audio visualization software that creates dynamic visual representations of audio signals and music.
-**backup**: Tools for creating, managing, and restoring data backups, including solutions for both local and cloud-based backup strategies.
-**calendar**: Feature-rich calendar applications for managing schedules, events, and appointments across multiple platforms and interfaces.
-**certificate**: Development tools for creating, managing, and deploying locally-trusted SSL/TLS certificates for secure application testing.
-**clipboard**: Advanced clipboard management tools for storing, organizing, and accessing multiple clipboard entries across different environments.
-**compare**: Professional file comparison tools for analyzing and visualizing differences between files, folders, and documents across various formats.
-**contacts**: Comprehensive contact management solutions for organizing, syncing, and maintaining personal and professional contact information.
-**crypto**: Tools for interacting with cryptocurrencies, blockchain networks, and distributed ledger technologies.
-**dashboard**: Terminal-based personal information dashboards for monitoring and displaying real-time system metrics, weather, calendars, and other data feeds.
-**db.dev**: Professional database management and development tools for querying, editing, and administering various database systems through graphical and terminal interfaces.
-**db.mon**: Real-time database monitoring and performance analysis tools for tracking database metrics, queries, and system resources.
-**dddmodel**: Professional 3D modeling and computer-aided design (CAD) software for creating and manipulating three-dimensional digital models.
-**desk.linux**: Desktop environments and window managers for Linux systems, including both full-featured desktop environments and minimal tiling window managers.
-**desk.mac**: Advanced window management and desktop customization tools for enhancing macOS functionality, including tiling window managers and menu bar utilities.
-**desk.win**: Advanced window management and shell customization tools for enhancing Windows functionality, including tiling window managers and context menu utilities.
-**dev.apple**: Comprehensive development tools and utilities for creating, testing, and deploying applications for Apple platforms, including iOS, macOS, and other Apple operating systems.
-**dev.auto**: High-performance build automation tools for managing complex software builds, dependencies, and compilation processes at scale.
-**dev.cloud**: Browser-based and desktop integrated development environments that provide cloud-powered coding, collaboration, and deployment capabilities.
-**dev.framework**: Modern application development frameworks and toolkits for building cross-platform desktop applications with web technologies.
-**dev.help**: Interactive documentation browsers, API references, and command-line help tools for accessing programming resources and cheatsheets.
-**dev.info**: Advanced code analysis tools for gathering metrics, performing semantic analysis, and understanding codebase characteristics.
-**dev.prof**: Tools for analyzing and profiling software performance, including system-wide performance analysis and trace visualization.
-**dev.reverse**: Tools for examining, modifying, and analyzing compiled software and binary resources.
-**dev.share**: Software for creating secure tunnels and sharing local services over the internet.
-**dev.tool**: Swiss Army knife applications that provide various utilities and tools for developers' daily tasks.
-**dev.train**: Software platforms and tools for practicing programming skills through coding exercises and challenges.
-**diagram**: Software for creating, editing, and sharing diagrams, flowcharts, and visual representations.
-**disk.image**: Software for creating, modifying, and writing disk images, as well as managing disk partitions and file systems.
-**disk.usage**: Software for analyzing, visualizing, and managing disk space usage and storage consumption.
-**doc.convert**: Software for converting documents between different file formats and markup languages.
-**doc.mgmt**: Professional document management and organization software for collecting, organizing, editing, and annotating documents.
-**doc.print**: Virtual printer software for creating PDF documents from any application.
-**doc.scan**: Professional document scanning and image acquisition software for digitizing physical documents.
-**doc.slides**: Terminal-based software for creating and delivering text-based presentations and slideshows.
-**doc.suite**: Comprehensive office productivity suite for document creation, spreadsheets, presentations, and email management.
-**duplicate**: Software for finding, comparing, and removing duplicate files to optimize storage space and organization.
-**ebook**: Comprehensive software for managing, organizing, converting, and reading electronic books in various formats.
-**file.crypt**: Tools for encrypting files and creating encrypted containers, featuring modern encryption utilities like rage and VeraCrypt for secure file and volume encryption.
-**file.list**: Modern command-line utilities for listing, finding, and exploring files and directories, featuring enhanced replacements for traditional tools like ls, find, and tree.
-**file.mgmt**: Graphical and terminal-based file managers for organizing, browsing, and managing files and directories, including traditional file managers and modern distributed filesystem solutions.
-**file.mon**: Utilities for watching file system changes and executing actions in response to file modifications, featuring tools like watchexec and watchman for automated task execution.
-**file.org**: Tools for managing dotfiles, user configurations, and system settings across multiple machines, featuring solutions like chezmoi and home-manager for declarative configuration management.
-**file.search**: Fast and efficient tools for searching code and text content within files, featuring modern alternatives like ripgrep and ast-grep for advanced pattern matching and AST-aware searches.
-**file.sync**: Tools for synchronizing files, calendars, and contacts with cloud storage services, featuring solutions like Maestral, rclone, and vdirsyncer for seamless data synchronization.
-**file.trash**: Command-line utilities for safely managing file deletion through the system trash, featuring trash-cli for FreeDesktop.org-compliant trash operations.
-**flashcard**: Tools for creating and studying flashcards using spaced repetition learning techniques.
-**ft.bash**: Development tools for writing, formatting, and analyzing Bash shell scripts and programs.
-**ft.bicep**: Domain-specific language and tooling for deploying and managing cloud infrastructure resources.
-**ft.c**: Package management and development tools for the C programming language.
-**ft.clojure**: Development tools for writing, formatting, and analyzing Clojure programs with IDE support.
-**ft.cs**: Comprehensive development environment for C# and .NET, including SDK, debugging tools, and IDE support.
-**ft.d2**: Text-based tools for creating and generating diagrams and visual representations.
-**ft.elixir**: A comprehensive Elixir programming environment including the Elixir compiler, interactive notebooks, and language server support.
-**ft.erlang**: Core Erlang programming language support for building distributed, fault-tolerant applications.
-**ft.gleam**: Modern, type-safe programming environment for the Erlang virtual machine.
-**ft.go**: Complete Go programming toolkit with compiler, debugger, language server, and code formatting tools.
-**ft.html**: Comprehensive toolkit for modern web development including CSS frameworks, live reload capabilities, and responsive design tools.
-**ft.java**: Essential Java development tools including language server and code formatting capabilities.
-**ft.javascript**: Full-featured JavaScript and TypeScript development environment with multiple runtimes, package managers, and development tools.
-**ft.jelly**: This module provides tools for creating and managing iOS Shortcuts through scripting.
-**ft.just**: This module provides command runner tools for executing and organizing project-specific tasks.
-**ft.kotlin**: This module provides language server and code formatting tools for Kotlin development.
-**ft.lisp**: This module provides Common Lisp compilation and development environment tools.
-**ft.lua**: This module provides language server, linting, and formatting tools for Lua development.
-**ft.make**: This module provides language server support for Makefiles and Autotools build systems.
-**ft.markdown**: This module provides language server and formatting tools for Markdown document editing with support for various flavors including CommonMark, GFM, and Obsidian.
-**ft.nix**: This module provides language server and formatting tools for Nix package management and configuration development.
-**ft.nu**: This module provides a modern shell environment with structured data capabilities and enhanced scripting features.
-**ft.ocaml**: This module provides package management tools for OCaml development environments.
-**ft.php**: A comprehensive PHP development environment including the PHP 8.2 runtime, language server (Intelephense), and code quality tools (PHP CS Fixer).
-**ft.ps1**: A modern shell environment featuring PowerShell 7.5 with elevated privileges support through gsudo and unrestricted execution policy configuration.
-**ft.python**: A comprehensive Python development environment with Python 3.12, data analysis libraries (pandas), modern tooling (PDM, Ruff), debugging support (debugpy), and type checking (basedpyright).
-**ft.ruby**: A complete Ruby development setup featuring Ruby 3.2 with development kit, language server support, and code quality tools including RuboCop and ERB formatting.
-**ft.rust**: A full-featured Rust development environment with cargo package manager, rust-analyzer for IDE support, LLDB debugging, and code formatting tools.
-**ft.scpt**: A macOS-specific environment for AppleScript development featuring Script Debugger IDE and FastScripts for script management and execution.
-**ft.sql**: Tools for formatting and linting SQL code, providing code quality and consistency for SQL development.
-**ft.swift**: Essential tools for Swift code formatting and iOS/macOS dependency management.
-**ft.tex**: Tools for typesetting and processing LaTeX documents with support for parsing and compilation.
-**ft.toml**: Tools for parsing, formatting, and validating TOML configuration files.
-**ft.typst**: Modern markup-based typesetting system with integrated formatting and language support tools.
-**ft.winbatch**: Command prompt enhancement tools for improved Windows batch scripting experience.
-**ft.xml**: Language server and parsing tools for XML document development and validation.
-**ft.yaml**: Language server and validation tools for YAML configuration file development.
-**ft.zig**: Programming language toolchain and compiler for systems programming and cross-compilation.
-**ft.zsh**: Advanced shell environment with fuzzy finding, history search, and plugin management capabilities.
-**game.chess**: Comprehensive chess toolkit for playing, analyzing, and learning chess.
-**game.steam**: Digital distribution platform for gaming with remote play and network gaming capabilities.
-**gen.img**: A collection of tools for generating and creating images using artificial intelligence models.
-**gen.llm**: Software for running and managing large language models locally on your own hardware.
-**genealogy**: Tools for researching, documenting, and visualizing family history and genealogical records.
-**grammar**: Software for checking and improving text grammar, style, and language quality.
-**hex.edit**: Tools for viewing and editing files at the binary and hexadecimal level.
-**hex.view**: Command-line tools for viewing and inspecting binary files in hexadecimal format.
-**img.edit**: Software for editing, manipulating, converting, and optimizing digital images.
-**img.lib**: Software for reading, writing, and managing metadata in image files.
-**img.paint**: Applications for creating digital artwork through painting and drawing tools.
-**img.view**: Fast, lightweight software for viewing and displaying images and graphics.
-**img.vision**: Tools for computer vision, image recognition, and visual AI processing.
-**input.hotkey**: System-wide hotkey and keyboard shortcut management daemons for custom key bindings and automation.
-**input.kbd**: Tools for keyboard diagnostics, maintenance, and input management.
-**input.mousekey**: Tools for controlling mouse cursor and UI interaction using keyboard commands.
-**it.auto**: Tools for automating system configuration, deployment, and infrastructure management tasks.
-**launch**: Quick-access tools for launching applications, searching files, and executing commands through keyboard shortcuts.
-**log**: Tools for navigating, filtering, and analyzing system and application log files.
-**mail.dir**: Tools for synchronizing, indexing, and managing email across local and remote mailboxes.
-**mail.test**: Tools for testing and debugging email delivery systems and SMTP servers.
-**media.conv**: Tools for converting, encoding, and optimizing audio, video, and other media files.
-**media.play**: A collection of versatile media players for local and streaming content playback, including both general-purpose and specialized streaming clients.
-**mobile**: Tools for managing, syncing, and interacting with mobile devices including smartphones and tablets across different platforms.
-**msg.apple**: A secure messaging service that you can use to send and receive text messages.
-**msg.discord**: Cross-platform voice, video, and text chat applications focused on the Discord platform and its ecosystem.
-**msg.irc**: Terminal-based Internet Relay Chat (IRC) client software for real-time text communication over IRC networks.
-**msg.keybase**: End-to-end encrypted messaging, file-sharing, and identity verification platform with integrated cryptographic features.
-**msg.team**: Enterprise messaging and collaboration platforms that combine chat, video conferencing, file sharing, and team workspace features.
-**msg.uni**: All-in-one messaging applications that consolidate multiple communication services and platforms into a single interface.
-**multitool**: Comprehensive suites of system administration, productivity enhancement, and diagnostic tools for operating system management and optimization.
-**music.lib**: Tools for organizing, tagging, and managing music libraries through audio fingerprinting and metadata management.
-**music.play**: Desktop applications for playing and enjoying digital music collections.
-**net.desk**: Applications for remotely accessing and controlling computers over a network.
-**net.disc**: Tools for scanning, mapping, and discovering devices and services on computer networks.
-**net.file**: Applications for transferring and synchronizing files over networks and protocols.
-**net.mon**: Tools for monitoring network traffic, connections, and performance in real-time.
-**net.ssh**: Tools for secure remote access and file transfer using the SSH protocol.
-**net.vpn**: Software for creating secure, encrypted connections between computers over the internet.
-**net.wol**: Tools for remotely powering on network-connected computers using Wake-on-LAN.
-**nlp**: Control your computer with natural language.
-**notes.hand**: Applications for taking and organizing handwritten digital notes and annotations.
-**notes.md**: Applications for creating and managing knowledge bases using Markdown-formatted text files.
-**notify**: Tools for displaying and managing system and application notifications on the desktop.
-**pdf.edit**: Tools for modifying, combining, and transforming PDF documents.
-**pdf.view**: Software for viewing, navigating, and reading PDF documents with support for features like bookmarks, annotations, and search.
-**pkg**: Software for installing, updating, and managing software packages and applications across different operating systems and platforms.
-**platform.azure**: Software for managing, developing, and interacting with Microsoft Azure cloud services and resources.
-**platform.dagger**: Software for automating software development workflows, container-based builds, and CI/CD pipelines.
-**platform.temporal**: Software for building, running, and managing distributed workflows and durable business processes at scale.
-**power**: Software for monitoring, analyzing, and optimizing system power consumption and battery life.
-**recipe**: Software for organizing, storing, and managing cooking recipes and meal planning.
-**rice.color**: Software for managing and customizing system-wide color schemes, themes, and visual appearance.
-**rice.fonts**: A comprehensive collection of programming and system fonts, including monospaced, bitmap, and ligature-enabled typefaces optimized for code readability and terminal use.
-**rice.wall**: Tools for managing and customizing desktop wallpapers and background images.
-**screen.bright**: Tools for controlling monitor brightness and display settings across different operating systems.
-**screen.rec**: Tools for recording screen activity, creating GIFs, and visualizing keystrokes for demonstrations and tutorials.
-**screen.shot**: Tools for capturing, annotating, and sharing screenshots and creating beautiful code snippets.
-**sec.gen**: Tools for generating secure, memorable passwords and cryptographic tokens.
-**sec.mgmt**: Tools for securely storing, managing, and accessing passwords, credentials, and sensitive configuration data.
-**sec.scan**: Tools for scanning codebases and repositories to detect exposed credentials and security vulnerabilities.
-**sh.hist**: Tools for intelligent searching and management of shell command history with context-aware suggestions.
-**sh.lib**: A collection of command-line tools for text processing, filtering, and shell workflow enhancement.
-**sh.mgmt**: Tools for managing shell environments, command completion, and shell configuration.
-**sh.nav**: Tools for smart and efficient filesystem navigation with learning capabilities.
-**sh.pager**: Advanced text file viewing and processing tools with syntax highlighting and format conversion capabilities.
-**sh.prompt**: Fast and customizable shell prompt enhancement tools with rich information display capabilities.
-**soc.hn**: Terminal-based tools for browsing and interacting with Hacker News content.
-**soc.twitch**: Terminal-based tools for interacting with Twitch streaming platform chat.
-**soc.x**: Social media and messaging clients for X (formerly Twitter), including official and third-party clients for accessing the X/Twitter platform.
-**spell**: Source code spell checking and typo detection utilities.
-**svc.mgmt**: Tools for creating, managing, and debugging system and user services.
-**sys.info**: Tools for displaying and analyzing system and hardware information.
-**sys.mon**: Tools for monitoring system resources, processes, and performance in real-time.
-**sys.opt**: Tools for cleaning, optimizing, and managing system resources and applications.
-**term.ansi**: Tools for working with and manipulating ANSI terminal sequences and formatting.
-**term.emu**: Modern terminal emulation software with advanced features and GPU acceleration.
-**term.plex**: Tools for managing multiple terminal sessions and workspaces within a single window.
-**term.web**: Tools for sharing and accessing terminal sessions through web browsers.
-**todo**: Tools for organizing tasks, tracking time, and managing to-do lists across various platforms.
-**txt.edit**: Modern text editors and integrated development environments for code and text editing.
-**txt.proc**: Tools for manipulating, converting, and transforming text content.
-**txt.snip**: Tools for managing and automating text snippets and templates.
-**ui.auto**: Tools for automating user interface interactions and testing graphical applications.
-**ui.lib**: This module provides fundamental desktop environment components and system-level UI libraries that enable graphical interfaces, window management, and desktop integration on Linux systems.
-**vc.forge**: This module provides command-line tools and utilities for interacting with Git repository hosting platforms, enabling management of repositories, issues, and pull requests through terminal interfaces.
-**vc.git**: This module provides Git and its essential extensions for distributed version control, including tools for large file management, changelog generation, and enhanced diff visualization.
-**vc.hook**: This module provides tools for managing and automating Git hooks and pre-commit actions in version control workflows.
-**vc.mgmt**: This module provides tools for managing and synchronizing multiple Git repositories simultaneously from a single interface.
-**vc.msg**: This module provides tools for standardizing Git commit messages, enforcing commit conventions, and automating changelog generation from commit history.
-**vc.ui**: This module provides graphical and terminal-based user interfaces for Git version control, including repository visualization tools and interactive Git clients.
-**video.conf**: This module provides software applications for video conferencing, online meetings, and remote communication.
-**virt.docker**: This module provides software for creating, managing, and developing with Docker containers, including graphical and terminal-based container management interfaces.
-**virt.kube**: This module provides tools for deploying, managing, and developing with Kubernetes clusters, including cluster management utilities and package deployment tools.
-**virt.lab**: This module provides software for creating and managing automated virtual lab environments for testing and development purposes.
-**virt.other**: This module provides virtualization software for running different operating systems, including Windows Subsystem for Linux and Parallels Desktop for Mac.
-**weather**: Tools for monitoring and displaying weather conditions and forecasts.
-**web.browse**: Applications for browsing and interacting with the World Wide Web.
-**web.dl**: Tools for retrieving and downloading files from the internet.
-**web.http**: Software for making and testing HTTP requests and interacting with web services.
-**web.mark**: Tools for saving, organizing, and managing web bookmarks and links.
-**web.mon**: Tools for tracking changes and updates to web pages and online content.
-**web.safari**: Tools and plugins that enhance and customize the web browser experience.
-**web.srv**: Software for serving files and handling HTTP requests on local networks.
+**archive**: Utilities for compressing and extracting file archives across platforms.
+**audio.board**: Soundboard software for managing audio clips during live events.
+**audio.ctrl**: Software for managing audio devices, routing, and volume control.
+**audio.dictation**: Speech recognition software that converts speech to text with AI formatting.
+**audio.edit**: Software for editing and processing audio files.
+**audio.fx**: Software for real-time audio effects and signal processing.
+**audio.rec**: Software for recording audio from various sources and devices.
+**audio.stream**: Software for streaming audio to remote devices.
+**audio.trans**: Software for transcribing audio to text with translation options.
+**audio.tts**: Text-to-speech software that converts text to spoken audio using AI.
+**audio.visualize**: Software for creating visual representations of audio signals.
+**backup**: Tools for managing data backups locally and in the cloud.
+**calendar**: Applications for managing schedules and events across platforms.
+**certificate**: Tools for managing SSL/TLS certificates for secure testing.
+**clipboard**: Tools for managing multiple clipboard entries across environments.
+**compare**: Tools for comparing files and documents across formats.
+**contacts**: Solutions for managing and syncing contact information.
+**crypto**: Tools for interacting with cryptocurrencies and blockchain networks.
+**dashboard**: Personal dashboards for monitoring real-time data and metrics.
+**db.dev**: Tools for managing and developing databases through various interfaces.
+**db.mon**: Tools for monitoring database performance and metrics.
+**dddmodel**: Software for creating and manipulating 3D models.
+**desk.linux**: Desktop environments and window managers for Linux systems.
+**desk.mac**: Tools for enhancing macOS desktop functionality.
+**desk.win**: Tools for enhancing Windows desktop functionality.
+**dev.apple**: Tools for developing applications for Apple platforms.
+**dev.auto**: Tools for automating software builds and dependencies.
+**dev.cloud**: Cloud-powered development environments for coding and collaboration.
+**dev.framework**: Frameworks for building cross-platform desktop applications.
+**dev.help**: Tools for accessing programming documentation and resources.
+**dev.info**: Tools for analyzing and understanding codebases.
+**dev.prof**: Tools for profiling and analyzing software performance.
+**dev.reverse**: Tools for analyzing and modifying compiled software.
+**dev.share**: Software for sharing local services over the internet.
+**dev.tool**: Utilities for developers' daily tasks.
+**dev.train**: Platforms for practicing programming skills.
+**diagram**: Software for creating and sharing diagrams and flowcharts.
+**disk.image**: Software for managing disk images and partitions.
+**disk.usage**: Software for analyzing and managing disk space.
+**doc.convert**: Software for converting documents between formats.
+**doc.mgmt**: Software for managing and organizing documents.
+**doc.print**: Software for creating PDFs from any application.
+**doc.scan**: Software for scanning and digitizing documents.
+**doc.slides**: Software for creating text-based presentations.
+**doc.suite**: Office productivity suite for document creation and management.
+**duplicate**: Software for finding and removing duplicate files.
+**ebook**: Software for managing and reading electronic books.
+**file.crypt**: Tools for encrypting files and creating encrypted containers.
+**file.list**: Utilities for listing and exploring files and directories.
+**file.mgmt**: File managers for organizing and managing files.
+**file.mon**: Utilities for monitoring file system changes.
+**file.org**: Tools for managing dotfiles and configurations.
+**file.search**: Tools for searching code and text within files.
+**file.sync**: Tools for synchronizing files with cloud services.
+**file.trash**: Utilities for managing file deletion through the system trash.
+**flashcard**: Tools for creating and studying flashcards.
+**ft.bash**: Tools for writing and analyzing Bash scripts.
+**ft.bicep**: Tools for managing cloud infrastructure resources.
+**ft.c**: Tools for C programming language development.
+**ft.clojure**: Tools for Clojure programming with IDE support.
+**ft.cs**: Development environment for C# and .NET.
+**ft.d2**: Tools for creating diagrams and visual representations.
+**ft.elixir**: Elixir programming environment with compiler and language support.
+**ft.erlang**: Erlang programming language support.
+**ft.gleam**: Programming environment for the Erlang virtual machine.
+**ft.go**: Go programming toolkit with compiler and debugger.
+**ft.html**: Toolkit for modern web development.
+**ft.java**: Java development tools with language server support.
+**ft.javascript**: JavaScript and TypeScript development environment.
+**ft.jelly**: Tools for managing iOS Shortcuts through scripting.
+**ft.just**: Command runner tools for organizing project tasks.
+**ft.kotlin**: Tools for Kotlin development with language server support.
+**ft.lisp**: Common Lisp development environment tools.
+**ft.lua**: Tools for Lua development with language server support.
+**ft.make**: Language server support for Makefiles and build systems.
+**ft.markdown**: Tools for Markdown document editing.
+**ft.nix**: Tools for Nix package management and configuration.
+**ft.nu**: Modern shell environment with enhanced scripting features.
+**ft.ocaml**: Tools for OCaml development environments.
+**ft.php**: PHP development environment with runtime and code quality tools.
+**ft.ps1**: PowerShell environment with elevated privileges support.
+**ft.python**: Python development environment with modern tooling.
+**ft.ruby**: Ruby development setup with language server support.
+**ft.rust**: Rust development environment with package manager and debugger.
+**ft.scpt**: AppleScript development environment for macOS.
+**ft.sql**: Tools for formatting and linting SQL code.
+**ft.swift**: Tools for Swift code formatting and dependency management.
+**ft.tex**: Tools for typesetting and processing LaTeX documents.
+**ft.toml**: Tools for parsing and validating TOML files.
+**ft.typst**: Markup-based typesetting system with formatting tools.
+**ft.winbatch**: Tools for enhancing Windows batch scripting.
+**ft.xml**: Tools for XML document development and validation.
+**ft.yaml**: Tools for YAML configuration file development.
+**ft.zig**: Programming language toolchain for systems programming.
+**ft.zsh**: Advanced shell environment with plugin management.
+**game.chess**: Toolkit for playing and analyzing chess.
+**game.steam**: Platform for gaming with remote play capabilities.
+**gen.img**: Tools for generating images using AI models.
+**gen.llm**: Software for managing large language models locally.
+**genealogy**: Tools for researching and visualizing family history.
+**grammar**: Software for checking and improving text grammar.
+**hex.edit**: Tools for editing files at the binary level.
+**hex.view**: Tools for viewing binary files in hexadecimal format.
+**img.edit**: Software for editing and optimizing digital images.
+**img.lib**: Software for managing image metadata.
+**img.paint**: Applications for creating digital artwork.
+**img.view**: Software for viewing images and graphics.
+**img.vision**: Tools for computer vision and image recognition.
+**input.hotkey**: Tools for managing keyboard shortcuts.
+**input.kbd**: Tools for keyboard diagnostics and input management.
+**input.mousekey**: Tools for controlling the mouse with keyboard commands.
+**it.auto**: Tools for automating system configuration and deployment.
+**launch**: Tools for launching applications and executing commands.
+**log**: Tools for analyzing system and application log files.
+**mail.dir**: Tools for managing email across mailboxes.
+**mail.test**: Tools for testing email delivery systems.
+**media.conv**: Tools for converting and optimizing media files.
+**media.play**: Media players for content playback.
+**mobile**: Tools for managing mobile devices.
+**msg.apple**: Secure messaging service for text communication.
+**msg.discord**: Chat applications for the Discord platform.
+**msg.irc**: IRC client software for real-time text communication.
+**msg.keybase**: Encrypted messaging and file-sharing platform.
+**msg.team**: Messaging and collaboration platforms for teams.
+**msg.uni**: All-in-one messaging applications.
+**multitool**: Suites of tools for system administration and optimization.
+**music.lib**: Tools for managing music libraries.
+**music.play**: Applications for playing digital music.
+**net.desk**: Applications for remote computer access.
+**net.disc**: Tools for discovering devices on networks.
+**net.file**: Applications for file transfer over networks.
+**net.mon**: Tools for monitoring network traffic.
+**net.ssh**: Tools for secure remote access using SSH.
+**net.vpn**: Software for creating secure internet connections.
+**net.wol**: Tools for remotely powering on computers.
+**nlp**: Tools for controlling computers with natural language.
+**notes.hand**: Applications for handwritten digital notes.
+**notes.md**: Applications for managing Markdown knowledge bases.
+**notify**: Tools for managing system notifications.
+**pdf.edit**: Tools for modifying PDF documents.
+**pdf.view**: Software for viewing PDF documents.
+**pkg**: Software for managing software packages.
+**platform.azure**: Software for managing Microsoft Azure services.
+**platform.dagger**: Software for automating development workflows.
+**platform.temporal**: Software for managing distributed workflows.
+**power**: Software for optimizing system power consumption.
+**recipe**: Software for managing cooking recipes.
+**rice.color**: Software for customizing system color schemes.
+**rice.fonts**: Collection of programming and system fonts.
+**rice.wall**: Tools for managing desktop wallpapers.
+**screen.bright**: Tools for controlling monitor brightness.
+**screen.rec**: Tools for recording screen activity.
+**screen.shot**: Tools for capturing and sharing screenshots.
+**sec.gen**: Tools for generating secure passwords.
+**sec.mgmt**: Tools for managing passwords and credentials.
+**sec.scan**: Tools for detecting security vulnerabilities.
+**sh.hist**: Tools for managing shell command history.
+**sh.lib**: Command-line tools for text processing.
+**sh.mgmt**: Tools for managing shell environments.
+**sh.nav**: Tools for efficient filesystem navigation.
+**sh.pager**: Tools for viewing and processing text files.
+**sh.prompt**: Tools for enhancing shell prompts.
+**soc.hn**: Tools for interacting with Hacker News.
+**soc.twitch**: Tools for interacting with Twitch chat.
+**soc.x**: Clients for accessing the X/Twitter platform.
+**spell**: Tools for spell checking source code.
+**svc.mgmt**: Tools for managing system services.
+**sys.info**: Tools for analyzing system information.
+**sys.mon**: Tools for monitoring system performance.
+**sys.opt**: Tools for optimizing system resources.
+**term.ansi**: Tools for manipulating ANSI terminal sequences.
+**term.emu**: Terminal emulation software with advanced features.
+**term.plex**: Tools for managing multiple terminal sessions.
+**term.web**: Tools for sharing terminal sessions via web.
+**todo**: Tools for managing tasks and to-do lists.
+**txt.edit**: Text editors for code and text editing.
+**txt.proc**: Tools for transforming text content.
+**txt.snip**: Tools for managing text snippets.
+**ui.auto**: Tools for automating UI interactions.
+**ui.lib**: Components for graphical interfaces on Linux.
+**vc.forge**: Tools for managing Git repositories.
+**vc.git**: Git and extensions for version control.
+**vc.hook**: Tools for managing Git hooks.
+**vc.mgmt**: Tools for synchronizing Git repositories.
+**vc.msg**: Tools for standardizing Git commit messages.
+**vc.ui**: Interfaces for Git version control.
+**video.conf**: Software for video conferencing.
+**virt.docker**: Software for managing Docker containers.
+**virt.kube**: Tools for managing Kubernetes clusters.
+**virt.lab**: Software for virtual lab environments.
+**virt.other**: Virtualization software for running different OS.
+**weather**: Tools for monitoring weather conditions.
+**web.browse**: Applications for web browsing.
+**web.dl**: Tools for downloading files from the internet.
+**web.http**: Software for making HTTP requests.
+**web.mark**: Tools for managing web bookmarks.
+**web.mon**: Tools for tracking web page updates.
+**web.safari**: Plugins for enhancing web browsing.
+**web.srv**: Software for serving files over networks.

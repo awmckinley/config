@@ -1,3 +1,3 @@
 # Swift Development Tools
 
-Essential tools for Swift code formatting and iOS/macOS dependency management.
+Tools for Swift code formatting and dependency management.

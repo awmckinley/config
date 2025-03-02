@@ -1,3 +1,3 @@
 # Desktop Customization
 
-Tools for managing and customizing desktop wallpapers and background images.
+Tools for managing desktop wallpapers.

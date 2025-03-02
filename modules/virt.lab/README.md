@@ -1,6 +1,6 @@
 # Virtual Lab Automation Tools
 
-This module provides software for creating and managing automated virtual lab environments for testing and development purposes.
+Software for virtual lab environments.
 
 ## Lab & VM Management
 

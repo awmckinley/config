@@ -1,3 +1,3 @@
 # File Transfer
 
-Applications for transferring and synchronizing files over networks and protocols.
+Applications for file transfer over networks.

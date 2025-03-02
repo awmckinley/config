@@ -1,6 +1,6 @@
 # Apple Development Tools
 
-Comprehensive development tools and utilities for creating, testing, and deploying applications for Apple platforms, including iOS, macOS, and other Apple operating systems.
+Tools for developing applications for Apple platforms.
 
 ## iOS Apps
 

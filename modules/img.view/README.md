@@ -1,3 +1,3 @@
 # Image Viewing Software
 
-Fast, lightweight software for viewing and displaying images and graphics.
+Software for viewing images and graphics.

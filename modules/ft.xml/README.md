@@ -1,3 +1,3 @@
 # XML Development Tools
 
-Language server and parsing tools for XML document development and validation.
+Tools for XML document development and validation.

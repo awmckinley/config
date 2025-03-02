@@ -1,3 +1,3 @@
 # Download Utilities
 
-Tools for retrieving and downloading files from the internet.
+Tools for downloading files from the internet.

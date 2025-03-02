@@ -1,3 +1,3 @@
 # Browser Extensions
 
-Tools and plugins that enhance and customize the web browser experience.
+Plugins for enhancing web browsing.

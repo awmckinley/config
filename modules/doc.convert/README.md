@@ -1,3 +1,3 @@
 # Document Conversion Tools
 
-Software for converting documents between different file formats and markup languages.
+Software for converting documents between formats.

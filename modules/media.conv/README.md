@@ -1,3 +1,3 @@
 # Media Conversion Software
 
-Tools for converting, encoding, and optimizing audio, video, and other media files.
+Tools for converting and optimizing media files.

@@ -1,6 +1,6 @@
 # Application Launcher Software
 
-Quick-access tools for launching applications, searching files, and executing commands through keyboard shortcuts.
+Tools for launching applications and executing commands.
 
 ## Alternatives
 

@@ -1,3 +1,3 @@
 # Audio Editing
 
-Professional audio editing software for precise manipulation, cutting, and processing of audio files.
+Software for editing and processing audio files.

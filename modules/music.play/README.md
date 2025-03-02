@@ -1,3 +1,3 @@
 # Music Players
 
-Desktop applications for playing and enjoying digital music collections.
+Applications for playing digital music.

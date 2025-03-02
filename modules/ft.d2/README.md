@@ -1,3 +1,3 @@
 # Diagram Creation Tools
 
-Text-based tools for creating and generating diagrams and visual representations.
+Tools for creating diagrams and visual representations.

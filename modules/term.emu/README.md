@@ -1,6 +1,6 @@
 # Terminal Emulators
 
-Modern terminal emulation software with advanced features and GPU acceleration.
+Terminal emulation software with advanced features.
 
 ## Alternatives
 

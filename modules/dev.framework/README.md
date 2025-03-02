@@ -1,3 +1,3 @@
 # Application Frameworks
 
-Modern application development frameworks and toolkits for building cross-platform desktop applications with web technologies.
+Frameworks for building cross-platform desktop applications.

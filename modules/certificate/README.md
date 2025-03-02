@@ -1,3 +1,3 @@
 # Certificate Management
 
-Development tools for creating, managing, and deploying locally-trusted SSL/TLS certificates for secure application testing.
+Tools for managing SSL/TLS certificates for secure testing.

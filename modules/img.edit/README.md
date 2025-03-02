@@ -1,3 +1,3 @@
 # Image Processing Tools
 
-Software for editing, manipulating, converting, and optimizing digital images.
+Software for editing and optimizing digital images.

@@ -1,3 +1,3 @@
 # Office Suite
 
-Comprehensive office productivity suite for document creation, spreadsheets, presentations, and email management.
+Office productivity suite for document creation and management.

@@ -1,6 +1,6 @@
 # File Encryption Tools
 
-Tools for encrypting files and creating encrypted containers, featuring modern encryption utilities like rage and VeraCrypt for secure file and volume encryption.
+Tools for encrypting files and creating encrypted containers.
 
 ## Alternatives
 

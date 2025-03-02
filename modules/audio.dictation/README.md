@@ -1,6 +1,6 @@
 # Speech-to-Text Dictation
 
-Advanced speech recognition and dictation software that converts spoken words into written text with AI-powered formatting capabilities.
+Speech recognition software that converts speech to text with AI formatting.
 
 ## Options
 

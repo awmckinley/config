@@ -1,6 +1,6 @@
 # Container Management Tools
 
-This module provides software for creating, managing, and developing with Docker containers, including graphical and terminal-based container management interfaces.
+Software for managing Docker containers.
 
 ## Docker & Container Tools
 

@@ -1,3 +1,3 @@
 # Spell Checking Tools
 
-Source code spell checking and typo detection utilities.
+Tools for spell checking source code.

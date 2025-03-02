@@ -1,3 +1,3 @@
 # Task Management Tools
 
-Tools for organizing tasks, tracking time, and managing to-do lists across various platforms.
+Tools for managing tasks and to-do lists.

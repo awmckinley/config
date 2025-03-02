@@ -1,3 +1,3 @@
 # Diagramming and Visualization Tools
 
-Software for creating, editing, and sharing diagrams, flowcharts, and visual representations.
+Software for creating and sharing diagrams and flowcharts.

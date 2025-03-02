@@ -1,6 +1,6 @@
 # Natural Language Processing
 
-Control your computer with natural language.
+Tools for controlling computers with natural language.
 
 ## Alternatives
 

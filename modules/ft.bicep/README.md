@@ -1,3 +1,3 @@
 # Cloud Infrastructure Tools
 
-Domain-specific language and tooling for deploying and managing cloud infrastructure resources.
+Tools for managing cloud infrastructure resources.

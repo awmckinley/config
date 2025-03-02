@@ -1,3 +1,3 @@
 # Web Browsers
 
-Applications for browsing and interacting with the World Wide Web.
+Applications for web browsing.

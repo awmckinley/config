@@ -1,3 +1,3 @@
 # Service Management
 
-Tools for creating, managing, and debugging system and user services.
+Tools for managing system services.

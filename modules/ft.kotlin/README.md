@@ -1,3 +1,3 @@
 # Kotlin Development Tools
 
-This module provides language server and code formatting tools for Kotlin development.
+Tools for Kotlin development with language server support.

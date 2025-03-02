@@ -1,6 +1,6 @@
 # Hotkey Management Software
 
-System-wide hotkey and keyboard shortcut management daemons for custom key bindings and automation.
+Tools for managing keyboard shortcuts.
 
 ## Alternatives
 
