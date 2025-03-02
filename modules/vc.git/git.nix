@@ -4,4 +4,4 @@
     # distributed version control system
     git
   ];
-} 
+}

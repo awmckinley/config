@@ -1,4 +1,9 @@
-{ isDarwin, lib, pkgs, ... }:
+{
+  isDarwin,
+  lib,
+  pkgs,
+  ...
+}:
 { }
 // lib.optionalAttrs isDarwin {
   homebrew.casks = [

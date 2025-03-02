@@ -3,4 +3,4 @@ _: {
     ./rsync.nix
     ./transmit.nix
   ];
-} 
+}

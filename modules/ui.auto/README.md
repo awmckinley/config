@@ -1,4 +1,3 @@
 # UI Automation
 
-> [!ABSTRACT] Summary
-> Used for UI testing of apps.
+Used for UI testing of apps.

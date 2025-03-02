@@ -4,4 +4,4 @@
     # CHANGELOG generator
     git-chglog
   ];
-} 
+}

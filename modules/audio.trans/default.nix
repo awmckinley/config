@@ -3,4 +3,4 @@ _: {
     ./buzz.nix
     ./whisper-cpp.nix
   ];
-} 
+}

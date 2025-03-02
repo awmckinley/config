@@ -4,4 +4,4 @@
     # language server for Bash
     bash-language-server
   ];
-} 
+}

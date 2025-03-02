@@ -1,4 +1,3 @@
 # Nushell Scripting
 
-> [!ABSTRACT] Blurb
-> A new type of shell.
+A new type of shell.

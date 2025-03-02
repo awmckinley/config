@@ -3,4 +3,4 @@ _: {
     ./cloc.nix
     ./codeql.nix
   ];
-} 
+}

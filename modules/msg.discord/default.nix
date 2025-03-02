@@ -4,4 +4,4 @@ _: {
     ./dorion.nix
     ./overlayed.nix
   ];
-} 
+}

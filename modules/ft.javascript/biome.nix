@@ -5,4 +5,4 @@
     # replaces: dprint, Prettier, Putout
     biome
   ];
-} 
+}

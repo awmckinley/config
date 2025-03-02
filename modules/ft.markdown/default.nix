@@ -3,4 +3,4 @@ _: {
     ./markdown-oxide.nix
     ./mdformat.nix
   ];
-} 
+}

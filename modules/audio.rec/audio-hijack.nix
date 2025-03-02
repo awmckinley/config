@@ -5,4 +5,4 @@
     # records audio from any application
     "audio-hijack"
   ];
-} 
+}

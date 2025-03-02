@@ -6,4 +6,4 @@ _: {
     ./gopls.nix
     ./gotools.nix
   ];
-} 
+}

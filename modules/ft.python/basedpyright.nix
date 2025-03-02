@@ -4,4 +4,4 @@
     # type checker for the Python language
     basedpyright
   ];
-} 
+}

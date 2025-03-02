@@ -1,4 +1,3 @@
 # Discord
 
-> [!ABSTRACT] Blurb
-> Hang out with your friends.
+Hang out with your friends.

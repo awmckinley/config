@@ -5,4 +5,4 @@
     # replaces: elixir-ls
     lexical
   ];
-} 
+}

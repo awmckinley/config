@@ -1,4 +1,3 @@
 # Video Conferencing
 
-> [!ABSTRACT] Summary
-> Remote communication and virtual meetings.
+Remote communication and virtual meetings.

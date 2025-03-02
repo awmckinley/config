@@ -3,4 +3,4 @@ _: {
     ./ipscan.nix
     ./nmap.nix
   ];
-} 
+}

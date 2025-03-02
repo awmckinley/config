@@ -4,4 +4,4 @@
     # official language server for the Go language
     gopls
   ];
-} 
+}

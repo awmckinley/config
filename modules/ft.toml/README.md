@@ -1,4 +1,3 @@
 # TOML
 
-> [!ABSTRACT] Blurb
-> TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics.
+TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics.

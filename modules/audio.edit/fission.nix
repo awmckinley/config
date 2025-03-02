@@ -6,4 +6,4 @@
     # replaces: Audacity
     "fission"
   ];
-} 
+}

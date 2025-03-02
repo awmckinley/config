@@ -8,4 +8,4 @@ _: {
     ./parallel.nix
     ./pv.nix
   ];
-} 
+}

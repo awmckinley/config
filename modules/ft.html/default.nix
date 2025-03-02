@@ -8,4 +8,4 @@ _: {
     ./tailwindcss-language-server.nix
     ./vscode-langservers-extracted.nix
   ];
-} 
+}

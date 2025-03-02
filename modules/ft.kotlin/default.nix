@@ -3,4 +3,4 @@ _: {
     ./kotlin-language-server.nix
     ./ktfmt.nix
   ];
-} 
+}

@@ -4,4 +4,4 @@
     # language server that offers Lua language support
     lua-language-server
   ];
-} 
+}

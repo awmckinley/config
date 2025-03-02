@@ -3,4 +3,4 @@ _: {
     ./google-java-format.nix
     ./jdtls.nix
   ];
-} 
+}

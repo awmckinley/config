@@ -2,4 +2,4 @@ _: {
   imports = [
     ./mcfly.nix
   ];
-} 
+}

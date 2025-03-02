@@ -4,4 +4,4 @@ _: {
     ./pipewire.nix
     ./soundsource.nix
   ];
-} 
+}

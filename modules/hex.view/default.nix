@@ -2,4 +2,4 @@ _: {
   imports = [
     ./hexyl.nix
   ];
-} 
+}

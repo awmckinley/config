@@ -3,4 +3,4 @@ _: {
     ./cljfmt.nix
     ./clojure-lsp.nix
   ];
-} 
+}

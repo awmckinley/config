@@ -1,202 +1,203 @@
-{isDarwin,lib,...}: {
+{ isDarwin, lib, ... }:
+{
   imports = [
-./archive
-./audio.board
-./audio.ctrl
-./audio.dictation
-./audio.edit
-./audio.fx
-./audio.rec
-./audio.stream
-./audio.trans
-./audio.tts
-./audio.visualize
-./calendar
-./certificate
-./clipboard
-./compare
-./contacts
-./dashboard
-./db.dev
-./db.mon
-./dddmodel
-./desk.linux
-./desk.mac
-./desk.win
-./dev.apple
-./dev.auto
-./dev.cloud
-./dev.framework
-./dev.help
-./dev.info
-./dev.prof
-./dev.reverse
-./dev.share
-./dev.tool
-./dev.train
-./diagram
-./disk.image
-./disk.usage
-./doc.convert
-./doc.mgmt
-./doc.print
-./doc.scan
-./doc.slides
-./doc.suite
-./duplicate
-./ebook
-./file.crypt
-./file.list
-./file.mgmt
-./file.mon
-./file.org
-./file.search
-./file.sync
-./file.trash
-./flashcard
-./ft.bash
-./ft.bicep
-./ft.c
-./ft.clojure
-./ft.cs
-./ft.d2
-./ft.elixir
-./ft.erlang
-./ft.gleam
-./ft.go
-./ft.html
-./ft.java
-./ft.javascript
-./ft.jelly
-./ft.just
-./ft.kotlin
-./ft.lisp
-./ft.lua
-./ft.make
-./ft.markdown
-./ft.nix
-./ft.nu
-./ft.ocaml
-./ft.php
-./ft.ps1
-./ft.python
-./ft.ruby
-./ft.rust
-./ft.scpt
-./ft.sql
-./ft.swift
-./ft.tex
-./ft.toml
-./ft.typst
-./ft.winbatch
-./ft.xml
-./ft.yaml
-./ft.zig
-./ft.zsh
-./game.chess
-./game.steam
-./gen.img
-./gen.llm
-./genealogy
-./grammar
-./hex.edit
-./hex.view
-./img.edit
-./img.lib
-./img.view
-./input.hotkey
-./input.kbd
-./input.mouse
-./input.mousekey
-./it.auto
-./launch
-./log
-./mail.dir
-./mail.test
-./media.conv
-./media.play
-./mobile
-./msg.apple
-./msg.discord
-./msg.irc
-./msg.keybase
-./msg.team
-./msg.uni
-./multitool
-./music.lib
-./music.play
-./net.desk
-./net.disc
-./net.file
-./net.mon
-./net.ssh
-./net.vpn
-./net.wol
-./nlp
-./notes.hand
-./notes.md
-./notify
-./paint
-./pdf.edit
-./pdf.view
-./pkg
-./platform.azure
-./platform.dagger
-./platform.temporal
-./power
-./recipe
-./rice.color
-./rice.fonts
-./rice.wall
-./screen.bright
-./screen.rec
-./screen.shot
-./sec.gen
-./sec.mgmt
-./sec.scan
-./sh.hist
-./sh.lib
-./sh.mgmt
-./sh.nav
-./sh.pager
-./sh.prompt
-./soc.hn
-./soc.twitch
-./soc.x
-./spell
-./svc.mgmt
-./sys.info
-./sys.mon
-./sys.opt
-./term.ansi
-./term.emu
-./term.plex
-./term.web
-./todo
-./txt.edit
-./txt.proc
-./txt.snip
-./ui.auto
-./ui.lib
-./vc.forge
-./vc.git
-./vc.hook
-./vc.mgmt
-./vc.msg
-./vc.ui
-./video.conf
-./virt.docker
-./virt.kube
-./virt.lab
-./virt.other
-./weather
-./web.browse
-./web.dl
-./web.http
-./web.mark
-./web.mon
-./web.safari
-./web.srv
+    ./archive
+    ./audio.board
+    ./audio.ctrl
+    ./audio.dictation
+    ./audio.edit
+    ./audio.fx
+    ./audio.rec
+    ./audio.stream
+    ./audio.trans
+    ./audio.tts
+    ./audio.visualize
+    ./calendar
+    ./certificate
+    ./clipboard
+    ./compare
+    ./contacts
+    ./dashboard
+    ./db.dev
+    ./db.mon
+    ./dddmodel
+    ./desk.linux
+    ./desk.mac
+    ./desk.win
+    ./dev.apple
+    ./dev.auto
+    ./dev.cloud
+    ./dev.framework
+    ./dev.help
+    ./dev.info
+    ./dev.prof
+    ./dev.reverse
+    ./dev.share
+    ./dev.tool
+    ./dev.train
+    ./diagram
+    ./disk.image
+    ./disk.usage
+    ./doc.convert
+    ./doc.mgmt
+    ./doc.print
+    ./doc.scan
+    ./doc.slides
+    ./doc.suite
+    ./duplicate
+    ./ebook
+    ./file.crypt
+    ./file.list
+    ./file.mgmt
+    ./file.mon
+    ./file.org
+    ./file.search
+    ./file.sync
+    ./file.trash
+    ./flashcard
+    ./ft.bash
+    ./ft.bicep
+    ./ft.c
+    ./ft.clojure
+    ./ft.cs
+    ./ft.d2
+    ./ft.elixir
+    ./ft.erlang
+    ./ft.gleam
+    ./ft.go
+    ./ft.html
+    ./ft.java
+    ./ft.javascript
+    ./ft.jelly
+    ./ft.just
+    ./ft.kotlin
+    ./ft.lisp
+    ./ft.lua
+    ./ft.make
+    ./ft.markdown
+    ./ft.nix
+    ./ft.nu
+    ./ft.ocaml
+    ./ft.php
+    ./ft.ps1
+    ./ft.python
+    ./ft.ruby
+    ./ft.rust
+    ./ft.scpt
+    ./ft.sql
+    ./ft.swift
+    ./ft.tex
+    ./ft.toml
+    ./ft.typst
+    ./ft.winbatch
+    ./ft.xml
+    ./ft.yaml
+    ./ft.zig
+    ./ft.zsh
+    ./game.chess
+    ./game.steam
+    ./gen.img
+    ./gen.llm
+    ./genealogy
+    ./grammar
+    ./hex.edit
+    ./hex.view
+    ./img.edit
+    ./img.lib
+    ./img.view
+    ./input.hotkey
+    ./input.kbd
+    ./input.mouse
+    ./input.mousekey
+    ./it.auto
+    ./launch
+    ./log
+    ./mail.dir
+    ./mail.test
+    ./media.conv
+    ./media.play
+    ./mobile
+    ./msg.apple
+    ./msg.discord
+    ./msg.irc
+    ./msg.keybase
+    ./msg.team
+    ./msg.uni
+    ./multitool
+    ./music.lib
+    ./music.play
+    ./net.desk
+    ./net.disc
+    ./net.file
+    ./net.mon
+    ./net.ssh
+    ./net.vpn
+    ./net.wol
+    ./nlp
+    ./notes.hand
+    ./notes.md
+    ./notify
+    ./paint
+    ./pdf.edit
+    ./pdf.view
+    ./pkg
+    ./platform.azure
+    ./platform.dagger
+    ./platform.temporal
+    ./power
+    ./recipe
+    ./rice.color
+    ./rice.fonts
+    ./rice.wall
+    ./screen.bright
+    ./screen.rec
+    ./screen.shot
+    ./sec.gen
+    ./sec.mgmt
+    ./sec.scan
+    ./sh.hist
+    ./sh.lib
+    ./sh.mgmt
+    ./sh.nav
+    ./sh.pager
+    ./sh.prompt
+    ./soc.hn
+    ./soc.twitch
+    ./soc.x
+    ./spell
+    ./svc.mgmt
+    ./sys.info
+    ./sys.mon
+    ./sys.opt
+    ./term.ansi
+    ./term.emu
+    ./term.plex
+    ./term.web
+    ./todo
+    ./txt.edit
+    ./txt.proc
+    ./txt.snip
+    ./ui.auto
+    ./ui.lib
+    ./vc.forge
+    ./vc.git
+    ./vc.hook
+    ./vc.mgmt
+    ./vc.msg
+    ./vc.ui
+    ./video.conf
+    ./virt.docker
+    ./virt.kube
+    ./virt.lab
+    ./virt.other
+    ./weather
+    ./web.browse
+    ./web.dl
+    ./web.http
+    ./web.mark
+    ./web.mon
+    ./web.safari
+    ./web.srv
   ];
 
   options = {

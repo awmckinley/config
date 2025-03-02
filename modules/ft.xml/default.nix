@@ -3,4 +3,4 @@ _: {
     ./lemminx.nix
     ./xmllint.nix
   ];
-} 
+}

@@ -3,4 +3,4 @@ _: {
     ./mpv.nix
     ./plex.nix
   ];
-} 
+}

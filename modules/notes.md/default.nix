@@ -7,4 +7,4 @@ _: {
     ./obsidian.nix
     ./zk.nix
   ];
-} 
+}

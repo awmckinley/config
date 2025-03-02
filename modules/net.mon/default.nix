@@ -3,4 +3,4 @@ _: {
     ./lulu.nix
     ./prettyping.nix
   ];
-} 
+}

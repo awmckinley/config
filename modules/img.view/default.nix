@@ -3,4 +3,4 @@ _: {
     ./chafa.nix
     ./feh.nix
   ];
-} 
+}

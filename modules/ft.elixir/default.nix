@@ -4,4 +4,4 @@ _: {
     ./lexical.nix
     ./livebook.nix
   ];
-} 
+}

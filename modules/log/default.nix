@@ -3,4 +3,4 @@ _: {
     ./grepcidr.nix
     ./lnav.nix
   ];
-} 
+}

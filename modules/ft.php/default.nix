@@ -4,4 +4,4 @@ _: {
     ./php-cs-fixer.nix
     ./php.nix
   ];
-} 
+}

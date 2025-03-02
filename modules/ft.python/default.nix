@@ -7,4 +7,4 @@ _: {
     ./uv.nix
     ./virtualenv.nix
   ];
-} 
+}

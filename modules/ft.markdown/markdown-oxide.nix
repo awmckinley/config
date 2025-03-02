@@ -5,4 +5,4 @@
     # replaces: marksman, prosemd-lsp, remark-ls, zk
     markdown-oxide
   ];
-} 
+}

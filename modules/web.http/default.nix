@@ -3,4 +3,4 @@ _: {
     ./curl-impersonate.nix
     ./hurl.nix
   ];
-} 
+}

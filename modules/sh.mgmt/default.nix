@@ -4,4 +4,4 @@ _: {
     ./carapace.nix
     ./direnv.nix
   ];
-} 
+}

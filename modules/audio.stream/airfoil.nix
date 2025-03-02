@@ -5,4 +5,4 @@
     # sends audio from computer to outputs
     "airfoil"
   ];
-} 
+}

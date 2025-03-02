@@ -2,4 +2,4 @@ _: {
   imports = [
     ./bazel.nix
   ];
-} 
+}

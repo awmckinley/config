@@ -3,4 +3,4 @@ _: {
     ./busycal.nix
     ./khal.nix
   ];
-} 
+}

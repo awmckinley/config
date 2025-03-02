@@ -3,4 +3,4 @@ _: {
     ./chezmoi.nix
     ./home-manager.nix
   ];
-} 
+}

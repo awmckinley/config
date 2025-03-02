@@ -4,4 +4,4 @@
     # XML language server
     lemminx
   ];
-} 
+}

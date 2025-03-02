@@ -2,4 +2,4 @@ _: {
   imports = [
     ./powertop.nix
   ];
-} 
+}

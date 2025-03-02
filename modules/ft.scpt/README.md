@@ -1,4 +1,3 @@
 # AppleScript Language
 
-> [!ABSTRACT] Blurb
-> A scripting language created by Apple.
+A scripting language created by Apple.

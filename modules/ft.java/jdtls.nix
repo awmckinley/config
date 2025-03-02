@@ -4,4 +4,4 @@
     # Java language server
     jdt-language-server
   ];
-} 
+}

@@ -3,4 +3,4 @@ _: {
     ./pdfsam.nix
     ./pdftk.nix
   ];
-} 
+}

@@ -4,4 +4,4 @@
     # GitHub CLI extension to display a dashboard with pull requests and issues
     gh-dash
   ];
-} 
+}

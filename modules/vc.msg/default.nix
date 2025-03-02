@@ -4,4 +4,4 @@ _: {
     ./committed.nix
     ./meteor.nix
   ];
-} 
+}

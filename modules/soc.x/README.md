@@ -1,4 +1,3 @@
 # Twitter
 
-> [!ABSTRACT] Blurb
-> Happening now.
+Happening now.

@@ -4,4 +4,4 @@ _: {
     ./azurite.nix
     ./func.nix
   ];
-} 
+}

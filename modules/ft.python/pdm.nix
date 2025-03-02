@@ -5,4 +5,4 @@
     # replaces: poetry
     pdm
   ];
-} 
+}

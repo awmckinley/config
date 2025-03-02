@@ -3,4 +3,4 @@ _: {
     ./rage.nix
     ./veracrypt.nix
   ];
-} 
+}

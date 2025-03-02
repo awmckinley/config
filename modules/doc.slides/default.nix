@@ -2,4 +2,4 @@ _: {
   imports = [
     ./slides.nix
   ];
-} 
+}

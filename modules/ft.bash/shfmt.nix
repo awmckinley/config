@@ -5,4 +5,4 @@
     # replaces: beautysh
     shfmt
   ];
-} 
+}

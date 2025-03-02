@@ -3,4 +3,4 @@ _: {
     ./imagemagick.nix
     ./imageoptim.nix
   ];
-} 
+}

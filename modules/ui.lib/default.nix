@@ -5,4 +5,4 @@ _: {
     ./xorg.nix
     ./xsettingsd.nix
   ];
-} 
+}

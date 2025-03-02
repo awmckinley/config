@@ -2,4 +2,4 @@ _: {
   imports = [
     ./zathura.nix
   ];
-} 
+}

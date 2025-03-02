@@ -4,4 +4,4 @@
     # format your Typst source code
     typstyle
   ];
-} 
+}

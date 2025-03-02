@@ -10,4 +10,4 @@ _: {
     ./typescript-language-server.nix
     ./vtsls.nix
   ];
-} 
+}

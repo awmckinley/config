@@ -4,4 +4,4 @@
     # Language Server Protocol for Clojure
     clojure-lsp
   ];
-} 
+}

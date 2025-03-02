@@ -5,4 +5,4 @@
     # audio recording application
     "piezo"
   ];
-} 
+}

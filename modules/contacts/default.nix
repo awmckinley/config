@@ -3,4 +3,4 @@ _: {
     ./busycontacts.nix
     ./khard.nix
   ];
-} 
+}

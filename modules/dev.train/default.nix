@@ -3,4 +3,4 @@ _: {
     ./exercism.nix
     ./leetgo.nix
   ];
-} 
+}

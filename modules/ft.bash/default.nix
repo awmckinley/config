@@ -7,4 +7,4 @@ _: {
     ./shellharden.nix
     ./shfmt.nix
   ];
-} 
+}

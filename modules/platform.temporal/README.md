@@ -1,4 +1,3 @@
 # Temporal
 
-> [!ABSTRACT] Blurb
-> Manage failures, network outages, flaky endpoints, long-running processes and more, ensuring your workflows never fail.
+Manage failures, network outages, flaky endpoints, long-running processes and more, ensuring your workflows never fail.

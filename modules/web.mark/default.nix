@@ -3,4 +3,4 @@ _: {
     ./anybox.nix
     ./buku.nix
   ];
-} 
+}

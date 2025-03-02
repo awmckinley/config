@@ -1,3 +1,3 @@
 # TODO: create ExactScan Pro Caskfile
 # replaces: VueScan
-_: {}
+_: { }

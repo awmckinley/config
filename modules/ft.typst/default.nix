@@ -4,4 +4,4 @@ _: {
     ./typst.nix
     ./typstyle.nix
   ];
-} 
+}

@@ -4,4 +4,4 @@ _: {
     ./luacheck.nix
     ./stylua.nix
   ];
-} 
+}

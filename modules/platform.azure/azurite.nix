@@ -4,4 +4,4 @@
     # open source Azure Storage API compatible server
     azurite
   ];
-} 
+}

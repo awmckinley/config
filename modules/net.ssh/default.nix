@@ -3,4 +3,4 @@ _: {
     ./shellfish.nix
     ./ssh.nix
   ];
-} 
+}

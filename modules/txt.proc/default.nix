@@ -3,4 +3,4 @@ _: {
     ./dos2unix.nix
     ./sd.nix
   ];
-} 
+}

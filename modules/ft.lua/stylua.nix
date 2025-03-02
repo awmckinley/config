@@ -4,4 +4,4 @@
     # opinionated Lua code formatter
     stylua
   ];
-} 
+}

@@ -4,4 +4,4 @@
     # professional PHP tooling for any Language Server Protocol capable editor
     intelephense
   ];
-} 
+}

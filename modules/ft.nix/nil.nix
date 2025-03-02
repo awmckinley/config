@@ -5,4 +5,4 @@
     # replaces: nixd, rnix
     nil
   ];
-} 
+}

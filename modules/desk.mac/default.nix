@@ -9,4 +9,4 @@ _: {
     ./xbar.nix
     ./yabai.nix
   ];
-} 
+}

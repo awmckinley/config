@@ -4,4 +4,4 @@
     # shell script analysis tool
     shellcheck
   ];
-} 
+}

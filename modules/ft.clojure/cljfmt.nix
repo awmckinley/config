@@ -4,4 +4,4 @@
     # tool for formatting Clojure code
     cljfmt
   ];
-} 
+}

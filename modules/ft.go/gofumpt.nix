@@ -4,4 +4,4 @@
     # stricter gofmt
     gofumpt
   ];
-} 
+}

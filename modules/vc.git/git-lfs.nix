@@ -4,4 +4,4 @@
     # Git extension for versioning large files
     git-lfs
   ];
-} 
+}

@@ -4,4 +4,4 @@ _: {
     ./rclone.nix
     ./vdirsyncer.nix
   ];
-} 
+}

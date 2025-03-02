@@ -4,4 +4,4 @@
     # reformats Kotlin source code
     ktfmt
   ];
-} 
+}

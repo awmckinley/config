@@ -4,4 +4,4 @@ _: {
     ./gh-dash.nix
     ./tea.nix
   ];
-} 
+}

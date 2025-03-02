@@ -3,4 +3,4 @@ _: {
     ./keycastr.nix
     ./vhs.nix
   ];
-} 
+}

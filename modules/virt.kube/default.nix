@@ -4,4 +4,4 @@ _: {
     ./kubectl.nix
     ./minikube.nix
   ];
-} 
+}

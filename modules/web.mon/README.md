@@ -1,4 +1,3 @@
 # Web Monitoring
 
-> [!ABSTRACT] Summary
-> Website change detection and content monitoring.
+Website change detection and content monitoring.

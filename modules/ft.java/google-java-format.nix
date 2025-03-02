@@ -4,4 +4,4 @@
     # Java source formatter by Google
     google-java-format
   ];
-} 
+}

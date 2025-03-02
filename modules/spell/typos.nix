@@ -4,4 +4,4 @@
     # source code spell checker
     typos
   ];
-} 
+}

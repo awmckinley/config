@@ -4,4 +4,4 @@ _: {
     ./gparted.nix
     ./guestfs.nix
   ];
-} 
+}

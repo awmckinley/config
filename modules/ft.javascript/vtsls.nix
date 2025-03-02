@@ -4,4 +4,4 @@
     # LSP wrapper around TypeScript extension bundled with VSCode
     vtsls
   ];
-} 
+}

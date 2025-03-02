@@ -3,4 +3,4 @@ _: {
     ./audio-hijack.nix
     ./piezo.nix
   ];
-} 
+}

@@ -3,4 +3,4 @@ _: {
     ./miniserve.nix
     ./webhook.nix
   ];
-} 
+}

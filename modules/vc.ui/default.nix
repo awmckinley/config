@@ -4,4 +4,4 @@ _: {
     ./gource.nix
     ./lazygit.nix
   ];
-} 
+}

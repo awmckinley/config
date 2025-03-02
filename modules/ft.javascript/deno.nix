@@ -4,4 +4,4 @@
     # secure runtime for JavaScript and TypeScript
     deno
   ];
-} 
+}

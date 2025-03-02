@@ -5,4 +5,4 @@
     # replaces: pdm?, pipenv, pipx, poetry
     uv
   ];
-} 
+}

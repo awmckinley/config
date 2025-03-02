@@ -3,4 +3,4 @@ _: {
     ./nil.nix
     ./nixfmt.nix
   ];
-} 
+}

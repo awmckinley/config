@@ -3,4 +3,4 @@ _: {
     ./watchexec.nix
     ./watchman.nix
   ];
-} 
+}

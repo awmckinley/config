@@ -4,4 +4,4 @@ _: {
     ./mullvad.nix
     ./thorium.nix
   ];
-} 
+}

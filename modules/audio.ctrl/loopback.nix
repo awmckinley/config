@@ -5,4 +5,4 @@
     # cable-free audio router
     "loopback"
   ];
-} 
+}

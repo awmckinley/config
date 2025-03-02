@@ -3,4 +3,4 @@ _: {
     ./extism.nix
     ./tauri.nix
   ];
-} 
+}

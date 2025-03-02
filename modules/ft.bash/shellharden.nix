@@ -4,4 +4,4 @@
     # corrective Bash syntax highlighter
     shellharden
   ];
-} 
+}

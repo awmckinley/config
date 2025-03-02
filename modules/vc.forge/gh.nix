@@ -4,4 +4,4 @@
     # GitHub CLI tool
     github-cli
   ];
-} 
+}
