@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+#
+# Launch App Store and wait for app to be installed.
+
+set -o errexit  # exit if any command fails
+set -o nounset  # prevent using an undefined variable
+set -o pipefail # pipelines fail early
+IFS=$'\n\t'
+
+# name arguments
+device="${1:-}"
+bundle="${2:-}"
+appid="${3:-}"
+
+# validate arguments
+if test "$device" = "" || test "$bundle" = "" || test "$appid" = ""; then
+	echo "Usage: $(basename "$0") <device> <bundle> <appid>" >&2
+	exit 1
+fi
+
+function test-app {
+	# list of installed apps
+	appslist="$(xcrun devicectl device info apps --include-all-apps --device "$device")"
+	# spaces around bundle to make it an exact match
+	echo "$appslist" | rg --quiet " ${bundle} "
+}
+
+if ! test-app; then
+	echo "Please install ${bundle} onto ${device}"
+
+	# launch App Store
+	xcrun devicectl device process launch \
+		--payload-url "https://apps.apple.com/app/id${appid}" \
+		--device "$device" \
+		com.apple.AppStore
+
+	# test until app is installed
+	while ! test-app; do
+		sleep 1
+	done
+fi
